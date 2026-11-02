@@ -166,7 +166,34 @@
     "credit_amount_usd": 10,
     "credit_expiry": "3 months",
     "notes": "$10 trial credit valid 3 months; 200 RPM / 10 RPS",
-    "last_verified": "2026-09-29"
+    "last_verified": "2026-09-29",
+    "seo": {
+      "title": "AI21 Labs Free API Credits — $10 Trial, No Card",
+      "description": "AI21 Labs gives $10 in free trial credits valid for 3 months, no credit card required. Rate limits are 200 RPM / 10 RPS. Verified 2026-09-29.",
+      "intro": "AI21 Labs offers a free trial tier for its Studio API: $10 in credits that stay valid for 3 months, with no credit card required to sign up. The API is available globally at https://api.ai21.com/studio/v1, with rate limits of 200 requests per minute and 10 requests per second. Sign up at https://www.ai21.com. Details below were last verified on 2026-09-29.",
+      "faq": [
+        {
+          "q": "Is AI21 Labs free to use?",
+          "a": "AI21 Labs is not permanently free, but it provides $10 in trial credits when you sign up. Those credits are valid for 3 months. After they are used or expire, check the official docs for current pricing."
+        },
+        {
+          "q": "Does AI21 Labs require a credit card?",
+          "a": "No. You can claim the $10 trial credit without entering a credit card."
+        },
+        {
+          "q": "How long do AI21 Labs free credits last?",
+          "a": "The $10 trial credit is valid for 3 months from signup."
+        },
+        {
+          "q": "What are the AI21 Labs API rate limits?",
+          "a": "The trial allows 200 requests per minute (RPM) and 10 requests per second (RPS). For limits on paid plans, check the official docs."
+        },
+        {
+          "q": "What is the AI21 Labs API base URL?",
+          "a": "The Studio API base URL is https://api.ai21.com/studio/v1. You can create an account and get a key at https://www.ai21.com."
+        }
+      ]
+    }
   },
   {
     "id": "deepseek",
