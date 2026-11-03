@@ -49,7 +49,34 @@
     "credit_amount_usd": 5,
     "credit_expiry": "30 days",
     "notes": "$5 trial credits after adding payment method, expire in 30 days; 5 RPM, 1M tokens/day",
-    "last_verified": "2026-09-29"
+    "last_verified": "2026-09-29",
+    "seo": {
+      "title": "Cerebras Free API: $5 Trial Credits, 1M Tokens/Day",
+      "description": "Cerebras gives $5 free trial credits after you add a payment method. Credits expire in 30 days. Limits: 5 RPM and 1M tokens/day. Verified Sep 29, 2026.",
+      "intro": "Cerebras offers a credit-based free tier: $5 in trial credits once you add a payment method to your account. The credits expire 30 days after they are issued, and usage is capped at 5 requests per minute and 1M tokens per day. The API is available globally at https://api.cerebras.ai/v1, and you can sign up at https://cloud.cerebras.ai/. Details below were last verified on 2026-09-29 — for anything not listed here, check the official docs.",
+      "faq": [
+        {
+          "q": "Is the Cerebras API free to use?",
+          "a": "It is not free-forever. Cerebras gives $5 in trial credits, which you receive after adding a payment method. Once those credits are used or expire after 30 days, check the official docs for current pricing."
+        },
+        {
+          "q": "Do I need a credit card for Cerebras?",
+          "a": "Yes. A payment method is required — the $5 trial credits are granted after you add one at https://cloud.cerebras.ai/."
+        },
+        {
+          "q": "What are the Cerebras free tier rate limits?",
+          "a": "The documented limits are 5 requests per minute (RPM) and 1M tokens per day. For per-model limits or anything beyond those figures, check the official docs."
+        },
+        {
+          "q": "How long do Cerebras trial credits last?",
+          "a": "The $5 in trial credits expire 30 days after they are granted. Any unused balance is lost at that point."
+        },
+        {
+          "q": "What is the Cerebras API base URL?",
+          "a": "https://api.cerebras.ai/v1. The service is offered globally. For supported models and endpoint paths, check the official docs."
+        }
+      ]
+    }
   },
   {
     "id": "cohere",
