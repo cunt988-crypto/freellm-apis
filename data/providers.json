@@ -23,7 +23,34 @@
     "credit_amount_usd": null,
     "credit_expiry": null,
     "notes": "Free mode: no credit card, included monthly usage with low rate limits",
-    "last_verified": "2026-09-29"
+    "last_verified": "2026-09-29",
+    "seo": {
+      "title": "Mistral AI Free API Key — No Credit Card Required",
+      "description": "Get a free Mistral AI API key with no credit card. Permanent free tier with included monthly usage at low rate limits. Base URL and signup steps inside.",
+      "intro": "Mistral AI offers a permanent free tier you can start using without entering a credit card. In free mode you get included monthly usage with low rate limits, which is enough for prototyping, side projects and testing prompts before you commit to paid capacity. Create a key in the Mistral console, point your client at the API base URL https://api.mistral.ai/v1, and you are ready to send requests. Availability is global, and this entry was last verified on 2026-09-29.",
+      "faq": [
+        {
+          "q": "Is the Mistral AI API free?",
+          "a": "Yes. Mistral AI has a permanent free tier rather than a time-limited trial. Free mode includes monthly usage with low rate limits; for the exact allowances, check the official docs."
+        },
+        {
+          "q": "Do I need a credit card to use Mistral AI for free?",
+          "a": "No. A credit card is not required to sign up for the free mode. You can create an API key at https://console.mistral.ai/api-keys and start calling the API."
+        },
+        {
+          "q": "How do I get a Mistral AI API key?",
+          "a": "Open https://console.mistral.ai/api-keys, sign in to the Mistral console, and generate a new API key. Store it as an environment variable and send it with your requests."
+        },
+        {
+          "q": "What is the Mistral AI API base URL?",
+          "a": "Use https://api.mistral.ai/v1 as the base URL. Most OpenAI-compatible clients and SDKs let you override the base URL, so you can keep your existing request code."
+        },
+        {
+          "q": "What are the rate limits on the Mistral AI free tier?",
+          "a": "The free mode comes with low rate limits alongside its included monthly usage. Specific per-minute and per-month numbers are not listed here, so check the official docs."
+        }
+      ]
+    }
   },
   {
     "id": "google_gemini",
