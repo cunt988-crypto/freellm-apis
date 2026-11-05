@@ -36,6 +36,18 @@ def modalities_str(pid, models):
     return ", ".join(sorted(mods)) or "text"
 
 
+SITE = "https://www.freellm.site"
+UTM = "?utm_source=github&utm_medium=readme"
+
+
+def provider_cell(p, models):
+    """Link to the site page only when it's indexable (has models); otherwise plain name."""
+    # ponytail: same rule as web/src/lib/seo.mjs isProviderIndexable; keep them in sync.
+    if model_count(p["id"], models):
+        return f"[{p['name']}]({SITE}/providers/{p['id']}/{UTM})"
+    return p["name"]
+
+
 CARD = {"no": "✅ No", "registration": "📧 Email", "phone": "📱 Phone", "yes": "💳 Yes"}
 
 
@@ -53,7 +65,7 @@ def permanent_table(providers, models):
     out = "| Provider | Models | Card? | Max Context | Modalities | Last Verified | Get Key |\n"
     out += "|---|---|---|---|---|---|---|\n"
     for p in rows:
-        out += (f"| {p['name']} | {model_count(p['id'], models)} | {CARD.get(p['credit_card_required'], p['credit_card_required'])} "
+        out += (f"| {provider_cell(p, models)} | {model_count(p['id'], models)} | {CARD.get(p['credit_card_required'], p['credit_card_required'])} "
                 f"| {max_context(p['id'], models)} | {modalities_str(p['id'], models)} "
                 f"| {p['last_verified']} | [Get Key →]({p['signup_url']}) |\n")
     return out
@@ -66,7 +78,7 @@ def credits_table(providers, models):
     out += "|---|---|---|---|---|---|---|\n"
     for p in rows:
         amount = f"${p['credit_amount_usd']}" if p["credit_amount_usd"] else "Free tier"
-        out += (f"| {p['name']} | {amount} | {p['credit_expiry'] or '—'} "
+        out += (f"| {provider_cell(p, models)} | {amount} | {p['credit_expiry'] or '—'} "
                 f"| {CARD.get(p['credit_card_required'], p['credit_card_required'])} "
                 f"| {model_count(p['id'], models)} | {p['last_verified']} "
                 f"| [Get Key →]({p['signup_url']}) |\n")
