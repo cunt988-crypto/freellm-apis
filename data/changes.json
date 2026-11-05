@@ -1,0 +1,1934 @@
+[
+  {
+    "date": "2026-11-05",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "model_added",
+    "detail": "Zhipu AI: free model glm-4.6v-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "model_added",
+    "detail": "Zenmux: free model z-ai/glm-4.7-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "model_added",
+    "detail": "Zenmux: free model z-ai/glm-4.6v-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "model_added",
+    "detail": "Zenmux: free model sapiens-ai/agnes-2.5-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "model_added",
+    "detail": "Zenmux: free model dots-studio/dots3-note-prev now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "model_added",
+    "detail": "Zenmux: free model atria-asi/atria-dawn now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zenmux",
+    "provider": "Zenmux",
+    "kind": "added",
+    "detail": "Zenmux now listed: Several $0/M-token models (GLM Flash, Agnes, Dots3, Atria); API key required"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zai",
+    "provider": "Z.ai",
+    "kind": "model_added",
+    "detail": "Z.ai: free model glm-4.7-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zai",
+    "provider": "Z.ai",
+    "kind": "model_added",
+    "detail": "Z.ai: free model glm-4.6v-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zai",
+    "provider": "Z.ai",
+    "kind": "model_added",
+    "detail": "Z.ai: free model glm-4.5-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "zai",
+    "provider": "Z.ai",
+    "kind": "added",
+    "detail": "Z.ai now listed: International Zhipu endpoint: GLM-4.7-Flash, GLM-4.5-Flash and GLM-4.6V-Flash are $0"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "pollinations",
+    "provider": "Pollinations",
+    "kind": "model_added",
+    "detail": "Pollinations: free model openai-fast now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "pollinations",
+    "provider": "Pollinations",
+    "kind": "added",
+    "detail": "Pollinations now listed: No signup, no key: anonymous openai-fast (GPT-OSS 20B) on an OpenAI-compatible endpoint; a key unlocks more models"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model z-ai/glm-5.3-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model tencent/hy4-preview-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model tencent/hy3-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model orcarouter/free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model deepseek/deepseek-v4.1-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "model_added",
+    "detail": "OrcaRouter: free model deepseek/deepseek-v4-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "orcarouter",
+    "provider": "OrcaRouter",
+    "kind": "added",
+    "detail": "OrcaRouter now listed: orcarouter/free auto-router plus $0 model IDs (DeepSeek V4 Flash, GLM 5.3 Flash, Hy3); API key required, some offers need a deposit"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model xingchen-agi/xing4.0-29b-a4b:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model thinkingmachines/inkling:free no longer listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model stealth/crouton-alpha now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model recursive/flint-v1.0:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model qwen/qwen3.8-27b:free no longer listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model poolside/laguna-s-2.1:free no longer listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model openrouter/free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3.5-super-vl:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3.5-lightning:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3.5-content-safety:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model nvidia/nemotron-3-super-120b-a12b:free no longer listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model liquid/lfm-2.5-2.6b:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model google/lyria-3-pro-preview now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model google/lyria-3-clip-preview now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model google/gemma-4-26b-a4b-it:free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model pulse-alpha-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model nemotron-3.5-super-vl-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model nemotron-3.5-lightning-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model mimo-v2.6-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model glm-5.3-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model flint-40b-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model deepseek-v4.1-flash-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model crouton-alpha-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model big-pickle now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "model_added",
+    "detail": "OpenCode Zen: free model beam-free now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "opencode_zen",
+    "provider": "OpenCode Zen",
+    "kind": "added",
+    "detail": "OpenCode Zen now listed: Rotating free models (Big Pickle, DeepSeek V4.1 Flash, GLM 5.3 Flash, Nemotron); API key required; free-model prompts may be used for training"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model whisper-large-v3-turbo now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model whisper-large-v3 now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model qwen/qwen3.6-27b now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model openai/gpt-oss-safeguard-20b now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model groq/compound-mini now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model groq/compound now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemma-4-31b-it now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemma-4-26b-a4b-it now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.6-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.5-flash now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.1-flash-lite now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3-flash-preview now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-2.5-flash-lite now listed"
+  },
+  {
+    "date": "2026-11-05",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-2.5-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "model_added",
+    "detail": "Zhipu AI: free model glm-z1-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "model_added",
+    "detail": "Zhipu AI: free model glm-4.7-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "model_added",
+    "detail": "Zhipu AI: free model glm-4.1v-thinking-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "model_added",
+    "detail": "Zhipu AI: free model glm-4-flash-250414 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_added",
+    "detail": "xAI (Grok): free model grok-build-0.1 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_added",
+    "detail": "xAI (Grok): free model grok-4.7 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_added",
+    "detail": "xAI (Grok): free model grok-4.3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_added",
+    "detail": "xAI (Grok): free model grok-4.20-0309-reasoning now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_added",
+    "detail": "xAI (Grok): free model grok-4.20-0309-non-reasoning now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "xai",
+    "provider": "xAI (Grok)",
+    "kind": "model_removed",
+    "detail": "xAI (Grok): free model grok-2 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "vercel_ai_gateway",
+    "provider": "Vercel AI Gateway",
+    "kind": "model_added",
+    "detail": "Vercel AI Gateway: free model stealth/pixel-canary now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "vercel_ai_gateway",
+    "provider": "Vercel AI Gateway",
+    "kind": "model_added",
+    "detail": "Vercel AI Gateway: free model poolside/laguna-s-2.1-free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "vercel_ai_gateway",
+    "provider": "Vercel AI Gateway",
+    "kind": "model_added",
+    "detail": "Vercel AI Gateway: free model inclusionai/ling-3.0-flash-sante now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "upstage_ai",
+    "provider": "Upstage AI",
+    "kind": "model_added",
+    "detail": "Upstage AI: free model solar-pro4 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "upstage_ai",
+    "provider": "Upstage AI",
+    "kind": "model_added",
+    "detail": "Upstage AI: free model solar-mini4 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "upstage_ai",
+    "provider": "Upstage AI",
+    "kind": "model_added",
+    "detail": "Upstage AI: free model solar-embedding-2-query now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "upstage_ai",
+    "provider": "Upstage AI",
+    "kind": "model_added",
+    "detail": "Upstage AI: free model solar-embedding-2-passage now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "upstage_ai",
+    "provider": "Upstage AI",
+    "kind": "changed",
+    "detail": "Upstage AI: free credits none → $10"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "together_ai",
+    "provider": "Together AI",
+    "kind": "model_removed",
+    "detail": "Together AI: free model meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "together_ai",
+    "provider": "Together AI",
+    "kind": "removed",
+    "detail": "Together AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "tencent_hunyuan",
+    "provider": "Tencent Hunyuan",
+    "kind": "model_added",
+    "detail": "Tencent Hunyuan: free model hunyuan-translation now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "tencent_hunyuan",
+    "provider": "Tencent Hunyuan",
+    "kind": "model_added",
+    "detail": "Tencent Hunyuan: free model hunyuan-role-latest now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "tencent_hunyuan",
+    "provider": "Tencent Hunyuan",
+    "kind": "model_added",
+    "detail": "Tencent Hunyuan: free model hunyuan-a13b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "tencent_hunyuan",
+    "provider": "Tencent Hunyuan",
+    "kind": "changed",
+    "detail": "Tencent Hunyuan: credit expiry never → 1 year"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "stepfun",
+    "provider": "StepFun",
+    "kind": "model_added",
+    "detail": "StepFun: free model step-3.7-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "stability_ai",
+    "provider": "Stability AI",
+    "kind": "model_added",
+    "detail": "Stability AI: free model sd3.5-medium now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "stability_ai",
+    "provider": "Stability AI",
+    "kind": "model_added",
+    "detail": "Stability AI: free model sd3.5-large-turbo now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "stability_ai",
+    "provider": "Stability AI",
+    "kind": "model_added",
+    "detail": "Stability AI: free model sd3.5-large now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "stability_ai",
+    "provider": "Stability AI",
+    "kind": "changed",
+    "detail": "Stability AI: free credits none → $0.25"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "silo_ai",
+    "provider": "Silo AI",
+    "kind": "removed",
+    "detail": "Silo AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "siliconflow_cn",
+    "provider": "SiliconFlow (CN)",
+    "kind": "changed",
+    "detail": "SiliconFlow (CN): free type credits → permanent; free credits $2 → none"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "siliconflow_cn",
+    "provider": "SiliconFlow (CN)",
+    "kind": "model_added",
+    "detail": "SiliconFlow (CN): free model XingChenAGI/Xing4.0-29B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "siliconflow",
+    "provider": "SiliconFlow",
+    "kind": "model_added",
+    "detail": "SiliconFlow: free model deepseek-ai/DeepSeek-V4-Flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "siliconflow",
+    "provider": "SiliconFlow",
+    "kind": "model_added",
+    "detail": "SiliconFlow: free model Qwen/Qwen3.6-35B-A3B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "siliconflow",
+    "provider": "SiliconFlow",
+    "kind": "changed",
+    "detail": "SiliconFlow: free credits $2 → $1"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sensenova",
+    "provider": "SenseNova",
+    "kind": "changed",
+    "detail": "SenseNova: free type credits → permanent; sign-up requirement email signup → phone number"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sensenova",
+    "provider": "SenseNova",
+    "kind": "model_added",
+    "detail": "SenseNova: free model sensenova-6.8-flash-lite now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "changed",
+    "detail": "Scaleway AI: sign-up requirement email signup → credit card"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model qwen3.5-397b-a17b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model qwen3-embedding-8b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model mistral-small-3.2-24b-instruct-2506 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model mistral-medium-3.5-128b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model llama-3.3-70b-instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model glm-5.2 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "scaleway_ai",
+    "provider": "Scaleway AI",
+    "kind": "model_added",
+    "detail": "Scaleway AI: free model gemma-4-26b-a4b-it now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sb_intuitions",
+    "provider": "SB Intuitions",
+    "kind": "removed",
+    "detail": "SB Intuitions no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sarvam_ai",
+    "provider": "Sarvam AI",
+    "kind": "model_added",
+    "detail": "Sarvam AI: free model sarvam-105b-conversations now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sarvam_ai",
+    "provider": "Sarvam AI",
+    "kind": "model_added",
+    "detail": "Sarvam AI: free model sarvam-105b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sarvam_ai",
+    "provider": "Sarvam AI",
+    "kind": "changed",
+    "detail": "Sarvam AI: free credits none → $1.1"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sambanova",
+    "provider": "SambaNova Cloud",
+    "kind": "model_added",
+    "detail": "SambaNova Cloud: free model gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sambanova",
+    "provider": "SambaNova Cloud",
+    "kind": "model_added",
+    "detail": "SambaNova Cloud: free model gemma-4-31B-it now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sambanova",
+    "provider": "SambaNova Cloud",
+    "kind": "model_added",
+    "detail": "SambaNova Cloud: free model Meta-Llama-3.3-70B-Instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sambanova",
+    "provider": "SambaNova Cloud",
+    "kind": "model_added",
+    "detail": "SambaNova Cloud: free model DeepSeek-V3.2 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "sambanova",
+    "provider": "SambaNova Cloud",
+    "kind": "model_added",
+    "detail": "SambaNova Cloud: free model DeepSeek-V3.1 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "preferred_networks",
+    "provider": "Preferred Networks",
+    "kind": "model_added",
+    "detail": "Preferred Networks: free model plamo-3.0-prime now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "preferred_networks",
+    "provider": "Preferred Networks",
+    "kind": "changed",
+    "detail": "Preferred Networks: credit expiry never → 1 month"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "poly_ai",
+    "provider": "PolyAI",
+    "kind": "removed",
+    "detail": "PolyAI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "perplexity",
+    "provider": "Perplexity AI",
+    "kind": "removed",
+    "detail": "Perplexity AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "parasail",
+    "provider": "Parasail",
+    "kind": "removed",
+    "detail": "Parasail no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "changed",
+    "detail": "OVHcloud AI Endpoints: free type credits → permanent; sign-up requirement email signup → nothing"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model bge-m3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Qwen3.8-27B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Qwen3.5-397B-A17B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Qwen3-Coder-30B-A3B-Instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Qwen2.5-VL-72B-Instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Mistral-Small-3.2-24B-Instruct-2506 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ovhcloud_ai",
+    "provider": "OVHcloud AI Endpoints",
+    "kind": "model_added",
+    "detail": "OVHcloud AI Endpoints: free model Meta-Llama-3_3-70B-Instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model thinkingmachines/inkling:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model qwen/qwen3.8-27b:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model poolside/laguna-s-2.1:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3-ultra-550b-a55b:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model nvidia/nemotron-3-super-120b-a12b:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model mistralai/mistral-7b-instruct:free no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_removed",
+    "detail": "OpenRouter: free model meta-llama/llama-3.1-70b-instruct:free no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model google/gemma-4-31b-it:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model dots-studio/dots-3-note-preview:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "openrouter",
+    "provider": "OpenRouter",
+    "kind": "model_added",
+    "detail": "OpenRouter: free model cohere/north-mini-code:free now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nvidia_nim",
+    "provider": "NVIDIA NIM",
+    "kind": "model_added",
+    "detail": "NVIDIA NIM: free model openai/gpt-oss-20b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nvidia_nim",
+    "provider": "NVIDIA NIM",
+    "kind": "model_added",
+    "detail": "NVIDIA NIM: free model nvidia/nemotron-3-super-120b-a12b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nvidia_nim",
+    "provider": "NVIDIA NIM",
+    "kind": "model_added",
+    "detail": "NVIDIA NIM: free model moonshotai/kimi-k3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nvidia_nim",
+    "provider": "NVIDIA NIM",
+    "kind": "model_added",
+    "detail": "NVIDIA NIM: free model google/gemma-4-31b-it now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nvidia_nim",
+    "provider": "NVIDIA NIM",
+    "kind": "model_added",
+    "detail": "NVIDIA NIM: free model deepseek-ai/deepseek-v4.1-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nscale",
+    "provider": "Nscale",
+    "kind": "changed",
+    "detail": "Nscale: free credits $1 → $5; credit expiry never → on signup"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "model_added",
+    "detail": "Novita AI: free model zai-org/glm-5.3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "model_added",
+    "detail": "Novita AI: free model qwen/qwen3.8-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "model_added",
+    "detail": "Novita AI: free model inclusionai/ling-3.1-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "model_added",
+    "detail": "Novita AI: free model inclusionai/ling-3.0-flash-sante now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "model_added",
+    "detail": "Novita AI: free model deepseek/deepseek-v4.1-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "novita_ai",
+    "provider": "Novita AI",
+    "kind": "changed",
+    "detail": "Novita AI: free credits $1 → $10; credit expiry never → 90 days"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nebius",
+    "provider": "Nebius Token Factory",
+    "kind": "changed",
+    "detail": "Nebius Token Factory: sign-up requirement email signup → credit card; credit expiry never → 30 days"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nebius",
+    "provider": "Nebius Token Factory",
+    "kind": "model_added",
+    "detail": "Nebius Token Factory: free model openai/gpt-oss-20b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "nebius",
+    "provider": "Nebius Token Factory",
+    "kind": "model_added",
+    "detail": "Nebius Token Factory: free model openai/gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "naver_hyperclova",
+    "provider": "Naver HyperCLOVA X",
+    "kind": "model_added",
+    "detail": "Naver HyperCLOVA X: free model HCX-DASH-002 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "naver_hyperclova",
+    "provider": "Naver HyperCLOVA X",
+    "kind": "model_added",
+    "detail": "Naver HyperCLOVA X: free model HCX-007 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "naver_hyperclova",
+    "provider": "Naver HyperCLOVA X",
+    "kind": "model_added",
+    "detail": "Naver HyperCLOVA X: free model HCX-005 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "moonshot_kimi",
+    "provider": "Moonshot AI (Kimi)",
+    "kind": "removed",
+    "detail": "Moonshot AI (Kimi) no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "changed",
+    "detail": "ModelScope: free type credits → permanent"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "model_added",
+    "detail": "ModelScope: free model deepseek-ai/DeepSeek-V4.1-Flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "model_added",
+    "detail": "ModelScope: free model ZhipuAI/GLM-5.2 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "model_added",
+    "detail": "ModelScope: free model ZhipuAI/GLM-4.7-Flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "model_added",
+    "detail": "ModelScope: free model Qwen/Qwen3.5-397B-A17B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modelscope",
+    "provider": "ModelScope",
+    "kind": "model_added",
+    "detail": "ModelScope: free model MiniMax/MiniMax-M3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "modal",
+    "provider": "Modal",
+    "kind": "removed",
+    "detail": "Modal no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "mistral",
+    "provider": "Mistral AI",
+    "kind": "model_added",
+    "detail": "Mistral AI: free model mistral-small-2603 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "mistral",
+    "provider": "Mistral AI",
+    "kind": "model_added",
+    "detail": "Mistral AI: free model mistral-large-2512 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "llm7",
+    "provider": "LLM7.io",
+    "kind": "model_added",
+    "detail": "LLM7.io: free model mistral-Nemo-Instruct-2407 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "llm7",
+    "provider": "LLM7.io",
+    "kind": "model_added",
+    "detail": "LLM7.io: free model minimax-m2.7 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "llm7",
+    "provider": "LLM7.io",
+    "kind": "model_added",
+    "detail": "LLM7.io: free model codestral-latest now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "llm7",
+    "provider": "LLM7.io",
+    "kind": "model_added",
+    "detail": "LLM7.io: free model DeepSeek-V4-Flash-0731 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "lepton_ai",
+    "provider": "Lepton AI",
+    "kind": "removed",
+    "detail": "Lepton AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "lambda_ai",
+    "provider": "Lambda AI Inference",
+    "kind": "removed",
+    "detail": "Lambda AI Inference no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "infermatic_ai",
+    "provider": "Infermatic AI",
+    "kind": "removed",
+    "detail": "Infermatic AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "iflytek_spark",
+    "provider": "iFlytek Spark",
+    "kind": "changed",
+    "detail": "iFlytek Spark: free type credits → permanent"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "iflytek_spark",
+    "provider": "iFlytek Spark",
+    "kind": "model_added",
+    "detail": "iFlytek Spark: free model lite now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "hyperbolic",
+    "provider": "Hyperbolic",
+    "kind": "model_removed",
+    "detail": "Hyperbolic: free model meta-llama/Meta-Llama-3.1-70B-Instruct no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "hyperbolic",
+    "provider": "Hyperbolic",
+    "kind": "removed",
+    "detail": "Hyperbolic no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "changed",
+    "detail": "Hugging Face: free type permanent → credits; free credits none → $0.1; credit expiry none → monthly"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model openai/gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model moonshotai/Kimi-K2.6 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_removed",
+    "detail": "Hugging Face: free model mistralai/Mistral-7B-Instruct-v0.2 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model meta-llama/Llama-4-Scout-17B-16E-Instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model google/gemma-4-31B-it now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model deepseek-ai/DeepSeek-V4-Flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "huggingface",
+    "provider": "Hugging Face",
+    "kind": "model_added",
+    "detail": "Hugging Face: free model Qwen/Qwen3.8-27B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "hanooman",
+    "provider": "Hanooman AI",
+    "kind": "removed",
+    "detail": "Hanooman AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "h_company",
+    "provider": "H Company",
+    "kind": "changed",
+    "detail": "H Company: free type credits → permanent"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model qwen/qwen3.8-27b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model openai/gpt-oss-20b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_added",
+    "detail": "Groq: free model openai/gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_removed",
+    "detail": "Groq: free model mixtral-8x7b-32768 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_removed",
+    "detail": "Groq: free model llama-3.1-70b-versatile no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "groq",
+    "provider": "Groq",
+    "kind": "model_removed",
+    "detail": "Groq: free model llama-3.1-405b-reasoning no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.8-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.7-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_added",
+    "detail": "Google Gemini: free model gemini-3.5-flash-lite now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_removed",
+    "detail": "Google Gemini: free model gemini-1.5-pro no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "google_gemini",
+    "provider": "Google Gemini",
+    "kind": "model_removed",
+    "detail": "Google Gemini: free model gemini-1.5-flash no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "github_models",
+    "provider": "GitHub Models",
+    "kind": "model_removed",
+    "detail": "GitHub Models: free model gpt-4o no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "github_models",
+    "provider": "GitHub Models",
+    "kind": "model_removed",
+    "detail": "GitHub Models: free model Phi-4 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "github_models",
+    "provider": "GitHub Models",
+    "kind": "model_removed",
+    "detail": "GitHub Models: free model Llama-3.1-70b-Instruct no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "github_models",
+    "provider": "GitHub Models",
+    "kind": "removed",
+    "detail": "GitHub Models no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "friendli_ai",
+    "provider": "FriendliAI",
+    "kind": "removed",
+    "detail": "FriendliAI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "fireworks",
+    "provider": "Fireworks AI",
+    "kind": "model_removed",
+    "detail": "Fireworks AI: free model accounts/fireworks/models/llama-v2-70b-chat no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "fireworks",
+    "provider": "Fireworks AI",
+    "kind": "model_added",
+    "detail": "Fireworks AI: free model accounts/fireworks/models/kimi-k3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "fireworks",
+    "provider": "Fireworks AI",
+    "kind": "model_added",
+    "detail": "Fireworks AI: free model accounts/fireworks/models/gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "fireworks",
+    "provider": "Fireworks AI",
+    "kind": "model_added",
+    "detail": "Fireworks AI: free model accounts/fireworks/models/glm-5p3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "fal_ai",
+    "provider": "Fal AI",
+    "kind": "changed",
+    "detail": "Fal AI: credit expiry never → varies (1 week to 1 year)"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model scribe_v2 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model eleven_v4_turbo now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model eleven_v4 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model eleven_v3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model eleven_multilingual_v2 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "elevenlabs",
+    "provider": "ElevenLabs",
+    "kind": "model_added",
+    "detail": "ElevenLabs: free model eleven_flash_v2_5 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "deepseek",
+    "provider": "DeepSeek",
+    "kind": "model_added",
+    "detail": "DeepSeek: free model deepseek-v4-pro now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "deepseek",
+    "provider": "DeepSeek",
+    "kind": "model_added",
+    "detail": "DeepSeek: free model deepseek-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "deepseek",
+    "provider": "DeepSeek",
+    "kind": "model_removed",
+    "detail": "DeepSeek: free model deepseek-chat no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "deepinfra",
+    "provider": "DeepInfra",
+    "kind": "removed",
+    "detail": "DeepInfra no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "core42",
+    "provider": "Core42",
+    "kind": "removed",
+    "detail": "Core42 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_added",
+    "detail": "Cohere: free model command-r-plus-08-2024 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_removed",
+    "detail": "Cohere: free model command-r-plus no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_added",
+    "detail": "Cohere: free model command-a-vision-07-2025 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_added",
+    "detail": "Cohere: free model command-a-reasoning-08-2025 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_added",
+    "detail": "Cohere: free model command-a-plus-05-2026 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cohere",
+    "provider": "Cohere",
+    "kind": "model_added",
+    "detail": "Cohere: free model command-a-03-2025 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/zai-org/glm-5.3-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/qwen/qwen3.8-27b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/openai/gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/nvidia/nemotron-3-120b-a12b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/moonshotai/kimi-k2.6 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/meta/llama-4-scout-17b-16e-instruct now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/google/gemma-4-26b-a4b-it now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cloudflare",
+    "provider": "Cloudflare Workers AI",
+    "kind": "model_added",
+    "detail": "Cloudflare Workers AI: free model @cf/deepseek-ai/deepseek-v4-pro-0813 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "chutes_ai",
+    "provider": "Chutes AI",
+    "kind": "removed",
+    "detail": "Chutes AI no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cerebras",
+    "provider": "Cerebras",
+    "kind": "changed",
+    "detail": "Cerebras: free type permanent → credits; sign-up requirement nothing → credit card; free credits none → $5; credit expiry none → 30 days"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cerebras",
+    "provider": "Cerebras",
+    "kind": "model_added",
+    "detail": "Cerebras: free model qwen-3.8-27b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cerebras",
+    "provider": "Cerebras",
+    "kind": "model_removed",
+    "detail": "Cerebras: free model llama-3.2-90b no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cerebras",
+    "provider": "Cerebras",
+    "kind": "model_removed",
+    "detail": "Cerebras: free model llama-3.1-70b no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "cerebras",
+    "provider": "Cerebras",
+    "kind": "model_added",
+    "detail": "Cerebras: free model gpt-oss-120b now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "changed",
+    "detail": "Baseten: sign-up requirement email signup → nothing"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "model_added",
+    "detail": "Baseten: free model zai-org/GLM-5.3-Fast now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "model_added",
+    "detail": "Baseten: free model zai-org/GLM-5.3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "model_added",
+    "detail": "Baseten: free model nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "model_added",
+    "detail": "Baseten: free model moonshotai/Kimi-K3 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baseten",
+    "provider": "Baseten",
+    "kind": "model_added",
+    "detail": "Baseten: free model deepseek-ai/DeepSeek-V4-Pro-0813 now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baidu_ernie",
+    "provider": "Baidu ERNIE",
+    "kind": "model_added",
+    "detail": "Baidu ERNIE: free model ernie-x1-turbo-32k now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baidu_ernie",
+    "provider": "Baidu ERNIE",
+    "kind": "model_added",
+    "detail": "Baidu ERNIE: free model ernie-4.5-turbo-32k now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baidu_ernie",
+    "provider": "Baidu ERNIE",
+    "kind": "model_added",
+    "detail": "Baidu ERNIE: free model ernie-4.5-turbo-128k now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baidu_ernie",
+    "provider": "Baidu ERNIE",
+    "kind": "changed",
+    "detail": "Baidu ERNIE: credit expiry never → 3 months"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baichuan",
+    "provider": "Baichuan AI",
+    "kind": "model_added",
+    "detail": "Baichuan AI: free model Baichuan4-Turbo now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baichuan",
+    "provider": "Baichuan AI",
+    "kind": "model_added",
+    "detail": "Baichuan AI: free model Baichuan4-Air now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baichuan",
+    "provider": "Baichuan AI",
+    "kind": "model_added",
+    "detail": "Baichuan AI: free model Baichuan3-Turbo-128k now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "baichuan",
+    "provider": "Baichuan AI",
+    "kind": "changed",
+    "detail": "Baichuan AI: free credits none → $11; credit expiry never → 3 months"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "anthropic",
+    "provider": "Anthropic",
+    "kind": "removed",
+    "detail": "Anthropic no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_model_studio",
+    "provider": "Alibaba Model Studio",
+    "kind": "model_added",
+    "detail": "Alibaba Model Studio: free model qwen3.8-max now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_model_studio",
+    "provider": "Alibaba Model Studio",
+    "kind": "model_added",
+    "detail": "Alibaba Model Studio: free model qwen3.8-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_model_studio",
+    "provider": "Alibaba Model Studio",
+    "kind": "model_added",
+    "detail": "Alibaba Model Studio: free model qwen3.7-plus now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_model_studio",
+    "provider": "Alibaba Model Studio",
+    "kind": "changed",
+    "detail": "Alibaba Model Studio: credit expiry never → 90 days"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_dashscope",
+    "provider": "Alibaba DashScope",
+    "kind": "changed",
+    "detail": "Alibaba DashScope: sign-up requirement email signup → nothing; credit expiry never → 90 days"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_dashscope",
+    "provider": "Alibaba DashScope",
+    "kind": "model_added",
+    "detail": "Alibaba DashScope: free model qwen3.8-max now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_dashscope",
+    "provider": "Alibaba DashScope",
+    "kind": "model_added",
+    "detail": "Alibaba DashScope: free model qwen3.8-flash now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "alibaba_dashscope",
+    "provider": "Alibaba DashScope",
+    "kind": "model_added",
+    "detail": "Alibaba DashScope: free model qwen3.7-plus now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "aleph_alpha",
+    "provider": "Aleph Alpha",
+    "kind": "removed",
+    "detail": "Aleph Alpha no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai_singapore",
+    "provider": "AI Singapore (SEA-LION)",
+    "kind": "changed",
+    "detail": "AI Singapore (SEA-LION): sign-up requirement nothing → email signup"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai_singapore",
+    "provider": "AI Singapore (SEA-LION)",
+    "kind": "model_added",
+    "detail": "AI Singapore (SEA-LION): free model aisingapore/SEA-LION-ModernBERT-Embedding-600M now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai_singapore",
+    "provider": "AI Singapore (SEA-LION)",
+    "kind": "model_added",
+    "detail": "AI Singapore (SEA-LION): free model aisingapore/SEA-Guard now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai_singapore",
+    "provider": "AI Singapore (SEA-LION)",
+    "kind": "model_added",
+    "detail": "AI Singapore (SEA-LION): free model aisingapore/Qwen-SEA-LION-v4.5-27B-IT now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai_singapore",
+    "provider": "AI Singapore (SEA-LION)",
+    "kind": "model_added",
+    "detail": "AI Singapore (SEA-LION): free model aisingapore/Llama-SEA-LION-v3.5-70B-R now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai71",
+    "provider": "AI71",
+    "kind": "removed",
+    "detail": "AI71 no longer listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai21",
+    "provider": "AI21 Labs",
+    "kind": "model_added",
+    "detail": "AI21 Labs: free model jamba-mini now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai21",
+    "provider": "AI21 Labs",
+    "kind": "model_added",
+    "detail": "AI21 Labs: free model jamba-large now listed"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "ai21",
+    "provider": "AI21 Labs",
+    "kind": "changed",
+    "detail": "AI21 Labs: credit expiry never → 3 months"
+  },
+  {
+    "date": "2026-09-29",
+    "provider_id": "01_ai",
+    "provider": "01.AI (Yi)",
+    "kind": "removed",
+    "detail": "01.AI (Yi) no longer listed"
+  },
+  {
+    "date": "2026-07-04",
+    "provider_id": "zhipu_ai",
+    "provider": "Zhipu AI",
+    "kind": "changed",
+    "detail": "Zhipu AI: free type credits → permanent; sign-up requirement email signup → nothing"
+  }
+]
