@@ -108,7 +108,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Anthropic | $5 | 永久 | 💳 需要 | <a href="https://console.anthropic.com" target="_blank" rel="noopener">获取 →</a> |
 | SiliconFlow | $2 | 永久 | 📧 注册 | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">获取 →</a> |
 | Together AI | $1 | 永久 | ✅ 无需 | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">获取 →</a> |
-| Fireworks AI | $1 | 永久 | ✅ 无需 | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">获取 →</a> |
+| Fireworks AI | $1 | 永久 | ✅ 无需 | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">获取 →</a> |
 
 ---
 

@@ -99,7 +99,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Lambda AI | $10 | Nunca | ✅ Não | <a href="https://lambda.ai" target="_blank" rel="noopener">Obter →</a> |
 | DeepSeek | $5 | No cadastro | 📧 Email | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Obter →</a> |
 | Together AI | $1 | Nunca | ✅ Não | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">Obter →</a> |
-| Fireworks AI | $1 | Nunca | ✅ Não | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">Obter →</a> |
+| Fireworks AI | $1 | Nunca | ✅ Não | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">Obter →</a> |
 
 ---
 

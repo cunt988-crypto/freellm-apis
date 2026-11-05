@@ -112,7 +112,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Preferred Networks | PLaMo モデル | <a href="https://www.preferred.jp" target="_blank" rel="noopener">→</a> |
 | Fujitsu Kozuchi | 富士通エンタープライズ AI | <a href="https://www.fujitsu.com/global/services/business-services/kozuchi" target="_blank" rel="noopener">→</a> |
 | SB Intuitions | ソフトバンク日本語 LLM | <a href="https://www.sbintuitions.co.jp" target="_blank" rel="noopener">→</a> |
-| Rakuten AI | 楽天 AI モデル | <a href="https://corp.rakuten.com" target="_blank" rel="noopener">→</a> |
+| Rakuten AI | 楽天 AI モデル | <a href="https://global.rakuten.com/corp/" target="_blank" rel="noopener">→</a> |
 
 </details>
 

@@ -101,7 +101,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | DeepSeek | $5 | Bei Registrierung | 📧 E-Mail | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Holen →</a> |
 | Anthropic | $5 | Nie | 💳 Ja | <a href="https://console.anthropic.com" target="_blank" rel="noopener">Holen →</a> |
 | Together AI | $1 | Nie | ✅ Nein | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">Holen →</a> |
-| Fireworks AI | $1 | Nie | ✅ Nein | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">Holen →</a> |
+| Fireworks AI | $1 | Nie | ✅ Nein | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">Holen →</a> |
 
 ---
 

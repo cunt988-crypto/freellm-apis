@@ -97,7 +97,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Lambda AI | $10 | कभी नहीं | ✅ नहीं | <a href="https://lambda.ai" target="_blank" rel="noopener">प्राप्त करें →</a> |
 | DeepSeek | $5 | साइनअप पर | 📧 ईमेल | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
 | Together AI | $1 | कभी नहीं | ✅ नहीं | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Fireworks AI | $1 | कभी नहीं | ✅ नहीं | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
+| Fireworks AI | $1 | कभी नहीं | ✅ नहीं | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
 
 ---
 
@@ -109,9 +109,9 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | प्रदाता | विशेषता | साइनअप |
 |---|---|---|
 | Sarvam AI | भारतीय भाषा मॉडल | <a href="https://sarvam.ai" target="_blank" rel="noopener">→</a> |
-| Krutrim AI | Ola का भारतीय LLM | <a href="https://www.krutrim.com" target="_blank" rel="noopener">→</a> |
+| Krutrim AI | Ola का भारतीय LLM | <a href="https://www.olakrutrim.com" target="_blank" rel="noopener">→</a> |
 | AI4Bharat | IIT मद्रास — रिसर्च API | <a href="https://ai4bharat.iitm.ac.in" target="_blank" rel="noopener">→</a> |
-| BharatGen | IIT बॉम्बे — रिसर्च API | <a href="https://bharatgen.iitb.ac.in" target="_blank" rel="noopener">→</a> |
+| BharatGen | IIT बॉम्बे — रिसर्च API | <a href="https://bharatgen.com" target="_blank" rel="noopener">→</a> |
 | Hanooman AI | बहुभाषी भारतीय LLM | <a href="https://www.hanooman.ai" target="_blank" rel="noopener">→</a> |
 | Soket AI | भारतीय LLM API | <a href="https://soket.ai" target="_blank" rel="noopener">→</a> |
 | Neysa AI | AI क्लाउड प्लेटफ़ॉर्म | <a href="https://neysa.ai" target="_blank" rel="noopener">→</a> |

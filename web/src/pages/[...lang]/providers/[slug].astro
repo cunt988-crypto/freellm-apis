@@ -113,11 +113,9 @@ const schema = {
       ],
     },
     {
-      '@type': 'SoftwareApplication',
+      '@type': 'WebAPI', // ponytail: not SoftwareApplication — Google requires ratings for that, we have none
       name: tp.h1(provider.name),
       inLanguage: locale,
-      applicationCategory: 'DeveloperApplication',
-      operatingSystem: 'Any',
       url: pageUrl,
       offers: {
         '@type': 'Offer',
