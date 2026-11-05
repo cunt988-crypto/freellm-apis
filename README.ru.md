@@ -128,39 +128,149 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | [SiliconFlow](https://www.freellm.site/ru/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 Email | [Получить →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/ru/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ Нет | [Получить →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/ru/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ Нет | [Получить →](https://huggingface.co/settings/tokens) |
-| Replicate | Бесплатный уровень | — | ✅ Нет | [Получить →](https://replicate.com) |
-| Fal AI | Бесплатный уровень | varies (1 week to 1 year) | ✅ Нет | [Получить →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/ru/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Бесплатный уровень | monthly | 📧 Email | [Получить →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/ru/providers/baseten/?utm_source=github&utm_medium=readme) | Бесплатный уровень | never | ✅ Нет | [Получить →](https://app.baseten.co/signup) |
-| Krutrim AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | Бесплатный уровень | never | 📧 Email | [Получить →](https://corover.ai) |
-| Gnani.ai | Бесплатный уровень | never | 📧 Email | [Получить →](https://gnani.ai) |
-| Soket AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://soket.ai) |
-| Neysa AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/ru/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Бесплатный уровень | 90 days | ✅ Нет | [Получить →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/ru/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Бесплатный уровень | 90 days | 📧 Email | [Получить →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | Бесплатный уровень | never | 📧 Email | [Получить →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/ru/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Бесплатный уровень | 1 year | 📧 Email | [Получить →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/ru/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Бесплатный уровень | 3 months | 📧 Email | [Получить →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/ru/providers/stepfun/?utm_source=github&utm_medium=readme) | Бесплатный уровень | never | 📧 Email | [Получить →](https://platform.stepfun.com) |
-| Volcengine Ark | Бесплатный уровень | — | 📧 Email | [Получить →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/ru/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Бесплатный уровень | never | 📧 Email | [Получить →](https://clovastudio.ncloud.com) |
-| LG EXAONE | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.lgresearch.ai) |
-| SK Telecom A.X | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.sktelecom.com) |
-| LightOn | Бесплатный уровень | never | 📧 Email | [Получить →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/ru/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Бесплатный уровень | never | 💳 Да | [Получить →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://inceptionai.ai) |
-| GMI Cloud | Бесплатный уровень | never | 📧 Email | [Получить →](https://console.gmicloud.ai) |
-| NCS AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.ncs.co) |
-| Sakana AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/ru/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Бесплатный уровень | 1 month | 📧 Email | [Получить →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://www.nec.com) |
-| Rakuten AI | Бесплатный уровень | never | 📧 Email | [Получить →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ Нет | [Получить →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ Нет | [Получить →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/ru/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 Email | [Получить →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/ru/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ Нет | [Получить →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 Email | [Получить →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 Email | [Получить →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 Email | [Получить →](https://gnani.ai) |
+| Soket AI | — | never | 📧 Email | [Получить →](https://soket.ai) |
+| Neysa AI | — | never | 📧 Email | [Получить →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/ru/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ Нет | [Получить →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ru/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 Email | [Получить →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 Email | [Получить →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/ru/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 Email | [Получить →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/ru/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 Email | [Получить →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/ru/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | [Получить →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 Email | [Получить →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 Email | [Получить →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ru/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | [Получить →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 Email | [Получить →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 Email | [Получить →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 Email | [Получить →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/ru/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 Да | [Получить →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 Email | [Получить →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 Email | [Получить →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 Email | [Получить →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 Email | [Получить →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/ru/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 Email | [Получить →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 Email | [Получить →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 Email | [Получить →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 Email | [Получить →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 Email | [Получить →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
+
+<!-- BEGIN_REGIONAL -->
+
+---
+
+### 🌍 Региональные поставщики
+
+<details>
+<summary><strong>🇨🇳 Китай (14)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [ModelScope](https://www.freellm.site/ru/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 Email | Бесплатный уровень | [Получить →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/ru/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ Нет | Бесплатный уровень | [Получить →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/ru/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ Нет | Кредиты · 90 days | [Получить →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ru/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · 90 days | [Получить →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/ru/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 Email | $11 · 3 months | [Получить →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/ru/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · 3 months | [Получить →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/ru/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · 1 year | [Получить →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/ru/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 Телефон | Бесплатный уровень | [Получить →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/ru/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 Email | Бесплатный уровень | [Получить →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/ru/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · never | [Получить →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/ru/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 Email | Бесплатный уровень | [Получить →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 Email | Кредиты · never | [Получить →](https://www.huaweicloud.com) |
+| MiniMax | 📧 Email | Кредиты · never | [Получить →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 Email | Кредиты | [Получить →](https://console.volcengine.com/ark) |
+
+</details>
+
+<details>
+<summary><strong>🇮🇳 Индия (8)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/ru/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 Email | $1.1 · never | [Получить →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ Нет | Бесплатный уровень | [Получить →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ Нет | Бесплатный уровень | [Получить →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 Email | Кредиты · never | [Получить →](https://corover.ai) |
+| Gnani.ai | 📧 Email | Кредиты · never | [Получить →](https://gnani.ai) |
+| Krutrim AI | 📧 Email | Кредиты · never | [Получить →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 Email | Кредиты · never | [Получить →](https://neysa.ai) |
+| Soket AI | 📧 Email | Кредиты · never | [Получить →](https://soket.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇪🇺 Европа (7)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/ru/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ Нет | Бесплатный уровень | [Получить →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/ru/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 Да | Кредиты · never | [Получить →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/ru/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ Нет | Бесплатный уровень | [Получить →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/ru/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ Нет | $0.25 · never | [Получить →](https://platform.stability.ai) |
+| DeepL API | ✅ Нет | Бесплатный уровень | [Получить →](https://developers.deepl.com) |
+| H Company | 📧 Email | Бесплатный уровень | [Получить →](https://portal.hcompany.ai) |
+| LightOn | 📧 Email | Кредиты · never | [Получить →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 Япония (6)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/ru/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · 1 month | [Получить →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 Email | Кредиты · never | [Получить →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 Email | Кредиты · never | [Получить →](https://www.nec.com) |
+| NTT DATA AI | 📧 Email | Кредиты · never | [Получить →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 Email | Кредиты · never | [Получить →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 Email | Кредиты · never | [Получить →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 Корея (5)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/ru/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ Нет | $10 · never | [Получить →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ru/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 Email | Кредиты · never | [Получить →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 Email | Кредиты · never | [Получить →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 Email | Кредиты · never | [Получить →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ Нет | Бесплатный уровень | [Получить →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 Юго-Восточная Азия (3)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/ru/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 Email | Бесплатный уровень | [Получить →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 Email | Кредиты · never | [Получить →](https://console.gmicloud.ai) |
+| NCS AI | 📧 Email | Кредиты · never | [Получить →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 Ближний Восток (2)</strong></summary>
+
+| Поставщик | Карта? | Бесплатно | Получить ключ |
+|---|---|---|---|
+| Falcon (TII) | ✅ Нет | Бесплатный уровень | [Получить →](https://falconllm.tii.ae) |
+| Inception AI | 📧 Email | Кредиты · never | [Получить →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 

@@ -115,7 +115,7 @@ def credits_table(providers, models):
     out = "| Provider | Credits (USD) | Expiry | Card? | Models | Last Verified | Get Key |\n"
     out += "|---|---|---|---|---|---|---|\n"
     for p in rows:
-        amount = f"${p['credit_amount_usd']}" if p["credit_amount_usd"] else "Free tier"
+        amount = f"${p['credit_amount_usd']}" if p["credit_amount_usd"] else "—"  # credits, amount not published
         out += (f"| {provider_cell(p, models)} | {amount} | {p['credit_expiry'] or '—'} "
                 f"| {CARD.get(p['credit_card_required'], p['credit_card_required'])} "
                 f"| {model_count(p['id'], models)} | {p['last_verified']} "
@@ -138,9 +138,50 @@ def credits_table_loc(providers, models, loc):
     rows = sorted([p for p in providers if p["free_type"] == "credits"], key=lambda p: -(p["credit_amount_usd"] or 0))
     out = f"| {t['provider']} | {t['credits']} | {t['expiry']} | {t['card']} | {t['get']} |\n|---|---|---|---|---|\n"
     for p in rows:
-        amount = f"${p['credit_amount_usd']}" if p["credit_amount_usd"] else t["free_tier"]
+        amount = f"${p['credit_amount_usd']}" if p["credit_amount_usd"] else "—"
         out += (f"| {provider_cell(p, models, loc)} | {amount} | {p['credit_expiry'] or '—'} "
                 f"| {t['cards'][p['credit_card_required']]} | [{t['get_link']}]({p['signup_url']}) |\n")
+    return out
+
+
+FLAG = {"india": "🇮🇳", "china": "🇨🇳", "japan": "🇯🇵", "korea": "🇰🇷", "europe": "🇪🇺", "middle_east": "🇦🇪", "sea": "🇸🇬"}
+# Region names, the "free offer" column, and (translated READMEs only) the section heading.
+R = {
+    "en": (["India", "China", "Japan", "Korea", "Europe", "Middle East", "Southeast Asia"], "Free offer", None),
+    "es": (["India", "China", "Japón", "Corea", "Europa", "Oriente Medio", "Sudeste Asiático"], "Oferta gratuita", "Proveedores regionales"),
+    "zh": (["印度", "中国", "日本", "韩国", "欧洲", "中东", "东南亚"], "免费额度", "区域提供商"),
+    "hi": (["भारत", "चीन", "जापान", "कोरिया", "यूरोप", "मध्य पूर्व", "दक्षिण-पूर्व एशिया"], "मुफ़्त ऑफ़र", "क्षेत्रीय प्रदाता"),
+    "ja": (["インド", "中国", "日本", "韓国", "ヨーロッパ", "中東", "東南アジア"], "無料枠", "地域別プロバイダー"),
+    "ko": (["인도", "중국", "일본", "한국", "유럽", "중동", "동남아시아"], "무료 제공", "지역별 제공업체"),
+    "pt": (["Índia", "China", "Japão", "Coreia", "Europa", "Oriente Médio", "Sudeste Asiático"], "Oferta gratuita", "Provedores regionais"),
+    "ar": (["الهند", "الصين", "اليابان", "كوريا", "أوروبا", "الشرق الأوسط", "جنوب شرق آسيا"], "العرض المجاني", "المزودون الإقليميون"),
+    "fr": (["Inde", "Chine", "Japon", "Corée", "Europe", "Moyen-Orient", "Asie du Sud-Est"], "Offre gratuite", "Fournisseurs régionaux"),
+    "de": (["Indien", "China", "Japan", "Korea", "Europa", "Naher Osten", "Südostasien"], "Gratis-Angebot", "Regionale Anbieter"),
+    "ru": (["Индия", "Китай", "Япония", "Корея", "Европа", "Ближний Восток", "Юго-Восточная Азия"], "Бесплатно", "Региональные поставщики"),
+}
+
+
+def regional_block(providers, models, loc):
+    """One collapsed table per non-global region, biggest region first."""
+    t, (names, offer, heading) = L[loc], R[loc]
+    region_name = dict(zip(FLAG, names))
+    out = f"\n---\n\n### 🌍 {heading}\n\n" if heading else ""
+    regions = sorted(FLAG, key=lambda r: -sum(p["region"] == r for p in providers))
+    for r in regions:
+        rows = sorted([p for p in providers if p["region"] == r], key=lambda p: (-model_count(p["id"], models), p["name"]))
+        if not rows:
+            continue
+        out += (f"<details>\n<summary><strong>{FLAG[r]} {region_name[r]} ({len(rows)})</strong></summary>\n\n"
+                f"| {t['provider']} | {t['card']} | {offer} | {t['get']} |\n|---|---|---|---|\n")
+        for p in rows:
+            if p["free_type"] == "permanent":
+                free = t["free_tier"]
+            else:
+                free = f"${p['credit_amount_usd']:g}" if p["credit_amount_usd"] else t["credits"].replace(" (USD)", "")
+                free += f" · {p['credit_expiry']}" if p["credit_expiry"] else ""
+            out += (f"| {provider_cell(p, models, loc)} | {t['cards'][p['credit_card_required']]} | {free} "
+                    f"| [{t['get_link']}]({p['signup_url']}) |\n")
+        out += "\n</details>\n\n"
     return out
 
 
@@ -178,6 +219,7 @@ def main():
     content = inject(content, "PERMANENT", permanent_table(providers, models))
     content = inject(content, "CREDITS", credits_table(providers, models))
     content = inject(content, "BASE_URLS", base_urls_table(providers))
+    content = inject(content, "REGIONAL", regional_block(providers, models, "en"))
     content = inject(content, "IMAGE_APIS", image_table(json.loads(IMAGE_FILE.read_text())))
     README_FILE.write_text(content)
     for loc in L:
@@ -185,7 +227,8 @@ def main():
             continue
         f = ROOT / f"README.{loc}.md"
         c = inject(f.read_text(), "PERMANENT", permanent_table_loc(providers, models, loc))
-        f.write_text(inject(c, "CREDITS", credits_table_loc(providers, models, loc)))
+        c = inject(c, "CREDITS", credits_table_loc(providers, models, loc))
+        f.write_text(inject(c, "REGIONAL", regional_block(providers, models, loc)))
     total_m = sum(1 for m in models if not m["deprecated"])
     print(f"README.md updated — {len(providers)} providers, {total_m} models.")
 

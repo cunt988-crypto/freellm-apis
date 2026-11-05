@@ -128,60 +128,149 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | [SiliconFlow](https://www.freellm.site/de/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 E-Mail | [Holen →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/de/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ Nein | [Holen →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/de/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ Nein | [Holen →](https://huggingface.co/settings/tokens) |
-| Replicate | Gratis-Stufe | — | ✅ Nein | [Holen →](https://replicate.com) |
-| Fal AI | Gratis-Stufe | varies (1 week to 1 year) | ✅ Nein | [Holen →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/de/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Gratis-Stufe | monthly | 📧 E-Mail | [Holen →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/de/providers/baseten/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | ✅ Nein | [Holen →](https://app.baseten.co/signup) |
-| Krutrim AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://corover.ai) |
-| Gnani.ai | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://gnani.ai) |
-| Soket AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://soket.ai) |
-| Neysa AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/de/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 90 days | ✅ Nein | [Holen →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/de/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 90 days | 📧 E-Mail | [Holen →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/de/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 1 year | 📧 E-Mail | [Holen →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/de/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 3 months | 📧 E-Mail | [Holen →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/de/providers/stepfun/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://platform.stepfun.com) |
-| Volcengine Ark | Gratis-Stufe | — | 📧 E-Mail | [Holen →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/de/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://clovastudio.ncloud.com) |
-| LG EXAONE | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.lgresearch.ai) |
-| SK Telecom A.X | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.sktelecom.com) |
-| LightOn | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/de/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 💳 Ja | [Holen →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://inceptionai.ai) |
-| GMI Cloud | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://console.gmicloud.ai) |
-| NCS AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.ncs.co) |
-| Sakana AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/de/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 1 month | 📧 E-Mail | [Holen →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.nec.com) |
-| Rakuten AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ Nein | [Holen →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ Nein | [Holen →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/de/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 E-Mail | [Holen →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/de/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ Nein | [Holen →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 E-Mail | [Holen →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 E-Mail | [Holen →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 E-Mail | [Holen →](https://gnani.ai) |
+| Soket AI | — | never | 📧 E-Mail | [Holen →](https://soket.ai) |
+| Neysa AI | — | never | 📧 E-Mail | [Holen →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/de/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ Nein | [Holen →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/de/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 E-Mail | [Holen →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 E-Mail | [Holen →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/de/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 E-Mail | [Holen →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/de/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 E-Mail | [Holen →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/de/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 E-Mail | [Holen →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 E-Mail | [Holen →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 E-Mail | [Holen →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/de/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 E-Mail | [Holen →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 E-Mail | [Holen →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 E-Mail | [Holen →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 E-Mail | [Holen →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/de/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 Ja | [Holen →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 E-Mail | [Holen →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 E-Mail | [Holen →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 E-Mail | [Holen →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 E-Mail | [Holen →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/de/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 E-Mail | [Holen →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 E-Mail | [Holen →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 E-Mail | [Holen →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 E-Mail | [Holen →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 E-Mail | [Holen →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
 
+<!-- BEGIN_REGIONAL -->
+
 ---
 
-<details>
-<summary><strong>🇪🇺 Europäische Anbieter (11)</strong></summary>
+### 🌍 Regionale Anbieter
 
-| Anbieter | Land | Spezialität | Registrieren |
+<details>
+<summary><strong>🇨🇳 China (14)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
 |---|---|---|---|
-| Mistral AI | Frankreich | Europas führendes LLM | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
-| Aleph Alpha | Deutschland | Luminous-Modelle | <a href="https://aleph-alpha.com" target="_blank" rel="noopener">→</a> |
-| DeepL API | Deutschland | Übersetzung — 500K Zeichen/Monat kostenlos | <a href="https://developers.deepl.com" target="_blank" rel="noopener">→</a> |
-| ElevenLabs | Polen | Sprachsynthese | <a href="https://elevenlabs.io" target="_blank" rel="noopener">→</a> |
-| Stability AI | Großbritannien | Bild/Audio/Video-Modelle | <a href="https://stability.ai" target="_blank" rel="noopener">→</a> |
-| Scaleway AI | Frankreich | Llama & Mistral auf europäischer Cloud | <a href="https://www.scaleway.com" target="_blank" rel="noopener">→</a> |
-| OVHcloud AI | Frankreich | Open-Source-Modelle | <a href="https://www.ovhcloud.com" target="_blank" rel="noopener">→</a> |
-| LightOn | Frankreich | Alfred-Modelle | <a href="https://lighton.ai" target="_blank" rel="noopener">→</a> |
-| Silo AI | Finnland | Poro-Modelle | <a href="https://www.silo.ai" target="_blank" rel="noopener">→</a> |
-| PolyAI | Großbritannien | Konversations-KI | <a href="https://poly.ai" target="_blank" rel="noopener">→</a> |
-| H Company | Frankreich | Französisches KI-Startup | <a href="https://hcompany.ai" target="_blank" rel="noopener">→</a> |
+| [ModelScope](https://www.freellm.site/de/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Gratis-Stufe | [Holen →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/de/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ Nein | Gratis-Stufe | [Holen →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/de/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ Nein | Guthaben · 90 days | [Holen →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/de/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · 90 days | [Holen →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/de/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 E-Mail | $11 · 3 months | [Holen →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/de/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · 3 months | [Holen →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/de/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · 1 year | [Holen →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/de/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 Telefon | Gratis-Stufe | [Holen →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/de/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Gratis-Stufe | [Holen →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/de/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · never | [Holen →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/de/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Gratis-Stufe | [Holen →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 E-Mail | Guthaben · never | [Holen →](https://www.huaweicloud.com) |
+| MiniMax | 📧 E-Mail | Guthaben · never | [Holen →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 E-Mail | Guthaben | [Holen →](https://console.volcengine.com/ark) |
 
 </details>
+
+<details>
+<summary><strong>🇮🇳 Indien (8)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/de/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 E-Mail | $1.1 · never | [Holen →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ Nein | Gratis-Stufe | [Holen →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ Nein | Gratis-Stufe | [Holen →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 E-Mail | Guthaben · never | [Holen →](https://corover.ai) |
+| Gnani.ai | 📧 E-Mail | Guthaben · never | [Holen →](https://gnani.ai) |
+| Krutrim AI | 📧 E-Mail | Guthaben · never | [Holen →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 E-Mail | Guthaben · never | [Holen →](https://neysa.ai) |
+| Soket AI | 📧 E-Mail | Guthaben · never | [Holen →](https://soket.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇪🇺 Europa (7)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/de/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ Nein | Gratis-Stufe | [Holen →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/de/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 Ja | Guthaben · never | [Holen →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/de/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ Nein | Gratis-Stufe | [Holen →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/de/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ Nein | $0.25 · never | [Holen →](https://platform.stability.ai) |
+| DeepL API | ✅ Nein | Gratis-Stufe | [Holen →](https://developers.deepl.com) |
+| H Company | 📧 E-Mail | Gratis-Stufe | [Holen →](https://portal.hcompany.ai) |
+| LightOn | 📧 E-Mail | Guthaben · never | [Holen →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 Japan (6)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/de/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · 1 month | [Holen →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 E-Mail | Guthaben · never | [Holen →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 E-Mail | Guthaben · never | [Holen →](https://www.nec.com) |
+| NTT DATA AI | 📧 E-Mail | Guthaben · never | [Holen →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 E-Mail | Guthaben · never | [Holen →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 E-Mail | Guthaben · never | [Holen →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 Korea (5)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/de/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ Nein | $10 · never | [Holen →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/de/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Guthaben · never | [Holen →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 E-Mail | Guthaben · never | [Holen →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 E-Mail | Guthaben · never | [Holen →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ Nein | Gratis-Stufe | [Holen →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 Südostasien (3)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/de/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 E-Mail | Gratis-Stufe | [Holen →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 E-Mail | Guthaben · never | [Holen →](https://console.gmicloud.ai) |
+| NCS AI | 📧 E-Mail | Guthaben · never | [Holen →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 Naher Osten (2)</strong></summary>
+
+| Anbieter | Karte? | Gratis-Angebot | Schlüssel holen |
+|---|---|---|---|
+| Falcon (TII) | ✅ Nein | Gratis-Stufe | [Holen →](https://falconllm.tii.ae) |
+| Inception AI | 📧 E-Mail | Guthaben · never | [Holen →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 

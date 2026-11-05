@@ -128,54 +128,149 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | [SiliconFlow](https://www.freellm.site/ja/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 登録 | [取得 →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/ja/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ 不要 | [取得 →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/ja/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ 不要 | [取得 →](https://huggingface.co/settings/tokens) |
-| Replicate | 無料枠 | — | ✅ 不要 | [取得 →](https://replicate.com) |
-| Fal AI | 無料枠 | varies (1 week to 1 year) | ✅ 不要 | [取得 →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/ja/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | 無料枠 | monthly | 📧 登録 | [取得 →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/ja/providers/baseten/?utm_source=github&utm_medium=readme) | 無料枠 | never | ✅ 不要 | [取得 →](https://app.baseten.co/signup) |
-| Krutrim AI | 無料枠 | never | 📧 登録 | [取得 →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | 無料枠 | never | 📧 登録 | [取得 →](https://corover.ai) |
-| Gnani.ai | 無料枠 | never | 📧 登録 | [取得 →](https://gnani.ai) |
-| Soket AI | 無料枠 | never | 📧 登録 | [取得 →](https://soket.ai) |
-| Neysa AI | 無料枠 | never | 📧 登録 | [取得 →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/ja/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | 無料枠 | 90 days | ✅ 不要 | [取得 →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/ja/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 無料枠 | 90 days | 📧 登録 | [取得 →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | 無料枠 | never | 📧 登録 | [取得 →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/ja/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 無料枠 | 1 year | 📧 登録 | [取得 →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/ja/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 無料枠 | 3 months | 📧 登録 | [取得 →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/ja/providers/stepfun/?utm_source=github&utm_medium=readme) | 無料枠 | never | 📧 登録 | [取得 →](https://platform.stepfun.com) |
-| Volcengine Ark | 無料枠 | — | 📧 登録 | [取得 →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | 無料枠 | never | 📧 登録 | [取得 →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/ja/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 無料枠 | never | 📧 登録 | [取得 →](https://clovastudio.ncloud.com) |
-| LG EXAONE | 無料枠 | never | 📧 登録 | [取得 →](https://www.lgresearch.ai) |
-| SK Telecom A.X | 無料枠 | never | 📧 登録 | [取得 →](https://www.sktelecom.com) |
-| LightOn | 無料枠 | never | 📧 登録 | [取得 →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/ja/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 無料枠 | never | 💳 必要 | [取得 →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | 無料枠 | never | 📧 登録 | [取得 →](https://inceptionai.ai) |
-| GMI Cloud | 無料枠 | never | 📧 登録 | [取得 →](https://console.gmicloud.ai) |
-| NCS AI | 無料枠 | never | 📧 登録 | [取得 →](https://www.ncs.co) |
-| Sakana AI | 無料枠 | never | 📧 登録 | [取得 →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/ja/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 無料枠 | 1 month | 📧 登録 | [取得 →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | 無料枠 | never | 📧 登録 | [取得 →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | 無料枠 | never | 📧 登録 | [取得 →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | 無料枠 | never | 📧 登録 | [取得 →](https://www.nec.com) |
-| Rakuten AI | 無料枠 | never | 📧 登録 | [取得 →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ 不要 | [取得 →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ 不要 | [取得 →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/ja/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 登録 | [取得 →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/ja/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ 不要 | [取得 →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 登録 | [取得 →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 登録 | [取得 →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 登録 | [取得 →](https://gnani.ai) |
+| Soket AI | — | never | 📧 登録 | [取得 →](https://soket.ai) |
+| Neysa AI | — | never | 📧 登録 | [取得 →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/ja/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ 不要 | [取得 →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ja/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 登録 | [取得 →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 登録 | [取得 →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/ja/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 登録 | [取得 →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/ja/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 登録 | [取得 →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/ja/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 登録 | [取得 →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 登録 | [取得 →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 登録 | [取得 →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ja/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 登録 | [取得 →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 登録 | [取得 →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 登録 | [取得 →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 登録 | [取得 →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/ja/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 必要 | [取得 →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 登録 | [取得 →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 登録 | [取得 →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 登録 | [取得 →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 登録 | [取得 →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/ja/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 登録 | [取得 →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 登録 | [取得 →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 登録 | [取得 →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 登録 | [取得 →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 登録 | [取得 →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
 
+<!-- BEGIN_REGIONAL -->
+
 ---
 
-<details>
-<summary><strong>🇯🇵 日本のプロバイダー (5)</strong></summary>
+### 🌍 地域別プロバイダー
 
-| プロバイダー | 特徴 | 登録 |
-|---|---|---|
-| Sakana AI | 日本の AI 研究所 | <a href="https://sakana.ai" target="_blank" rel="noopener">→</a> |
-| Preferred Networks | PLaMo モデル | <a href="https://www.preferred.jp" target="_blank" rel="noopener">→</a> |
-| Fujitsu Kozuchi | 富士通エンタープライズ AI | <a href="https://www.fujitsu.com/global/services/business-services/kozuchi" target="_blank" rel="noopener">→</a> |
-| SB Intuitions | ソフトバンク日本語 LLM | <a href="https://www.sbintuitions.co.jp" target="_blank" rel="noopener">→</a> |
-| Rakuten AI | 楽天 AI モデル | <a href="https://global.rakuten.com/corp/" target="_blank" rel="noopener">→</a> |
+<details>
+<summary><strong>🇨🇳 中国 (14)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [ModelScope](https://www.freellm.site/ja/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 登録 | 無料枠 | [取得 →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/ja/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ 不要 | 無料枠 | [取得 →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/ja/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ 不要 | クレジット · 90 days | [取得 →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ja/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · 90 days | [取得 →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/ja/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 登録 | $11 · 3 months | [取得 →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/ja/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · 3 months | [取得 →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/ja/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · 1 year | [取得 →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/ja/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 電話 | 無料枠 | [取得 →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/ja/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 登録 | 無料枠 | [取得 →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/ja/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · never | [取得 →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/ja/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 登録 | 無料枠 | [取得 →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 登録 | クレジット · never | [取得 →](https://www.huaweicloud.com) |
+| MiniMax | 📧 登録 | クレジット · never | [取得 →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 登録 | クレジット | [取得 →](https://console.volcengine.com/ark) |
 
 </details>
+
+<details>
+<summary><strong>🇮🇳 インド (8)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/ja/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 登録 | $1.1 · never | [取得 →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ 不要 | 無料枠 | [取得 →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ 不要 | 無料枠 | [取得 →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 登録 | クレジット · never | [取得 →](https://corover.ai) |
+| Gnani.ai | 📧 登録 | クレジット · never | [取得 →](https://gnani.ai) |
+| Krutrim AI | 📧 登録 | クレジット · never | [取得 →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 登録 | クレジット · never | [取得 →](https://neysa.ai) |
+| Soket AI | 📧 登録 | クレジット · never | [取得 →](https://soket.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇪🇺 ヨーロッパ (7)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/ja/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ 不要 | 無料枠 | [取得 →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/ja/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 必要 | クレジット · never | [取得 →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/ja/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ 不要 | 無料枠 | [取得 →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/ja/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ 不要 | $0.25 · never | [取得 →](https://platform.stability.ai) |
+| DeepL API | ✅ 不要 | 無料枠 | [取得 →](https://developers.deepl.com) |
+| H Company | 📧 登録 | 無料枠 | [取得 →](https://portal.hcompany.ai) |
+| LightOn | 📧 登録 | クレジット · never | [取得 →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 日本 (6)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/ja/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · 1 month | [取得 →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 登録 | クレジット · never | [取得 →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 登録 | クレジット · never | [取得 →](https://www.nec.com) |
+| NTT DATA AI | 📧 登録 | クレジット · never | [取得 →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 登録 | クレジット · never | [取得 →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 登録 | クレジット · never | [取得 →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 韓国 (5)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/ja/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ 不要 | $10 · never | [取得 →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ja/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 登録 | クレジット · never | [取得 →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 登録 | クレジット · never | [取得 →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 登録 | クレジット · never | [取得 →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ 不要 | 無料枠 | [取得 →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 東南アジア (3)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/ja/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 登録 | 無料枠 | [取得 →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 登録 | クレジット · never | [取得 →](https://console.gmicloud.ai) |
+| NCS AI | 📧 登録 | クレジット · never | [取得 →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 中東 (2)</strong></summary>
+
+| プロバイダー | カード | 無料枠 | キーを取得 |
+|---|---|---|---|
+| Falcon (TII) | ✅ 不要 | 無料枠 | [取得 →](https://falconllm.tii.ae) |
+| Inception AI | 📧 登録 | クレジット · never | [取得 →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 
