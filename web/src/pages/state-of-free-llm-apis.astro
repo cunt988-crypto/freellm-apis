@@ -1,0 +1,201 @@
+---
+// ponytail: English-only, like the image page; localize via [...lang] once the catalogues carry the copy.
+// Every number is computed from data/*.json at build time, so the report refreshes with the data.
+// Trend lines (what changed since last report) come later from git history of providers.json.
+import Base from '../layouts/Base.astro';
+import AdSlot from '../components/AdSlot.astro';
+import providers from '../../../data/providers.json';
+import allModels from '../../../data/models.json';
+import { fmtCtx } from '../lib/format';
+import { DATA_LAST_VERIFIED } from '../lib/seo.mjs';
+
+const REGION = { global: 'Global', china: 'China', india: 'India', europe: 'Europe', japan: 'Japan', korea: 'Korea', sea: 'Southeast Asia', middle_east: 'Middle East' };
+const pct = (n: number, d: number) => Math.round((n / d) * 100);
+const count = <T,>(xs: T[], key: (x: T) => string) =>
+  Object.entries(xs.reduce((a, x) => ((a[key(x)] = (a[key(x)] || 0) + 1), a), {} as Record<string, number>)).sort((a, b) => b[1] - a[1]);
+const median = (xs: number[]) => { const s = [...xs].sort((a, b) => a - b); const h = s.length >> 1; return s.length % 2 ? s[h] : (s[h - 1] + s[h]) / 2; };
+
+const name = Object.fromEntries(providers.map(p => [p.id, p.name]));
+const models = allModels.filter(m => !m.deprecated);
+const P = providers.length;
+const M = models.length;
+
+const permanent = providers.filter(p => p.free_type === 'permanent').length;
+const noCard = providers.filter(p => p.credit_card_required !== 'yes').length;
+const credits = providers.map(p => p.credit_amount_usd).filter((c): c is number => typeof c === 'number' && c > 0);
+const withModels = new Set(models.map(m => m.provider_id)).size;
+const ctxs = models.map(m => m.context_window).filter((c): c is number => !!c);
+const millionCtx = ctxs.filter(c => c >= 1_000_000).length;
+const withRpm = models.filter(m => m.rpm != null).length;
+const freshCutoff = new Date(new Date(DATA_LAST_VERIFIED).getTime() - 90 * 864e5).toISOString().slice(0, 10);
+const fresh = providers.filter(p => p.last_verified >= freshCutoff).length;
+
+const regions = count(providers, p => REGION[p.region] ?? p.region);
+const signup = count(providers, p => ({ no: 'Nothing / key only', registration: 'Email signup', phone: 'Phone number', yes: 'Credit card' })[p.credit_card_required]);
+const modalities = count(models.flatMap(m => m.modalities), m => m);
+const topProviders = count(models, m => name[m.provider_id] ?? m.provider_id).slice(0, 8);
+const topCtx = [...models].sort((a, b) => (b.context_window || 0) - (a.context_window || 0)).slice(0, 6);
+const topRpd = models.filter(m => m.rpd).sort((a, b) => b.rpd - a.rpd).slice(0, 6);
+
+const month = new Date(DATA_LAST_VERIFIED).toLocaleString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+const pageUrl = 'https://www.freellm.site/state-of-free-llm-apis/';
+const title = `State of Free LLM APIs: ${month} Report`;
+const description = `${P} providers, ${M} free models: ${pct(noCard, P)}% need no credit card, only ${permanent} offer a permanent free tier, and ${millionCtx} models take 1M+ tokens of context. Data from ${DATA_LAST_VERIFIED}.`;
+const RAW = 'https://github.com/khushaljethava/freellm-apis/blob/main/data/';
+
+const findings = [
+  `${pct(noCard, P)}% of the ${P} providers (${noCard}) let you start without a credit card. Most only need an email signup.`,
+  `Only ${permanent} providers (${pct(permanent, P)}%) offer a permanent, recurring free tier. The other ${P - permanent} give one-time or quota credits, with a median of $${median(credits)}.`,
+  `${millionCtx} free models (${pct(millionCtx, M)}%) accept 1M tokens or more of context. The median free model takes ${fmtCtx(median(ctxs))}.`,
+  `Only ${pct(withRpm, M)}% of free models have a per-model requests-per-minute limit on record; for the rest, test before you build on them.`,
+  `${withModels} of the ${P} providers have a verified free model list; the other ${P - withModels} are listed by free tier only.`,
+  `${regions[0][1]} providers are global; ${P - regions[0][1]} are regional, led by ${regions[1][0]} (${regions[1][1]}) and ${regions[2][0]} (${regions[2][1]}).`,
+];
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.freellm.site/' },
+        { '@type': 'ListItem', position: 2, name: 'State of Free LLM APIs', item: pageUrl },
+      ],
+    },
+    {
+      '@type': 'Article',
+      headline: title,
+      description,
+      url: pageUrl,
+      dateModified: DATA_LAST_VERIFIED,
+      author: { '@type': 'Organization', name: 'freellm.site', url: 'https://www.freellm.site/' },
+      publisher: { '@type': 'Organization', name: 'freellm.site', url: 'https://www.freellm.site/' },
+    },
+    {
+      '@type': 'Dataset',
+      name: 'Free LLM API providers and models',
+      description,
+      url: pageUrl,
+      dateModified: DATA_LAST_VERIFIED,
+      isAccessibleForFree: true,
+      license: 'https://github.com/khushaljethava/freellm-apis/blob/main/LICENSE',
+      creator: { '@type': 'Organization', name: 'freellm.site', url: 'https://www.freellm.site/' },
+      distribution: ['providers', 'models'].map(f => ({ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${RAW}${f}.json` })),
+    },
+  ],
+};
+
+const charts = [
+  { id: 'signup', title: 'What you need to sign up', rows: signup, of: P, unit: 'providers' },
+  { id: 'regions', title: 'Providers by region', rows: regions, of: P, unit: 'providers' },
+  { id: 'modalities', title: 'Free models by modality', rows: modalities, of: M, unit: 'models', note: 'A model can count in several modalities.' },
+  { id: 'top-providers', title: 'Most free models per provider', rows: topProviders, of: topProviders[0][1], unit: 'models' },
+];
+const citeHtml = `<a href="${pageUrl}">State of Free LLM APIs (${month})</a>, freellm.site`;
+---
+<Base title={title} description={description} schema={schema}>
+  <nav aria-label="Breadcrumb" class="mb-6 text-sm text-muted-foreground">
+    <ol class="flex items-center gap-1.5">
+      <li><a class="text-muted-foreground hover:text-foreground" href="/">Home</a></li>
+      <li aria-hidden="true">/</li>
+      <li aria-current="page" class="text-foreground">State of Free LLM APIs</li>
+    </ol>
+  </nav>
+
+  <h1 class="text-3xl font-bold tracking-tight sm:text-4xl">State of Free LLM APIs: {month}</h1>
+  <p class="mt-3 text-lg text-muted-foreground">
+    {P} providers and {M} free models, counted from our open dataset ·
+    <time datetime={DATA_LAST_VERIFIED}>data as of {DATA_LAST_VERIFIED}</time>
+  </p>
+
+  <div class="mt-6 grid grid-cols-2 gap-3 sm:grid-cols-4">
+    {[
+      [P, 'providers tracked'],
+      [`${pct(noCard, P)}%`, 'need no credit card'],
+      [permanent, 'permanent free tiers'],
+      [millionCtx, 'models with 1M+ context'],
+    ].map(([v, l]) => (
+      <div class="rounded-lg border p-4">
+        <div class="text-2xl font-bold tabular-nums">{v}</div>
+        <div class="text-sm text-muted-foreground">{l}</div>
+      </div>
+    ))}
+  </div>
+
+  <h2 class="section-title">Key findings</h2>
+  <ol class="prose max-w-3xl list-decimal pl-5 dark:prose-invert">
+    {findings.map(f => <li>{f}</li>)}
+  </ol>
+
+  <AdSlot variant="top" />
+
+  {charts.map(c => (
+    <section id={c.id} class="scroll-mt-20">
+      <h2 class="section-title">{c.title}</h2>
+      <ul class="max-w-3xl space-y-2">
+        {c.rows.map(([label, n]) => (
+          <li class="grid grid-cols-[9rem_1fr_3.5rem] items-center gap-3 text-sm sm:grid-cols-[12rem_1fr_4rem]">
+            <span class="truncate">{label}</span>
+            <span class="h-3 rounded bg-muted" aria-hidden="true">
+              <span class="block h-3 rounded bg-primary" style={`width:${Math.max(2, (n / c.of) * 100)}%`}></span>
+            </span>
+            <span class="text-right tabular-nums">{n} <span class="sr-only">{c.unit}</span></span>
+          </li>
+        ))}
+      </ul>
+      {c.note && <p class="mt-2 text-xs text-muted-foreground">{c.note}</p>}
+    </section>
+  ))}
+
+  <h2 class="section-title">Largest free context windows</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Model</th><th scope="col">Provider</th><th scope="col">Context</th></tr></thead>
+      <tbody>
+        {topCtx.map(m => (
+          <tr>
+            <td><code class="font-mono text-xs">{m.model_id}</code></td>
+            <td><a href={`/providers/${m.provider_id}/`}>{name[m.provider_id]}</a></td>
+            <td class="tabular-nums">{fmtCtx(m.context_window)}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section-title">Most generous published daily limits</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Model</th><th scope="col">Provider</th><th scope="col">Requests / day</th><th scope="col">Requests / min</th></tr></thead>
+      <tbody>
+        {topRpd.map(m => (
+          <tr>
+            <td><code class="font-mono text-xs">{m.model_id}</code></td>
+            <td><a href={`/providers/${m.provider_id}/`}>{name[m.provider_id]}</a></td>
+            <td class="tabular-nums">{m.rpd.toLocaleString('en-US')}</td>
+            <td class="tabular-nums">{m.rpm ?? '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+  <p class="mt-2 text-xs text-muted-foreground">Only {models.filter(m => m.rpd).length} of {M} models publish a daily limit, so this ranks the ones that do.</p>
+
+  <div class="prose mt-8 max-w-3xl dark:prose-invert prose-a:text-primary">
+    <h2>Method</h2>
+    <p>
+      Counts come straight from <a href={`${RAW}providers.json`} target="_blank" rel="noopener">providers.json</a> and
+      <a href={`${RAW}models.json`} target="_blank" rel="noopener">models.json</a>, the same open (MIT) dataset behind the
+      <a href="/">free LLM API directory</a>. Each provider entry is checked against the provider's own pricing or docs page;
+      {fresh} of {P} were verified in the 90 days before {DATA_LAST_VERIFIED}. Deprecated models are excluded.
+      A "permanent" tier resets on a schedule; "credits" are one-time or quota-based.
+      See the <a href="/models/">full model list</a> or <a href="/blog/">guides</a> for details.
+    </p>
+
+    <h2>Cite this report</h2>
+    <p>The data is free to reuse under the MIT license. Please link back:</p>
+  </div>
+  <pre class="mb-8 max-w-3xl overflow-x-auto rounded-lg border bg-muted/40 p-4 text-xs"><code>{citeHtml}</code></pre>
+
+  <AdSlot variant="bottom" />
+</Base>

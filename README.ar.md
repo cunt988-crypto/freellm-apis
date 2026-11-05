@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 دليل واجهات برمجة تطبيقات LLM المجانية</h1>
-  <p align="center"><strong>90+ مزوداً · 8 مناطق · طبقات مجانية دائمة + أرصدة تجريبية</strong></p>
+  <p align="center"><strong>70+ مزوداً · 8 مناطق · طبقات مجانية دائمة + أرصدة تجريبية</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_الموقع-freellm.site-6366f1?style=for-the-badge" alt="الموقع"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/المزودون-90%2B-ec4899?style=for-the-badge" alt="90+ مزود"/>
+  <img src="https://img.shields.io/badge/المزودون-70%2B-ec4899?style=for-the-badge" alt="70+ مزود"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 - ✅ **خيارات بدون بطاقة أولاً** — يوضح أي المزودين لا يحتاجون إلى معلومات دفع
 - ✅ **متوافق مع OpenAI** — كل مزود يعمل كبديل `baseURL`
-- ✅ **90+ مزود** — عالمي، الهند، الصين، اليابان، كوريا، أوروبا، الشرق الأوسط، جنوب شرق آسيا
+- ✅ **70+ مزود** — عالمي، الهند، الصين، اليابان، كوريا، أوروبا، الشرق الأوسط، جنوب شرق آسيا
 - ✅ **بيانات قابلة للقراءة آلياً** — JSON منظم في `data/providers.json`
 
 ---

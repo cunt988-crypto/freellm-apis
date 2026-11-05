@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 無料 LLM API 一覧</h1>
-  <p align="center"><strong>90以上のプロバイダー · 8地域 · 永久無料枠 + トライアルクレジット</strong></p>
+  <p align="center"><strong>70以上のプロバイダー · 8地域 · 永久無料枠 + トライアルクレジット</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_サイト-freellm.site-6366f1?style=for-the-badge" alt="サイト"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/プロバイダー-90%2B-ec4899?style=for-the-badge" alt="90+プロバイダー"/>
+  <img src="https://img.shields.io/badge/プロバイダー-70%2B-ec4899?style=for-the-badge" alt="70+プロバイダー"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 - ✅ **カード不要の選択肢を優先** — どのプロバイダーが支払い情報不要かを明確に表示
 - ✅ **OpenAI 互換** — すべてのプロバイダーが `baseURL` 置換として機能
-- ✅ **90以上のプロバイダー** — グローバル、インド、中国、日本、韓国、ヨーロッパ、中東、SEA
+- ✅ **70以上のプロバイダー** — グローバル、インド、中国、日本、韓国、ヨーロッパ、中東、SEA
 - ✅ **機械可読データ** — `data/providers.json` の構造化 JSON
 
 ---

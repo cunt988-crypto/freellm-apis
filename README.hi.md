@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 मुफ़्त LLM API डायरेक्टरी</h1>
-  <p align="center"><strong>90+ प्रदाता · 8 क्षेत्र · स्थायी फ्री टियर + ट्रायल क्रेडिट</strong></p>
+  <p align="center"><strong>70+ प्रदाता · 8 क्षेत्र · स्थायी फ्री टियर + ट्रायल क्रेडिट</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_वेबसाइट-freellm.site-6366f1?style=for-the-badge" alt="वेबसाइट"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/प्रदाता-90%2B-ec4899?style=for-the-badge" alt="90+ प्रदाता"/>
+  <img src="https://img.shields.io/badge/प्रदाता-70%2B-ec4899?style=for-the-badge" alt="70+ प्रदाता"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 - ✅ **बिना कार्ड वाले विकल्प पहले** — कौन से प्रदाता को कोई भुगतान जानकारी नहीं चाहिए, यह स्पष्ट रूप से दिखाता है
 - ✅ **OpenAI-संगत** — हर प्रदाता `baseURL` प्रतिस्थापन के रूप में काम करता है
-- ✅ **90+ प्रदाता** — वैश्विक, भारत, चीन, जापान, कोरिया, यूरोप, मध्य पूर्व, SEA
+- ✅ **70+ प्रदाता** — वैश्विक, भारत, चीन, जापान, कोरिया, यूरोप, मध्य पूर्व, SEA
 - ✅ **मशीन-पठनीय डेटा** — स्क्रिप्ट और टूल के लिए `data/providers.json` में JSON
 
 ---

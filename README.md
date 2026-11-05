@@ -1,13 +1,13 @@
 <p align="center">
   <h1 align="center">🆓 Free LLM APIs</h1>
-  <p align="center"><strong>90+ free LLM API providers across 8 regions</strong> — find, compare & start calling AI models in seconds.</p>
+  <p align="center"><strong>70+ free LLM API providers across 8 regions</strong> — find, compare & start calling AI models in seconds.</p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_Live_Site-freellm.site-6366f1?style=for-the-badge" alt="Live Site"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge" alt="MIT License"/></a>
-  <img src="https://img.shields.io/badge/Providers-90%2B-ec4899?style=for-the-badge" alt="90+ Providers"/>
+  <img src="https://img.shields.io/badge/Providers-70%2B-ec4899?style=for-the-badge" alt="70+ Providers"/>
   <img src="https://img.shields.io/badge/Updated-2026--06--28-3b82f6?style=for-the-badge" alt="Last Updated"/>
 </p>
 
@@ -32,7 +32,7 @@ This repo is a **structured, machine-readable directory** of every free LLM API 
 
 - ✅ **No-card options first** — clearly shows which providers need zero payment info
 - ✅ **OpenAI-compatible** — every provider works as a drop-in `baseURL` replacement
-- ✅ **90+ providers** — global, India, China, Japan, Korea, Europe, Middle East, SEA
+- ✅ **70+ providers** — global, India, China, Japan, Korea, Europe, Middle East, SEA
 - ✅ **Machine-readable** — structured JSON in `data/providers.json` for scripts & tools
 - ✅ **Community-maintained** — PRs welcome to add or update providers
 
@@ -460,7 +460,7 @@ Please verify provider details on their official websites before submitting. See
 ## 📊 Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total_Providers-90%2B-6366f1?style=flat-square" />
+  <img src="https://img.shields.io/badge/Total_Providers-70%2B-6366f1?style=flat-square" />
   <img src="https://img.shields.io/badge/Permanent_Free-20%2B-22c55e?style=flat-square" />
   <img src="https://img.shields.io/badge/Free_Credits-30%2B-f59e0b?style=flat-square" />
   <img src="https://img.shields.io/badge/Regions-8-ec4899?style=flat-square" />

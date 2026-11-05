@@ -45,7 +45,7 @@ export function lastmodFor(pathname) {
   const post = path.match(/^\/blog\/([^/]+)\//);
   if (post) return POST_UPDATED[post[1]] ?? SITE_LAST_MODIFIED;
   if (path === '/free-image-generation-apis/') return IMAGE_LAST_VERIFIED;
-  if (path.startsWith('/compare/') || path === '/models/' || path === '/') return DATA_LAST_VERIFIED;
+  if (path.startsWith('/compare/') || path === '/models/' || path === '/' || path === '/state-of-free-llm-apis/') return DATA_LAST_VERIFIED;
   return SITE_LAST_MODIFIED;
 }
 

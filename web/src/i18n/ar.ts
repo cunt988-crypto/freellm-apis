@@ -4,6 +4,7 @@ import type { Strings } from './en';
 const ar: Strings = {
   nav: { models: 'النماذج', imageApis: 'واجهات الصور', blog: 'المدونة', about: 'حول', github: 'GitHub', language: 'اللغة' },
   footer: {
+    report: 'تقرير واجهات LLM المجانية',
     privacy: 'الخصوصية',
     terms: 'الشروط',
     about: 'حول',

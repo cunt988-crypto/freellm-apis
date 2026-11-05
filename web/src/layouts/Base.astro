@@ -146,6 +146,7 @@ const blogHref = postsFor(locale).length ? L('/blog/') : '/blog/';
           <p class="mt-1">© {new Date().getFullYear()} freellm.site</p>
         </div>
         <nav class="flex flex-wrap gap-x-5 gap-y-2" aria-label={t.footer.legalNav}>
+          <a class="text-muted-foreground hover:text-foreground" href="/state-of-free-llm-apis/">{t.footer.report}</a>
           <a class="text-muted-foreground hover:text-foreground" href="/privacy/">{t.footer.privacy}</a>
           <a class="text-muted-foreground hover:text-foreground" href="/terms/">{t.footer.terms}</a>
           <a class="text-muted-foreground hover:text-foreground" href={L('/about/')}>{t.footer.about}</a>

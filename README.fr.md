@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 APIs LLM Gratuites</h1>
-  <p align="center"><strong>90+ fournisseurs · 8 régions · Niveaux gratuits permanents + crédits d'essai</strong></p>
+  <p align="center"><strong>70+ fournisseurs · 8 régions · Niveaux gratuits permanents + crédits d'essai</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_Site_Web-freellm.site-6366f1?style=for-the-badge" alt="Site Web"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/Fournisseurs-90%2B-ec4899?style=for-the-badge" alt="90+ Fournisseurs"/>
+  <img src="https://img.shields.io/badge/Fournisseurs-70%2B-ec4899?style=for-the-badge" alt="70+ Fournisseurs"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Ce dépôt est un **répertoire structuré et lisible par machine** de chaque AP
 
 - ✅ **Options sans carte en premier** — indique clairement quels fournisseurs ne nécessitent aucune information de paiement
 - ✅ **Compatible OpenAI** — tous les fournisseurs fonctionnent comme remplacement de `baseURL`
-- ✅ **90+ fournisseurs** — mondial, Inde, Chine, Japon, Corée, Europe, Moyen-Orient, SEA
+- ✅ **70+ fournisseurs** — mondial, Inde, Chine, Japon, Corée, Europe, Moyen-Orient, SEA
 - ✅ **Données lisibles par machine** — JSON structuré dans `data/providers.json`
 
 ---

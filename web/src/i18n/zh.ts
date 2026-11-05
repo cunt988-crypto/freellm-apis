@@ -3,6 +3,7 @@ import type { Strings } from './en';
 const zh: Strings = {
   nav: { models: '模型', imageApis: '图像 API', blog: '博客', about: '关于', github: 'GitHub', language: '语言' },
   footer: {
+    report: '免费 LLM API 现状',
     privacy: '隐私政策',
     terms: '服务条款',
     about: '关于',

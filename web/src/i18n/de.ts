@@ -3,6 +3,7 @@ import type { Strings } from './en';
 const de: Strings = {
   nav: { models: 'Modelle', imageApis: 'Bild-APIs', blog: 'Blog', about: 'Über uns', github: 'GitHub', language: 'Sprache' },
   footer: {
+    report: 'Stand der kostenlosen LLM-APIs',
     privacy: 'Datenschutz',
     terms: 'AGB',
     about: 'Über uns',
