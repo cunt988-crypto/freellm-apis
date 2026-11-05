@@ -18,6 +18,8 @@
   <a href="CONTRIBUTING.md">Contribute</a>
 </p>
 
+<p align="center">📊 <a href="https://www.freellm.site/state-of-free-llm-apis/?utm_source=github&utm_medium=readme"><strong>State of Free LLM APIs report</strong></a>: which free tiers need a card, which are permanent, and who has the biggest context windows</p>
+
 <p align="center">
   <strong>English</strong> · <a href="README.zh.md">简体中文</a> · <a href="README.hi.md">हिन्दी</a> · <a href="README.es.md">Español</a> · <a href="README.ja.md">日本語</a> · <a href="README.ko.md">한국어</a> · <a href="README.pt.md">Português</a> · <a href="README.ar.md">العربية</a> · <a href="README.fr.md">Français</a> · <a href="README.de.md">Deutsch</a> · <a href="README.ru.md">Русский</a>
 </p>
@@ -113,6 +115,8 @@ export OPENAI_API_KEY="your-groq-key"  # console.groq.com/keys
 
 ## 📋 Provider Directory
 
+> 🔗 **Click a provider name** for its page on [freellm.site](https://www.freellm.site/?utm_source=github&utm_medium=readme): every free model, per-model rate limits, a copy-paste code snippet, and comparisons.
+
 ### ⚡ Permanent Free Tiers
 
 Providers with **unlimited free access** (rate-limited) — no time expiry.
@@ -120,28 +124,28 @@ Providers with **unlimited free access** (rate-limited) — no time expiry.
 <!-- BEGIN_PERMANENT -->
 | Provider | Models | Card? | Max Context | Modalities | Last Verified | Get Key |
 |---|---|---|---|---|---|---|
-| OpenRouter | 16 | 📧 Email | 1M | audio, code, image, text, video | 2026-11-05 | [Get Key →](https://openrouter.ai/workspaces/default/keys) |
-| Google Gemini | 11 | ✅ No | 1M | audio, code, image, text, video | 2026-09-29 | [Get Key →](https://aistudio.google.com/app/apikey) |
-| OpenCode Zen | 10 | 📧 Email | 1M | audio, code, image, text, video | 2026-11-05 | [Get Key →](https://opencode.ai/auth) |
-| Groq | 9 | ✅ No | 131K | audio, code, image, text | 2026-09-29 | [Get Key →](https://console.groq.com/keys) |
-| Cloudflare Workers AI | 8 | ✅ No | 1M | image, text | 2026-09-29 | [Get Key →](https://dash.cloudflare.com/profile/api-tokens) |
-| OVHcloud AI Endpoints | 8 | ✅ No | 262K | embedding, image, text | 2026-09-29 | [Get Key →](https://endpoints.ai.cloud.ovh.net) |
-| ElevenLabs | 6 | ✅ No | — | audio, text | 2026-09-29 | [Get Key →](https://elevenlabs.io/app/sign-up) |
-| OrcaRouter | 6 | 📧 Email | — | text | 2026-11-05 | [Get Key →](https://www.orcarouter.ai/models) |
-| Cohere | 5 | ✅ No | 256K | image, text | 2026-09-29 | [Get Key →](https://dashboard.cohere.com/api-keys) |
-| NVIDIA NIM | 5 | 📱 Phone | 1M | image, text | 2026-09-29 | [Get Key →](https://build.nvidia.com/settings/api-keys) |
-| SambaNova Cloud | 5 | 📧 Email | 131K | image, text, video | 2026-09-29 | [Get Key →](https://cloud.sambanova.ai/apis) |
-| Zhipu AI | 5 | ✅ No | 200K | image, text | 2026-09-29 | [Get Key →](https://bigmodel.cn) |
-| ModelScope | 5 | 📧 Email | 1M | text | 2026-09-29 | [Get Key →](https://modelscope.cn/my/myaccesstoken) |
-| Zenmux | 5 | 📧 Email | 524K | audio, image, text, video | 2026-11-05 | [Get Key →](https://zenmux.ai) |
-| Mistral AI | 4 | ✅ No | 256K | code, image, text | 2026-09-29 | [Get Key →](https://console.mistral.ai/api-keys) |
-| LLM7.io | 4 | ✅ No | 400K | code, text | 2026-09-29 | [Get Key →](https://dash.llm7.io) |
-| AI Singapore (SEA-LION) | 4 | 📧 Email | 262K | embedding, text | 2026-09-29 | [Get Key →](https://playground.sea-lion.ai) |
-| Z.ai | 3 | ✅ No | 200K | code, image, text | 2026-11-05 | [Get Key →](https://z.ai/manage-apikey/apikey-list) |
-| SiliconFlow (CN) | 1 | 📧 Email | 262K | text | 2026-09-29 | [Get Key →](https://siliconflow.cn) |
-| SenseNova | 1 | 📱 Phone | — | image, text | 2026-09-29 | [Get Key →](https://platform.sensenova.cn/login) |
-| iFlytek Spark | 1 | 📧 Email | 8K | text | 2026-09-29 | [Get Key →](https://console.xfyun.cn/services/cbm) |
-| Pollinations | 1 | ✅ No | 131K | code, text | 2026-11-05 | [Get Key →](https://enter.pollinations.ai) |
+| [OpenRouter](https://www.freellm.site/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 Email | 1M | audio, code, image, text, video | 2026-11-05 | [Get Key →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ No | 1M | audio, code, image, text, video | 2026-09-29 | [Get Key →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 Email | 1M | audio, code, image, text, video | 2026-11-05 | [Get Key →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ No | 131K | audio, code, image, text | 2026-09-29 | [Get Key →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ No | 1M | image, text | 2026-09-29 | [Get Key →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ No | 262K | embedding, image, text | 2026-09-29 | [Get Key →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ No | — | audio, text | 2026-09-29 | [Get Key →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 Email | — | text | 2026-11-05 | [Get Key →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ No | 256K | image, text | 2026-09-29 | [Get Key →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 Phone | 1M | image, text | 2026-09-29 | [Get Key →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 Email | 131K | image, text, video | 2026-09-29 | [Get Key →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ No | 200K | image, text | 2026-09-29 | [Get Key →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 Email | 1M | text | 2026-09-29 | [Get Key →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 Email | 524K | audio, image, text, video | 2026-11-05 | [Get Key →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ No | 256K | code, image, text | 2026-09-29 | [Get Key →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ No | 400K | code, text | 2026-09-29 | [Get Key →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 Email | 262K | embedding, text | 2026-09-29 | [Get Key →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ No | 200K | code, image, text | 2026-11-05 | [Get Key →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 Email | 262K | text | 2026-09-29 | [Get Key →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 Phone | — | image, text | 2026-09-29 | [Get Key →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 Email | 8K | text | 2026-09-29 | [Get Key →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ No | 131K | code, text | 2026-11-05 | [Get Key →](https://enter.pollinations.ai) |
 | AI4Bharat | 0 | ✅ No | — | text | 2026-06-28 | [Get Key →](https://ai4bharat.iitm.ac.in) |
 | BharatGen | 0 | ✅ No | — | text | 2026-06-28 | [Get Key →](https://bharatgen.com) |
 | Wrtn Technologies | 0 | ✅ No | — | text | 2026-06-28 | [Get Key →](https://wrtn.ai) |
@@ -158,47 +162,47 @@ Providers that give **trial credits** at registration — no monthly renewal nee
 <!-- BEGIN_CREDITS -->
 | Provider | Credits (USD) | Expiry | Card? | Models | Last Verified | Get Key |
 |---|---|---|---|---|---|---|
-| xAI (Grok) | $25 | monthly | 📧 Email | 5 | 2026-09-29 | [Get Key →](https://console.x.ai) |
-| Baichuan AI | $11 | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://platform.baichuan-ai.com) |
-| AI21 Labs | $10 | 3 months | ✅ No | 2 | 2026-09-29 | [Get Key →](https://www.ai21.com) |
-| Novita AI | $10 | 90 days | ✅ No | 5 | 2026-09-29 | [Get Key →](https://novita.ai) |
-| Upstage AI | $10 | never | ✅ No | 4 | 2026-09-29 | [Get Key →](https://console.upstage.ai) |
-| Cerebras | $5 | 30 days | 💳 Yes | 2 | 2026-09-29 | [Get Key →](https://cloud.cerebras.ai/) |
-| DeepSeek | $5 | on signup | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://platform.deepseek.com/api_keys) |
+| [xAI (Grok)](https://www.freellm.site/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 Email | 5 | 2026-09-29 | [Get Key →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ No | 2 | 2026-09-29 | [Get Key →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ No | 5 | 2026-09-29 | [Get Key →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ No | 4 | 2026-09-29 | [Get Key →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 Yes | 2 | 2026-09-29 | [Get Key →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://platform.deepseek.com/api_keys) |
 | Nscale | $5 | on signup | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.nscale.com/) |
-| Sarvam AI | $1.1 | never | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://dashboard.sarvam.ai) |
-| Fireworks AI | $1 | never | ✅ No | 3 | 2026-09-29 | [Get Key →](https://app.fireworks.ai/settings/users/api-keys) |
-| Nebius Token Factory | $1 | 30 days | 💳 Yes | 2 | 2026-09-29 | [Get Key →](https://tokenfactory.nebius.com) |
-| SiliconFlow | $1 | never | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://cloud.siliconflow.com) |
-| Stability AI | $0.25 | never | ✅ No | 3 | 2026-09-29 | [Get Key →](https://platform.stability.ai) |
-| Hugging Face | $0.1 | monthly | ✅ No | 6 | 2026-09-29 | [Get Key →](https://huggingface.co/settings/tokens) |
+| [Sarvam AI](https://www.freellm.site/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ No | 3 | 2026-09-29 | [Get Key →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 Yes | 2 | 2026-09-29 | [Get Key →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ No | 3 | 2026-09-29 | [Get Key →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ No | 6 | 2026-09-29 | [Get Key →](https://huggingface.co/settings/tokens) |
 | Replicate | Free tier | — | ✅ No | 0 | 2026-09-29 | [Get Key →](https://replicate.com) |
 | Fal AI | Free tier | varies (1 week to 1 year) | ✅ No | 0 | 2026-09-29 | [Get Key →](https://fal.ai) |
-| Vercel AI Gateway | Free tier | monthly | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://vercel.com/ai-gateway) |
-| Baseten | Free tier | never | ✅ No | 5 | 2026-09-29 | [Get Key →](https://app.baseten.co/signup) |
+| [Vercel AI Gateway](https://www.freellm.site/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Free tier | monthly | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/providers/baseten/?utm_source=github&utm_medium=readme) | Free tier | never | ✅ No | 5 | 2026-09-29 | [Get Key →](https://app.baseten.co/signup) |
 | Krutrim AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.olakrutrim.com) |
 | CoRover BharatGPT | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://corover.ai) |
 | Gnani.ai | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://gnani.ai) |
 | Soket AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://soket.ai) |
 | Neysa AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://neysa.ai) |
-| Alibaba DashScope | Free tier | 90 days | ✅ No | 3 | 2026-09-29 | [Get Key →](https://bailian.console.aliyun.com) |
-| Alibaba Model Studio | Free tier | 90 days | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://modelstudio.console.alibabacloud.com) |
+| [Alibaba DashScope](https://www.freellm.site/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Free tier | 90 days | ✅ No | 3 | 2026-09-29 | [Get Key →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Free tier | 90 days | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://modelstudio.console.alibabacloud.com) |
 | MiniMax | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://platform.minimax.io) |
-| Tencent Hunyuan | Free tier | 1 year | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.cloud.tencent.com/hunyuan) |
-| Baidu ERNIE | Free tier | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.bce.baidu.com/qianfan) |
-| StepFun | Free tier | never | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://platform.stepfun.com) |
+| [Tencent Hunyuan](https://www.freellm.site/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Free tier | 1 year | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Free tier | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/providers/stepfun/?utm_source=github&utm_medium=readme) | Free tier | never | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://platform.stepfun.com) |
 | Volcengine Ark | Free tier | — | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.volcengine.com/ark) |
 | Huawei Cloud Pangu | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.huaweicloud.com) |
-| Naver HyperCLOVA X | Free tier | never | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://clovastudio.ncloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Free tier | never | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://clovastudio.ncloud.com) |
 | LG EXAONE | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.lgresearch.ai) |
 | SK Telecom A.X | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.sktelecom.com) |
 | LightOn | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://lighton.ai/pricing) |
-| Scaleway AI | Free tier | never | 💳 Yes | 8 | 2026-09-29 | [Get Key →](https://console.scaleway.com/generative-api/models) |
+| [Scaleway AI](https://www.freellm.site/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Free tier | never | 💳 Yes | 8 | 2026-09-29 | [Get Key →](https://console.scaleway.com/generative-api/models) |
 | Inception AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://inceptionai.ai) |
 | GMI Cloud | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.gmicloud.ai) |
 | NCS AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.ncs.co) |
 | Sakana AI | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.sakana.ai) |
-| Preferred Networks | Free tier | 1 month | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://plamo.preferredai.jp/api) |
+| [Preferred Networks](https://www.freellm.site/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Free tier | 1 month | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://plamo.preferredai.jp/api) |
 | Fujitsu Kozuchi | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
 | NTT DATA AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nttdata.com/global/en/) |
 | NEC Generative AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nec.com) |
