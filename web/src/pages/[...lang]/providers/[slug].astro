@@ -9,6 +9,7 @@ import { postsFor, postIn, postHref, isPostIndexable } from '../../../i18n/posts
 import { isProviderIndexable } from '../../../lib/seo.mjs';
 import Badge from '../../../components/ui/Badge.astro';
 import { fmtCtx, CARD_VARIANT, COMPARE_PAIRS } from '../../../lib/format';
+import { updates } from '../../../lib/changes';
 
 export function getStaticPaths() {
   return TRANSLATED_LOCALES.flatMap(locale =>
@@ -31,6 +32,8 @@ const firstModel = providerModels[0];
 // Providers we cannot yet list a single free model for are a base URL plus boilerplate.
 // Keep them reachable and crawlable, keep them out of the index until the data exists.
 const indexable = isProviderIndexable(provider.id);
+// ponytail: change lines are English; show history on English pages only, localize when the tracker emits structured diffs.
+const history = locale === DEFAULT_LOCALE ? updates(provider.id) : [];
 
 // --- Data-driven unique overview (raises per-page content uniqueness) ---
 const regionLabel = tp.region;
@@ -285,6 +288,24 @@ if (seo.faq?.length) {
         ))}
       </ul>
     </>
+  )}
+
+  {history.length > 0 && (
+    <section id="history" class="scroll-mt-20">
+      <h2 class="section-title">{provider.name} free tier history</h2>
+      <p class="mb-3 text-sm text-muted-foreground">
+        What changed in our data for {provider.name} at each check: a change on their side or a correction on ours.
+        <a href="/state-of-free-llm-apis/#changes">All recent changes</a>
+      </p>
+      <ul class="space-y-1.5 text-sm">
+        {history.map(u => (
+          <li>
+            <time datetime={u.date} class="me-2 font-mono text-xs text-muted-foreground">{u.date}</time>
+            {[...u.providers.map(c => c.detail.slice(c.provider.length).replace(/^:?\s*/, '')), ...u.modelRolls.map(r => r.detail)].join('; ')}
+          </li>
+        ))}
+      </ul>
+    </section>
   )}
 
   {seo.faq?.length > 0 && (

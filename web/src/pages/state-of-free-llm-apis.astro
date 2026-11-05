@@ -6,7 +6,7 @@ import Base from '../layouts/Base.astro';
 import AdSlot from '../components/AdSlot.astro';
 import providers from '../../../data/providers.json';
 import allModels from '../../../data/models.json';
-import changes from '../../../data/changes.json';
+import { changes, updates } from '../lib/changes';
 import { fmtCtx } from '../lib/format';
 import { DATA_LAST_VERIFIED } from '../lib/seo.mjs';
 
@@ -92,24 +92,9 @@ const charts = [
   { id: 'modalities', title: 'Free models by modality', rows: modalities, of: M, unit: 'models', note: 'A model can count in several modalities.' },
   { id: 'top-providers', title: 'Most free models per provider', rows: topProviders, of: topProviders[0][1], unit: 'models' },
 ];
-// Changes in the data, built by scripts/track_changes.py from git history. Provider-level lines
-// in full; model churn rolled up per provider so a bulk import doesn't flood the page.
 const live = new Set(providers.map(p => p.id));
-const updates = [...new Set(changes.map(c => c.date))].slice(0, 3).map(date => {
-  const day = changes.filter(c => c.date === date);
-  const roll = new Map<string, { id: string; name: string; added: number; removed: number; limits: number }>();
-  for (const c of day.filter(c => c.kind.startsWith('model_') || c.kind === 'limit_changed')) {
-    const r = roll.get(c.provider_id) ?? { id: c.provider_id, name: c.provider, added: 0, removed: 0, limits: 0 };
-    c.kind === 'model_added' ? r.added++ : c.kind === 'model_removed' ? r.removed++ : r.limits++;
-    roll.set(c.provider_id, r);
-  }
-  const modelRolls = [...roll.values()].sort((a, b) => b.added + b.removed + b.limits - (a.added + a.removed + a.limits)).map(r => ({
-    ...r,
-    detail: [r.added && `${r.added} free model${r.added > 1 ? 's' : ''} now listed`, r.removed && `${r.removed} no longer listed`, r.limits && `${r.limits} limit change${r.limits > 1 ? 's' : ''}`].filter(Boolean).join(', '),
-  }));
-  return { date, providers: day.filter(c => ["added", "removed", "changed"].includes(c.kind)), modelRolls };
-});
-const citeHtml =`<a href="${pageUrl}">State of Free LLM APIs (${month})</a>, freellm.site`;
+const recent = updates(undefined, 3);
+const citeHtml = `<a href="${pageUrl}">State of Free LLM APIs (${month})</a>, freellm.site`;
 ---
 <Base title={title} description={description} schema={schema}>
   <nav aria-label="Breadcrumb" class="mb-6 text-sm text-muted-foreground">
@@ -204,7 +189,7 @@ const citeHtml =`<a href="${pageUrl}">State of Free LLM APIs (${month})</a>, fre
     What changed in our dataset at each update. A change can be the provider changing its free tier or us correcting an entry,
     so check the provider's page before relying on it.
   </p>
-  {updates.map(u => (
+  {recent.map(u => (
     <section class="mb-6 max-w-3xl">
       <h3 class="mb-2 font-semibold"><time datetime={u.date}>{u.date}</time></h3>
       <ul class="list-disc space-y-1 pl-5 text-sm">
