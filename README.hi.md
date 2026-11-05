@@ -127,60 +127,149 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | [SiliconFlow](https://www.freellm.site/hi/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 ईमेल | [प्राप्त करें →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/hi/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ नहीं | [प्राप्त करें →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/hi/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ नहीं | [प्राप्त करें →](https://huggingface.co/settings/tokens) |
-| Replicate | मुफ़्त टियर | — | ✅ नहीं | [प्राप्त करें →](https://replicate.com) |
-| Fal AI | मुफ़्त टियर | varies (1 week to 1 year) | ✅ नहीं | [प्राप्त करें →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/hi/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | monthly | 📧 ईमेल | [प्राप्त करें →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/hi/providers/baseten/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | ✅ नहीं | [प्राप्त करें →](https://app.baseten.co/signup) |
-| Krutrim AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://corover.ai) |
-| Gnani.ai | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://gnani.ai) |
-| Soket AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://soket.ai) |
-| Neysa AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/hi/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 90 days | ✅ नहीं | [प्राप्त करें →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/hi/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 90 days | 📧 ईमेल | [प्राप्त करें →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/hi/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 1 year | 📧 ईमेल | [प्राप्त करें →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/hi/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 3 months | 📧 ईमेल | [प्राप्त करें →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/hi/providers/stepfun/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://platform.stepfun.com) |
-| Volcengine Ark | मुफ़्त टियर | — | 📧 ईमेल | [प्राप्त करें →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/hi/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://clovastudio.ncloud.com) |
-| LG EXAONE | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.lgresearch.ai) |
-| SK Telecom A.X | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.sktelecom.com) |
-| LightOn | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/hi/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 💳 हाँ | [प्राप्त करें →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://inceptionai.ai) |
-| GMI Cloud | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://console.gmicloud.ai) |
-| NCS AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.ncs.co) |
-| Sakana AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/hi/providers/preferred_networks/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 1 month | 📧 ईमेल | [प्राप्त करें →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.nec.com) |
-| Rakuten AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ नहीं | [प्राप्त करें →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ नहीं | [प्राप्त करें →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/hi/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 ईमेल | [प्राप्त करें →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/hi/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ नहीं | [प्राप्त करें →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 ईमेल | [प्राप्त करें →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 ईमेल | [प्राप्त करें →](https://gnani.ai) |
+| Soket AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://soket.ai) |
+| Neysa AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/hi/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ नहीं | [प्राप्त करें →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/hi/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 ईमेल | [प्राप्त करें →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 ईमेल | [प्राप्त करें →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/hi/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 ईमेल | [प्राप्त करें →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/hi/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 ईमेल | [प्राप्त करें →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/hi/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 ईमेल | [प्राप्त करें →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 ईमेल | [प्राप्त करें →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/hi/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 ईमेल | [प्राप्त करें →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 ईमेल | [प्राप्त करें →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/hi/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 हाँ | [प्राप्त करें →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 ईमेल | [प्राप्त करें →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/hi/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 ईमेल | [प्राप्त करें →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 ईमेल | [प्राप्त करें →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
 
+<!-- BEGIN_REGIONAL -->
+
 ---
 
-## 🇮🇳 भारतीय AI प्रदाता
+### 🌍 क्षेत्रीय प्रदाता
 
 <details>
-<summary><strong>9 भारतीय प्रदाता देखें</strong></summary>
+<summary><strong>🇨🇳 चीन (14)</strong></summary>
 
-| प्रदाता | विशेषता | साइनअप |
-|---|---|---|
-| Sarvam AI | भारतीय भाषा मॉडल | <a href="https://sarvam.ai" target="_blank" rel="noopener">→</a> |
-| Krutrim AI | Ola का भारतीय LLM | <a href="https://www.olakrutrim.com" target="_blank" rel="noopener">→</a> |
-| AI4Bharat | IIT मद्रास — रिसर्च API | <a href="https://ai4bharat.iitm.ac.in" target="_blank" rel="noopener">→</a> |
-| BharatGen | IIT बॉम्बे — रिसर्च API | <a href="https://bharatgen.com" target="_blank" rel="noopener">→</a> |
-| Hanooman AI | बहुभाषी भारतीय LLM | <a href="https://www.hanooman.ai" target="_blank" rel="noopener">→</a> |
-| Soket AI | भारतीय LLM API | <a href="https://soket.ai" target="_blank" rel="noopener">→</a> |
-| Neysa AI | AI क्लाउड प्लेटफ़ॉर्म | <a href="https://neysa.ai" target="_blank" rel="noopener">→</a> |
-| CoRover BharatGPT | एंटरप्राइज़ AI | <a href="https://corover.ai" target="_blank" rel="noopener">→</a> |
-| Gnani.ai | स्पीच और लैंग्वेज API | <a href="https://gnani.ai" target="_blank" rel="noopener">→</a> |
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [ModelScope](https://www.freellm.site/hi/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 ईमेल | मुफ़्त टियर | [प्राप्त करें →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/hi/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/hi/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ नहीं | क्रेडिट · 90 days | [प्राप्त करें →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/hi/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · 90 days | [प्राप्त करें →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/hi/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 ईमेल | $11 · 3 months | [प्राप्त करें →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/hi/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · 3 months | [प्राप्त करें →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/hi/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · 1 year | [प्राप्त करें →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/hi/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 फ़ोन | मुफ़्त टियर | [प्राप्त करें →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/hi/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 ईमेल | मुफ़्त टियर | [प्राप्त करें →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/hi/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/hi/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 ईमेल | मुफ़्त टियर | [प्राप्त करें →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.huaweicloud.com) |
+| MiniMax | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 ईमेल | क्रेडिट | [प्राप्त करें →](https://console.volcengine.com/ark) |
 
 </details>
+
+<details>
+<summary><strong>🇮🇳 भारत (8)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/hi/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 ईमेल | $1.1 · never | [प्राप्त करें →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://corover.ai) |
+| Gnani.ai | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://gnani.ai) |
+| Krutrim AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://neysa.ai) |
+| Soket AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://soket.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇪🇺 यूरोप (7)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/hi/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/hi/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 हाँ | क्रेडिट · never | [प्राप्त करें →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/hi/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/hi/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ नहीं | $0.25 · never | [प्राप्त करें →](https://platform.stability.ai) |
+| DeepL API | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://developers.deepl.com) |
+| H Company | 📧 ईमेल | मुफ़्त टियर | [प्राप्त करें →](https://portal.hcompany.ai) |
+| LightOn | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 जापान (6)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/hi/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · 1 month | [प्राप्त करें →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.nec.com) |
+| NTT DATA AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 कोरिया (5)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/hi/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ नहीं | $10 · never | [प्राप्त करें →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/hi/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 दक्षिण-पूर्व एशिया (3)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/hi/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 ईमेल | मुफ़्त टियर | [प्राप्त करें →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://console.gmicloud.ai) |
+| NCS AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 मध्य पूर्व (2)</strong></summary>
+
+| प्रदाता | कार्ड? | मुफ़्त ऑफ़र | Key प्राप्त करें |
+|---|---|---|---|
+| Falcon (TII) | ✅ नहीं | मुफ़्त टियर | [प्राप्त करें →](https://falconllm.tii.ae) |
+| Inception AI | 📧 ईमेल | क्रेडिट · never | [प्राप्त करें →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 

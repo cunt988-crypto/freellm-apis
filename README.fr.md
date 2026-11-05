@@ -128,60 +128,149 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | [SiliconFlow](https://www.freellm.site/fr/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 Email | [Obtenir →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/fr/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ Non | [Obtenir →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/fr/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ Non | [Obtenir →](https://huggingface.co/settings/tokens) |
-| Replicate | Niveau gratuit | — | ✅ Non | [Obtenir →](https://replicate.com) |
-| Fal AI | Niveau gratuit | varies (1 week to 1 year) | ✅ Non | [Obtenir →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/fr/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Niveau gratuit | monthly | 📧 Email | [Obtenir →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/fr/providers/baseten/?utm_source=github&utm_medium=readme) | Niveau gratuit | never | ✅ Non | [Obtenir →](https://app.baseten.co/signup) |
-| Krutrim AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | Niveau gratuit | never | 📧 Email | [Obtenir →](https://corover.ai) |
-| Gnani.ai | Niveau gratuit | never | 📧 Email | [Obtenir →](https://gnani.ai) |
-| Soket AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://soket.ai) |
-| Neysa AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/fr/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Niveau gratuit | 90 days | ✅ Non | [Obtenir →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/fr/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Niveau gratuit | 90 days | 📧 Email | [Obtenir →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | Niveau gratuit | never | 📧 Email | [Obtenir →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/fr/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Niveau gratuit | 1 year | 📧 Email | [Obtenir →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/fr/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Niveau gratuit | 3 months | 📧 Email | [Obtenir →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/fr/providers/stepfun/?utm_source=github&utm_medium=readme) | Niveau gratuit | never | 📧 Email | [Obtenir →](https://platform.stepfun.com) |
-| Volcengine Ark | Niveau gratuit | — | 📧 Email | [Obtenir →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/fr/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Niveau gratuit | never | 📧 Email | [Obtenir →](https://clovastudio.ncloud.com) |
-| LG EXAONE | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.lgresearch.ai) |
-| SK Telecom A.X | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.sktelecom.com) |
-| LightOn | Niveau gratuit | never | 📧 Email | [Obtenir →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/fr/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Niveau gratuit | never | 💳 Oui | [Obtenir →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://inceptionai.ai) |
-| GMI Cloud | Niveau gratuit | never | 📧 Email | [Obtenir →](https://console.gmicloud.ai) |
-| NCS AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.ncs.co) |
-| Sakana AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/fr/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Niveau gratuit | 1 month | 📧 Email | [Obtenir →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://www.nec.com) |
-| Rakuten AI | Niveau gratuit | never | 📧 Email | [Obtenir →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ Non | [Obtenir →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ Non | [Obtenir →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/fr/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 Email | [Obtenir →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/fr/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ Non | [Obtenir →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 Email | [Obtenir →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 Email | [Obtenir →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 Email | [Obtenir →](https://gnani.ai) |
+| Soket AI | — | never | 📧 Email | [Obtenir →](https://soket.ai) |
+| Neysa AI | — | never | 📧 Email | [Obtenir →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/fr/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ Non | [Obtenir →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/fr/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 Email | [Obtenir →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 Email | [Obtenir →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/fr/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 Email | [Obtenir →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/fr/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 Email | [Obtenir →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/fr/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | [Obtenir →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 Email | [Obtenir →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 Email | [Obtenir →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/fr/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | [Obtenir →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 Email | [Obtenir →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 Email | [Obtenir →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 Email | [Obtenir →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/fr/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 Oui | [Obtenir →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 Email | [Obtenir →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 Email | [Obtenir →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 Email | [Obtenir →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 Email | [Obtenir →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/fr/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 Email | [Obtenir →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 Email | [Obtenir →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 Email | [Obtenir →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 Email | [Obtenir →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 Email | [Obtenir →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
 
+<!-- BEGIN_REGIONAL -->
+
 ---
 
-<details>
-<summary><strong>🇪🇺 Fournisseurs européens (11)</strong></summary>
+### 🌍 Fournisseurs régionaux
 
-| Fournisseur | Pays | Spécialité | S'inscrire |
+<details>
+<summary><strong>🇨🇳 Chine (14)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
 |---|---|---|---|
-| Mistral AI | France | Leader européen des LLM | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
-| Aleph Alpha | Allemagne | Modèles Luminous | <a href="https://aleph-alpha.com" target="_blank" rel="noopener">→</a> |
-| DeepL API | Allemagne | Traduction — 500K chars/mois gratuit | <a href="https://developers.deepl.com" target="_blank" rel="noopener">→</a> |
-| ElevenLabs | Pologne | Synthèse vocale | <a href="https://elevenlabs.io" target="_blank" rel="noopener">→</a> |
-| Stability AI | Royaume-Uni | Modèles image/audio/vidéo | <a href="https://stability.ai" target="_blank" rel="noopener">→</a> |
-| Scaleway AI | France | Llama & Mistral sur cloud européen | <a href="https://www.scaleway.com" target="_blank" rel="noopener">→</a> |
-| OVHcloud AI | France | Modèles open-source | <a href="https://www.ovhcloud.com" target="_blank" rel="noopener">→</a> |
-| LightOn | France | Modèles Alfred | <a href="https://lighton.ai" target="_blank" rel="noopener">→</a> |
-| Silo AI | Finlande | Modèles Poro finlandais | <a href="https://www.silo.ai" target="_blank" rel="noopener">→</a> |
-| PolyAI | Royaume-Uni | IA conversationnelle | <a href="https://poly.ai" target="_blank" rel="noopener">→</a> |
-| H Company | France | Startup française d'IA | <a href="https://hcompany.ai" target="_blank" rel="noopener">→</a> |
+| [ModelScope](https://www.freellm.site/fr/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 Email | Niveau gratuit | [Obtenir →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/fr/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ Non | Niveau gratuit | [Obtenir →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/fr/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ Non | Crédits · 90 days | [Obtenir →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/fr/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · 90 days | [Obtenir →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/fr/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 Email | $11 · 3 months | [Obtenir →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/fr/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · 3 months | [Obtenir →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/fr/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · 1 year | [Obtenir →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/fr/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 Téléphone | Niveau gratuit | [Obtenir →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/fr/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 Email | Niveau gratuit | [Obtenir →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/fr/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · never | [Obtenir →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/fr/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 Email | Niveau gratuit | [Obtenir →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 Email | Crédits · never | [Obtenir →](https://www.huaweicloud.com) |
+| MiniMax | 📧 Email | Crédits · never | [Obtenir →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 Email | Crédits | [Obtenir →](https://console.volcengine.com/ark) |
 
 </details>
+
+<details>
+<summary><strong>🇮🇳 Inde (8)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/fr/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 Email | $1.1 · never | [Obtenir →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ Non | Niveau gratuit | [Obtenir →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ Non | Niveau gratuit | [Obtenir →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 Email | Crédits · never | [Obtenir →](https://corover.ai) |
+| Gnani.ai | 📧 Email | Crédits · never | [Obtenir →](https://gnani.ai) |
+| Krutrim AI | 📧 Email | Crédits · never | [Obtenir →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 Email | Crédits · never | [Obtenir →](https://neysa.ai) |
+| Soket AI | 📧 Email | Crédits · never | [Obtenir →](https://soket.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇪🇺 Europe (7)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/fr/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ Non | Niveau gratuit | [Obtenir →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/fr/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 Oui | Crédits · never | [Obtenir →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/fr/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ Non | Niveau gratuit | [Obtenir →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/fr/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ Non | $0.25 · never | [Obtenir →](https://platform.stability.ai) |
+| DeepL API | ✅ Non | Niveau gratuit | [Obtenir →](https://developers.deepl.com) |
+| H Company | 📧 Email | Niveau gratuit | [Obtenir →](https://portal.hcompany.ai) |
+| LightOn | 📧 Email | Crédits · never | [Obtenir →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 Japon (6)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/fr/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · 1 month | [Obtenir →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 Email | Crédits · never | [Obtenir →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 Email | Crédits · never | [Obtenir →](https://www.nec.com) |
+| NTT DATA AI | 📧 Email | Crédits · never | [Obtenir →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 Email | Crédits · never | [Obtenir →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 Email | Crédits · never | [Obtenir →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 Corée (5)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/fr/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ Non | $10 · never | [Obtenir →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/fr/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 Email | Crédits · never | [Obtenir →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 Email | Crédits · never | [Obtenir →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 Email | Crédits · never | [Obtenir →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ Non | Niveau gratuit | [Obtenir →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 Asie du Sud-Est (3)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/fr/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 Email | Niveau gratuit | [Obtenir →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 Email | Crédits · never | [Obtenir →](https://console.gmicloud.ai) |
+| NCS AI | 📧 Email | Crédits · never | [Obtenir →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 Moyen-Orient (2)</strong></summary>
+
+| Fournisseur | Carte ? | Offre gratuite | Obtenir la clé |
+|---|---|---|---|
+| Falcon (TII) | ✅ Non | Niveau gratuit | [Obtenir →](https://falconllm.tii.ae) |
+| Inception AI | 📧 Email | Crédits · never | [Obtenir →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 

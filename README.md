@@ -176,37 +176,37 @@ Providers that give **trial credits** at registration — no monthly renewal nee
 | [SiliconFlow](https://www.freellm.site/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 Email | 2 | 2026-09-29 | [Get Key →](https://cloud.siliconflow.com) |
 | [Stability AI](https://www.freellm.site/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ No | 3 | 2026-09-29 | [Get Key →](https://platform.stability.ai) |
 | [Hugging Face](https://www.freellm.site/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ No | 6 | 2026-09-29 | [Get Key →](https://huggingface.co/settings/tokens) |
-| Replicate | Free tier | — | ✅ No | 0 | 2026-09-29 | [Get Key →](https://replicate.com) |
-| Fal AI | Free tier | varies (1 week to 1 year) | ✅ No | 0 | 2026-09-29 | [Get Key →](https://fal.ai) |
-| [Vercel AI Gateway](https://www.freellm.site/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Free tier | monthly | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://vercel.com/ai-gateway) |
-| [Baseten](https://www.freellm.site/providers/baseten/?utm_source=github&utm_medium=readme) | Free tier | never | ✅ No | 5 | 2026-09-29 | [Get Key →](https://app.baseten.co/signup) |
-| Krutrim AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.olakrutrim.com) |
-| CoRover BharatGPT | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://corover.ai) |
-| Gnani.ai | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://gnani.ai) |
-| Soket AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://soket.ai) |
-| Neysa AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://neysa.ai) |
-| [Alibaba DashScope](https://www.freellm.site/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Free tier | 90 days | ✅ No | 3 | 2026-09-29 | [Get Key →](https://bailian.console.aliyun.com) |
-| [Alibaba Model Studio](https://www.freellm.site/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Free tier | 90 days | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://modelstudio.console.alibabacloud.com) |
-| MiniMax | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://platform.minimax.io) |
-| [Tencent Hunyuan](https://www.freellm.site/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Free tier | 1 year | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.cloud.tencent.com/hunyuan) |
-| [Baidu ERNIE](https://www.freellm.site/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Free tier | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.bce.baidu.com/qianfan) |
-| [StepFun](https://www.freellm.site/providers/stepfun/?utm_source=github&utm_medium=readme) | Free tier | never | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://platform.stepfun.com) |
-| Volcengine Ark | Free tier | — | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.volcengine.com/ark) |
-| Huawei Cloud Pangu | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.huaweicloud.com) |
-| [Naver HyperCLOVA X](https://www.freellm.site/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Free tier | never | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://clovastudio.ncloud.com) |
-| LG EXAONE | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.lgresearch.ai) |
-| SK Telecom A.X | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.sktelecom.com) |
-| LightOn | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://lighton.ai/pricing) |
-| [Scaleway AI](https://www.freellm.site/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Free tier | never | 💳 Yes | 8 | 2026-09-29 | [Get Key →](https://console.scaleway.com/generative-api/models) |
-| Inception AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://inceptionai.ai) |
-| GMI Cloud | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.gmicloud.ai) |
-| NCS AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.ncs.co) |
-| Sakana AI | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.sakana.ai) |
-| [Preferred Networks](https://www.freellm.site/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Free tier | 1 month | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://plamo.preferredai.jp/api) |
-| Fujitsu Kozuchi | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
-| NTT DATA AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nttdata.com/global/en/) |
-| NEC Generative AI | Free tier | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nec.com) |
-| Rakuten AI | Free tier | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://global.rakuten.com/corp/) |
+| Replicate | — | — | ✅ No | 0 | 2026-09-29 | [Get Key →](https://replicate.com) |
+| Fal AI | — | varies (1 week to 1 year) | ✅ No | 0 | 2026-09-29 | [Get Key →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | — | monthly | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/providers/baseten/?utm_source=github&utm_medium=readme) | — | never | ✅ No | 5 | 2026-09-29 | [Get Key →](https://app.baseten.co/signup) |
+| Krutrim AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://corover.ai) |
+| Gnani.ai | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://gnani.ai) |
+| Soket AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://soket.ai) |
+| Neysa AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | — | 90 days | ✅ No | 3 | 2026-09-29 | [Get Key →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | — | 90 days | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | — | 1 year | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | — | 3 months | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/providers/stepfun/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://platform.stepfun.com) |
+| Volcengine Ark | — | — | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | — | never | 📧 Email | 3 | 2026-09-29 | [Get Key →](https://clovastudio.ncloud.com) |
+| LG EXAONE | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.lgresearch.ai) |
+| SK Telecom A.X | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://www.sktelecom.com) |
+| LightOn | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | — | never | 💳 Yes | 8 | 2026-09-29 | [Get Key →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://inceptionai.ai) |
+| GMI Cloud | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.gmicloud.ai) |
+| NCS AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.ncs.co) |
+| Sakana AI | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/providers/preferred_networks/?utm_source=github&utm_medium=readme) | — | 1 month | 📧 Email | 1 | 2026-09-29 | [Get Key →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | — | never | 📧 Email | 0 | 2026-06-28 | [Get Key →](https://www.nec.com) |
+| Rakuten AI | — | never | 📧 Email | 0 | 2026-09-29 | [Get Key →](https://global.rakuten.com/corp/) |
 
 <!-- END_CREDITS -->
 
@@ -318,112 +318,110 @@ Text-to-image APIs you can call for free, with the limits that actually apply. F
 
 ## 🌍 Regional Providers
 
+<!-- BEGIN_REGIONAL -->
 <details>
-<summary><strong>🇮🇳 India (9 providers)</strong></summary>
+<summary><strong>🇨🇳 China (14)</strong></summary>
 
-| Provider | Specialty | Signup |
-|---|---|---|
-| Sarvam AI | Indian language models | <a href="https://sarvam.ai" target="_blank" rel="noopener">→</a> |
-| Krutrim AI | Ola's Indian LLM | <a href="https://www.olakrutrim.com" target="_blank" rel="noopener">→</a> |
-| AI4Bharat | IIT Madras — research APIs | <a href="https://ai4bharat.iitm.ac.in" target="_blank" rel="noopener">→</a> |
-| BharatGen | IIT Bombay — research APIs | <a href="https://bharatgen.com" target="_blank" rel="noopener">→</a> |
-| Hanooman AI | Multilingual Indian LLM | <a href="https://www.hanooman.ai" target="_blank" rel="noopener">→</a> |
-| Soket AI | Indian LLM API | <a href="https://soket.ai" target="_blank" rel="noopener">→</a> |
-| Neysa AI | AI cloud platform | <a href="https://neysa.ai" target="_blank" rel="noopener">→</a> |
-| CoRover BharatGPT | Enterprise conversational AI | <a href="https://corover.ai" target="_blank" rel="noopener">→</a> |
-| Gnani.ai | Speech & language API | <a href="https://gnani.ai" target="_blank" rel="noopener">→</a> |
-
-</details>
-
-<details>
-<summary><strong>🇨🇳 China (17 providers)</strong></summary>
-
-| Provider | Base URL | Signup |
-|---|---|---|
-| DeepSeek | `https://api.deepseek.com/v1` | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">→</a> |
-| Alibaba DashScope | `https://dashscope.aliyuncs.com/compatible-mode/v1` | <a href="https://dashscope.aliyun.com" target="_blank" rel="noopener">→</a> |
-| Alibaba Model Studio | `https://dashscope-intl.aliyuncs.com/compatible-mode/v1` | <a href="https://www.alibabacloud.com/product/modelstudio" target="_blank" rel="noopener">→</a> |
-| Moonshot AI (Kimi) | `https://api.moonshot.cn/v1` | <a href="https://platform.moonshot.ai" target="_blank" rel="noopener">→</a> |
-| Zhipu AI | `https://open.bigmodel.cn/api/paas/v4` | <a href="https://open.bigmodel.cn" target="_blank" rel="noopener">→</a> |
-| MiniMax | `https://api.minimax.chat/v1` | <a href="https://www.minimax.io" target="_blank" rel="noopener">→</a> |
-| StepFun | `https://api.stepfun.com/v1` | <a href="https://platform.stepfun.com" target="_blank" rel="noopener">→</a> |
-| Baichuan AI | `https://api.baichuan-ai.com/v1` | <a href="https://platform.baichuan-ai.com" target="_blank" rel="noopener">→</a> |
-| SiliconFlow | `https://api.siliconflow.cn/v1` | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">→</a> |
-| SenseNova | `https://api.sensenova.cn/v1` | <a href="https://platform.sensenova.cn" target="_blank" rel="noopener">→</a> |
-| iFlytek Spark | `https://spark-api-open.xf-yun.com/v1` | <a href="https://xinghuo.xfyun.cn" target="_blank" rel="noopener">→</a> |
-| Volcengine Ark | `https://ark.cn-beijing.volces.com/api/v3` | <a href="https://www.volcengine.com/product/ark" target="_blank" rel="noopener">→</a> |
-| Tencent Hunyuan | `https://hunyuan.tencentcloudapi.com` | <a href="https://cloud.tencent.com/product/hunyuan" target="_blank" rel="noopener">→</a> |
-| Baidu ERNIE | `https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop` | <a href="https://cloud.baidu.com/product/wenxinworkshop" target="_blank" rel="noopener">→</a> |
-| 01.AI (Yi) | `https://api.lingyiwanwu.com/v1` | <a href="https://platform.lingyiwanwu.com" target="_blank" rel="noopener">→</a> |
-| ModelScope | `https://api-inference.modelscope.cn/v1` | <a href="https://modelscope.cn" target="_blank" rel="noopener">→</a> |
-| Huawei Cloud Pangu | — | <a href="https://www.huaweicloud.com" target="_blank" rel="noopener">→</a> |
-
-</details>
-
-<details>
-<summary><strong>🇯🇵 Japan · 🇰🇷 Korea (12 providers)</strong></summary>
-
-**Japan**
-
-| Provider | Notes | Signup |
-|---|---|---|
-| Sakana AI | Japanese AI research lab | <a href="https://sakana.ai" target="_blank" rel="noopener">→</a> |
-| Preferred Networks | PLaMo models | <a href="https://www.preferred.jp" target="_blank" rel="noopener">→</a> |
-| Fujitsu Kozuchi | Enterprise AI platform | <a href="https://www.fujitsu.com/global/services/business-services/kozuchi" target="_blank" rel="noopener">→</a> |
-| SB Intuitions | SoftBank Japanese LLMs | <a href="https://www.sbintuitions.co.jp" target="_blank" rel="noopener">→</a> |
-| Rakuten AI | RakutenAI models | <a href="https://global.rakuten.com/corp/" target="_blank" rel="noopener">→</a> |
-
-**Korea**
-
-| Provider | Notes | Signup |
-|---|---|---|
-| Naver HyperCLOVA X | Korea's leading LLM | <a href="https://clovastudio.naver.com" target="_blank" rel="noopener">→</a> |
-| Upstage AI | Solar LLM, free credits | <a href="https://www.upstage.ai" target="_blank" rel="noopener">→</a> |
-| LG EXAONE | LG AI research lab | <a href="https://www.lgresearch.ai" target="_blank" rel="noopener">→</a> |
-| Wrtn Technologies | Korean AI assistant | <a href="https://wrtn.ai" target="_blank" rel="noopener">→</a> |
-
-</details>
-
-<details>
-<summary><strong>🇪🇺 Europe (11 providers)</strong></summary>
-
-| Provider | Country | Specialty | Signup |
+| Provider | Card? | Free offer | Get Key |
 |---|---|---|---|
-| Mistral AI | France | Leading European LLM | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">→</a> |
-| Aleph Alpha | Germany | Luminous models | <a href="https://aleph-alpha.com" target="_blank" rel="noopener">→</a> |
-| DeepL API | Germany | Translation — 500K chars/month free | <a href="https://developers.deepl.com" target="_blank" rel="noopener">→</a> |
-| ElevenLabs | Poland | Voice synthesis | <a href="https://elevenlabs.io" target="_blank" rel="noopener">→</a> |
-| Stability AI | UK | Image/audio/video models | <a href="https://stability.ai" target="_blank" rel="noopener">→</a> |
-| Scaleway AI | France | Llama & Mistral on EU cloud | <a href="https://www.scaleway.com" target="_blank" rel="noopener">→</a> |
-| OVHcloud AI | France | Open-source model hosting | <a href="https://www.ovhcloud.com" target="_blank" rel="noopener">→</a> |
-| LightOn | France | Alfred models | <a href="https://lighton.ai" target="_blank" rel="noopener">→</a> |
-| Silo AI | Finland | Poro Finnish LLMs | <a href="https://www.silo.ai" target="_blank" rel="noopener">→</a> |
-| PolyAI | UK | Conversational AI | <a href="https://poly.ai" target="_blank" rel="noopener">→</a> |
-| H Company | France | French AI startup | <a href="https://hcompany.ai" target="_blank" rel="noopener">→</a> |
+| [ModelScope](https://www.freellm.site/providers/modelscope/?utm_source=github&utm_medium=readme) | 📧 Email | Free tier | [Get Key →](https://modelscope.cn/my/myaccesstoken) |
+| [Zhipu AI](https://www.freellm.site/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | ✅ No | Free tier | [Get Key →](https://bigmodel.cn) |
+| [Alibaba DashScope](https://www.freellm.site/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | ✅ No | Credits · 90 days | [Get Key →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · 90 days | [Get Key →](https://modelstudio.console.alibabacloud.com) |
+| [Baichuan AI](https://www.freellm.site/providers/baichuan/?utm_source=github&utm_medium=readme) | 📧 Email | $11 · 3 months | [Get Key →](https://platform.baichuan-ai.com) |
+| [Baidu ERNIE](https://www.freellm.site/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · 3 months | [Get Key →](https://console.bce.baidu.com/qianfan) |
+| [Tencent Hunyuan](https://www.freellm.site/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · 1 year | [Get Key →](https://console.cloud.tencent.com/hunyuan) |
+| [SenseNova](https://www.freellm.site/providers/sensenova/?utm_source=github&utm_medium=readme) | 📱 Phone | Free tier | [Get Key →](https://platform.sensenova.cn/login) |
+| [SiliconFlow (CN)](https://www.freellm.site/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 📧 Email | Free tier | [Get Key →](https://siliconflow.cn) |
+| [StepFun](https://www.freellm.site/providers/stepfun/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · never | [Get Key →](https://platform.stepfun.com) |
+| [iFlytek Spark](https://www.freellm.site/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 📧 Email | Free tier | [Get Key →](https://console.xfyun.cn/services/cbm) |
+| Huawei Cloud Pangu | 📧 Email | Credits · never | [Get Key →](https://www.huaweicloud.com) |
+| MiniMax | 📧 Email | Credits · never | [Get Key →](https://platform.minimax.io) |
+| Volcengine Ark | 📧 Email | Credits | [Get Key →](https://console.volcengine.com/ark) |
 
 </details>
 
 <details>
-<summary><strong>🇦🇪 Middle East · 🇸🇬 Southeast Asia (7 providers)</strong></summary>
+<summary><strong>🇮🇳 India (8)</strong></summary>
 
-**Middle East**
-
-| Provider | Notes | Signup |
-|---|---|---|
-| Falcon (TII) | UAE open-source models — free via HuggingFace | <a href="https://falconllm.tii.ae" target="_blank" rel="noopener">→</a> |
-| AI71 | Falcon-based API, UAE | <a href="https://ai71.ai" target="_blank" rel="noopener">→</a> |
-| Inception AI | UAE AI startup | <a href="https://inceptionai.ai" target="_blank" rel="noopener">→</a> |
-| Core42 | JAIS Arabic LLM | <a href="https://core42.ai" target="_blank" rel="noopener">→</a> |
-
-**Southeast Asia**
-
-| Provider | Notes | Signup |
-|---|---|---|
-| AI Singapore (SEA-LION) | Multilingual SEA models, open-source | <a href="https://aisingapore.org" target="_blank" rel="noopener">→</a> |
-| GMI Cloud | Singapore GPU cloud | <a href="https://www.gmicloud.ai" target="_blank" rel="noopener">→</a> |
-| NCS AI | Singapore enterprise AI | <a href="https://www.ncs.co" target="_blank" rel="noopener">→</a> |
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| [Sarvam AI](https://www.freellm.site/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | 📧 Email | $1.1 · never | [Get Key →](https://dashboard.sarvam.ai) |
+| AI4Bharat | ✅ No | Free tier | [Get Key →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | ✅ No | Free tier | [Get Key →](https://bharatgen.com) |
+| CoRover BharatGPT | 📧 Email | Credits · never | [Get Key →](https://corover.ai) |
+| Gnani.ai | 📧 Email | Credits · never | [Get Key →](https://gnani.ai) |
+| Krutrim AI | 📧 Email | Credits · never | [Get Key →](https://www.olakrutrim.com) |
+| Neysa AI | 📧 Email | Credits · never | [Get Key →](https://neysa.ai) |
+| Soket AI | 📧 Email | Credits · never | [Get Key →](https://soket.ai) |
 
 </details>
+
+<details>
+<summary><strong>🇪🇺 Europe (7)</strong></summary>
+
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| [OVHcloud AI Endpoints](https://www.freellm.site/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | ✅ No | Free tier | [Get Key →](https://endpoints.ai.cloud.ovh.net) |
+| [Scaleway AI](https://www.freellm.site/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 💳 Yes | Credits · never | [Get Key →](https://console.scaleway.com/generative-api/models) |
+| [ElevenLabs](https://www.freellm.site/providers/elevenlabs/?utm_source=github&utm_medium=readme) | ✅ No | Free tier | [Get Key →](https://elevenlabs.io/app/sign-up) |
+| [Stability AI](https://www.freellm.site/providers/stability_ai/?utm_source=github&utm_medium=readme) | ✅ No | $0.25 · never | [Get Key →](https://platform.stability.ai) |
+| DeepL API | ✅ No | Free tier | [Get Key →](https://developers.deepl.com) |
+| H Company | 📧 Email | Free tier | [Get Key →](https://portal.hcompany.ai) |
+| LightOn | 📧 Email | Credits · never | [Get Key →](https://lighton.ai/pricing) |
+
+</details>
+
+<details>
+<summary><strong>🇯🇵 Japan (6)</strong></summary>
+
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| [Preferred Networks](https://www.freellm.site/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · 1 month | [Get Key →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 📧 Email | Credits · never | [Get Key →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NEC Generative AI | 📧 Email | Credits · never | [Get Key →](https://www.nec.com) |
+| NTT DATA AI | 📧 Email | Credits · never | [Get Key →](https://www.nttdata.com/global/en/) |
+| Rakuten AI | 📧 Email | Credits · never | [Get Key →](https://global.rakuten.com/corp/) |
+| Sakana AI | 📧 Email | Credits · never | [Get Key →](https://console.sakana.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇰🇷 Korea (5)</strong></summary>
+
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| [Upstage AI](https://www.freellm.site/providers/upstage_ai/?utm_source=github&utm_medium=readme) | ✅ No | $10 · never | [Get Key →](https://console.upstage.ai) |
+| [Naver HyperCLOVA X](https://www.freellm.site/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 📧 Email | Credits · never | [Get Key →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 📧 Email | Credits · never | [Get Key →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 📧 Email | Credits · never | [Get Key →](https://www.sktelecom.com) |
+| Wrtn Technologies | ✅ No | Free tier | [Get Key →](https://wrtn.ai) |
+
+</details>
+
+<details>
+<summary><strong>🇸🇬 Southeast Asia (3)</strong></summary>
+
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| [AI Singapore (SEA-LION)](https://www.freellm.site/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 📧 Email | Free tier | [Get Key →](https://playground.sea-lion.ai) |
+| GMI Cloud | 📧 Email | Credits · never | [Get Key →](https://console.gmicloud.ai) |
+| NCS AI | 📧 Email | Credits · never | [Get Key →](https://www.ncs.co) |
+
+</details>
+
+<details>
+<summary><strong>🇦🇪 Middle East (2)</strong></summary>
+
+| Provider | Card? | Free offer | Get Key |
+|---|---|---|---|
+| Falcon (TII) | ✅ No | Free tier | [Get Key →](https://falconllm.tii.ae) |
+| Inception AI | 📧 Email | Credits · never | [Get Key →](https://inceptionai.ai) |
+
+</details>
+
+
+<!-- END_REGIONAL -->
 
 ---
 
