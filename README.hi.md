@@ -74,30 +74,92 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 **असीमित मुफ़्त एक्सेस** (रेट-लिमिटेड) — कोई समय सीमा नहीं।
 
-| प्रदाता | कार्ड? | नोट्स | अधिकतम संदर्भ | Key प्राप्त करें |
+<!-- BEGIN_PERMANENT -->
+| प्रदाता | मॉडल | कार्ड? | अधिकतम संदर्भ | Key प्राप्त करें |
 |---|---|---|---|---|
-| Groq | ✅ नहीं | 30 RPM · 14,400 RPD | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| GitHub Models | ✅ नहीं | GitHub अकाउंट ज़रूरी | 1M | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Google Gemini | ✅ नहीं | Flash पर 2M टोकन | 2M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Mistral AI | ✅ नहीं | रेट-लिमिटेड फ्री टियर | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Cerebras | ✅ नहीं | बहुत तेज़ इन्फरेंस | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Cohere | ✅ नहीं | 20 कॉल/मिनट | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Hugging Face | ✅ नहीं | मुफ़्त इन्फरेंस API | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Cloudflare Workers AI | ✅ नहीं | 10,000 neurons/दिन | 10M | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| OpenRouter | 📧 ईमेल | 100+ मुफ़्त मॉडल | 1M | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Zhipu AI | ✅ नहीं | GLM-4.7-Flash और GLM-4.5-Flash मुफ़्त | 128K | <a href="https://open.bigmodel.cn" target="_blank" rel="noopener">प्राप्त करें →</a> |
+| [OpenRouter](https://www.freellm.site/hi/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 ईमेल | 1M | [प्राप्त करें →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/hi/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ नहीं | 1M | [प्राप्त करें →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/hi/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 ईमेल | 1M | [प्राप्त करें →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/hi/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ नहीं | 131K | [प्राप्त करें →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/hi/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ नहीं | 1M | [प्राप्त करें →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/hi/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ नहीं | 262K | [प्राप्त करें →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/hi/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ नहीं | — | [प्राप्त करें →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/hi/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 ईमेल | — | [प्राप्त करें →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/hi/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ नहीं | 256K | [प्राप्त करें →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/hi/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 फ़ोन | 1M | [प्राप्त करें →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/hi/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 ईमेल | 131K | [प्राप्त करें →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/hi/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ नहीं | 200K | [प्राप्त करें →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/hi/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 ईमेल | 1M | [प्राप्त करें →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/hi/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 ईमेल | 524K | [प्राप्त करें →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/hi/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ नहीं | 256K | [प्राप्त करें →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/hi/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ नहीं | 400K | [प्राप्त करें →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/hi/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 ईमेल | 262K | [प्राप्त करें →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/hi/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ नहीं | 200K | [प्राप्त करें →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/hi/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 ईमेल | 262K | [प्राप्त करें →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/hi/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 फ़ोन | — | [प्राप्त करें →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/hi/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 ईमेल | 8K | [प्राप्त करें →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/hi/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ नहीं | 131K | [प्राप्त करें →](https://enter.pollinations.ai) |
+| AI4Bharat | 0 | ✅ नहीं | — | [प्राप्त करें →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | 0 | ✅ नहीं | — | [प्राप्त करें →](https://bharatgen.com) |
+| Wrtn Technologies | 0 | ✅ नहीं | — | [प्राप्त करें →](https://wrtn.ai) |
+| H Company | 0 | 📧 ईमेल | — | [प्राप्त करें →](https://portal.hcompany.ai) |
+| DeepL API | 0 | ✅ नहीं | — | [प्राप्त करें →](https://developers.deepl.com) |
+| Falcon (TII) | 0 | ✅ नहीं | — | [प्राप्त करें →](https://falconllm.tii.ae) |
+
+<!-- END_PERMANENT -->
 
 ### 💰 साइनअप पर मुफ़्त क्रेडिट
 
-| प्रदाता | क्रेडिट | वैधता | कार्ड | Key प्राप्त करें |
+<!-- BEGIN_CREDITS -->
+| प्रदाता | क्रेडिट | वैधता | कार्ड? | Key प्राप्त करें |
 |---|---|---|---|---|
-| xAI (Grok) | $25 | हर महीने | 📧 ईमेल | <a href="https://console.x.ai" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Modal | $30 | हर महीने | ✅ नहीं | <a href="https://modal.com" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Hyperbolic | $10 | कभी नहीं | ✅ नहीं | <a href="https://app.hyperbolic.xyz/settings" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Lambda AI | $10 | कभी नहीं | ✅ नहीं | <a href="https://lambda.ai" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| DeepSeek | $5 | साइनअप पर | 📧 ईमेल | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Together AI | $1 | कभी नहीं | ✅ नहीं | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
-| Fireworks AI | $1 | कभी नहीं | ✅ नहीं | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">प्राप्त करें →</a> |
+| [xAI (Grok)](https://www.freellm.site/hi/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 ईमेल | [प्राप्त करें →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/hi/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 ईमेल | [प्राप्त करें →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/hi/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ नहीं | [प्राप्त करें →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/hi/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ नहीं | [प्राप्त करें →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/hi/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ नहीं | [प्राप्त करें →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/hi/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 हाँ | [प्राप्त करें →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/hi/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 ईमेल | [प्राप्त करें →](https://platform.deepseek.com/api_keys) |
+| Nscale | $5 | on signup | 📧 ईमेल | [प्राप्त करें →](https://console.nscale.com/) |
+| [Sarvam AI](https://www.freellm.site/hi/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 ईमेल | [प्राप्त करें →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/hi/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ नहीं | [प्राप्त करें →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/hi/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 हाँ | [प्राप्त करें →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/hi/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 ईमेल | [प्राप्त करें →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/hi/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ नहीं | [प्राप्त करें →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/hi/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ नहीं | [प्राप्त करें →](https://huggingface.co/settings/tokens) |
+| Replicate | मुफ़्त टियर | — | ✅ नहीं | [प्राप्त करें →](https://replicate.com) |
+| Fal AI | मुफ़्त टियर | varies (1 week to 1 year) | ✅ नहीं | [प्राप्त करें →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/hi/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | monthly | 📧 ईमेल | [प्राप्त करें →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/hi/providers/baseten/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | ✅ नहीं | [प्राप्त करें →](https://app.baseten.co/signup) |
+| Krutrim AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://corover.ai) |
+| Gnani.ai | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://gnani.ai) |
+| Soket AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://soket.ai) |
+| Neysa AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/hi/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 90 days | ✅ नहीं | [प्राप्त करें →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/hi/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 90 days | 📧 ईमेल | [प्राप्त करें →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/hi/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 1 year | 📧 ईमेल | [प्राप्त करें →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/hi/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 3 months | 📧 ईमेल | [प्राप्त करें →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/hi/providers/stepfun/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://platform.stepfun.com) |
+| Volcengine Ark | मुफ़्त टियर | — | 📧 ईमेल | [प्राप्त करें →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/hi/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://clovastudio.ncloud.com) |
+| LG EXAONE | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.lgresearch.ai) |
+| SK Telecom A.X | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.sktelecom.com) |
+| LightOn | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/hi/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | never | 💳 हाँ | [प्राप्त करें →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://inceptionai.ai) |
+| GMI Cloud | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://console.gmicloud.ai) |
+| NCS AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.ncs.co) |
+| Sakana AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/hi/providers/preferred_networks/?utm_source=github&utm_medium=readme) | मुफ़्त टियर | 1 month | 📧 ईमेल | [प्राप्त करें →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://www.nec.com) |
+| Rakuten AI | मुफ़्त टियर | never | 📧 ईमेल | [प्राप्त करें →](https://global.rakuten.com/corp/) |
+
+<!-- END_CREDITS -->
 
 ---
 

@@ -55,7 +55,7 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "مرحبا!"}],
 )
 print(response.choices[0].message.content)
-# الطبقة المجانية من Groq: 30 طلب/دقيقة، 14,400 طلب/يوم
+# الطبقة المجانية من Groq: 30 طلب/دقيقة، 1,000 طلب/يوم
 ```
 
 ### curl
@@ -75,30 +75,92 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 **وصول مجاني غير محدود** (مع حد المعدل) — بدون انتهاء صلاحية.
 
-| المزود | بطاقة؟ | ملاحظات | أقصى سياق | احصل على المفتاح |
+<!-- BEGIN_PERMANENT -->
+| المزود | النماذج | بطاقة؟ | أقصى سياق | احصل على المفتاح |
 |---|---|---|---|---|
-| Groq | ✅ لا | 30 طلب/دقيقة · 14,400 طلب/يوم | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">احصل →</a> |
-| GitHub Models | ✅ لا | يتطلب حساب GitHub | 1M | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">احصل →</a> |
-| Google Gemini | ✅ لا | 2 مليون رمز في Flash | 2M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">احصل →</a> |
-| Mistral AI | ✅ لا | طبقة مجانية بحد معدل | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">احصل →</a> |
-| Cerebras | ✅ لا | استنتاج فائق السرعة | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">احصل →</a> |
-| Cohere | ✅ لا | 20 استدعاء/دقيقة | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">احصل →</a> |
-| Hugging Face | ✅ لا | واجهة برمجة استنتاج مجانية | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">احصل →</a> |
-| Cloudflare Workers AI | ✅ لا | 10,000 نيورون/يوم | 10M | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">احصل →</a> |
-| OpenRouter | 📧 بريد | 100+ نموذج مجاني | 1M | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">احصل →</a> |
-| NVIDIA NIM | 📱 هاتف | 75+ نموذجاً | 1M | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">احصل →</a> |
-| Zhipu AI | ✅ لا | GLM-4.7-Flash و GLM-4.5-Flash مجانًا | 128K | <a href="https://open.bigmodel.cn" target="_blank" rel="noopener">احصل →</a> |
+| [OpenRouter](https://www.freellm.site/ar/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 بريد | 1M | [احصل →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/ar/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ لا | 1M | [احصل →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/ar/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 بريد | 1M | [احصل →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/ar/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ لا | 131K | [احصل →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/ar/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ لا | 1M | [احصل →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/ar/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ لا | 262K | [احصل →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/ar/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ لا | — | [احصل →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/ar/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 بريد | — | [احصل →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/ar/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ لا | 256K | [احصل →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/ar/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 هاتف | 1M | [احصل →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/ar/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 بريد | 131K | [احصل →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/ar/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ لا | 200K | [احصل →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/ar/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 بريد | 1M | [احصل →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/ar/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 بريد | 524K | [احصل →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/ar/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ لا | 256K | [احصل →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/ar/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ لا | 400K | [احصل →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/ar/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 بريد | 262K | [احصل →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/ar/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ لا | 200K | [احصل →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/ar/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 بريد | 262K | [احصل →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/ar/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 هاتف | — | [احصل →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/ar/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 بريد | 8K | [احصل →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/ar/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ لا | 131K | [احصل →](https://enter.pollinations.ai) |
+| AI4Bharat | 0 | ✅ لا | — | [احصل →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | 0 | ✅ لا | — | [احصل →](https://bharatgen.com) |
+| Wrtn Technologies | 0 | ✅ لا | — | [احصل →](https://wrtn.ai) |
+| H Company | 0 | 📧 بريد | — | [احصل →](https://portal.hcompany.ai) |
+| DeepL API | 0 | ✅ لا | — | [احصل →](https://developers.deepl.com) |
+| Falcon (TII) | 0 | ✅ لا | — | [احصل →](https://falconllm.tii.ae) |
+
+<!-- END_PERMANENT -->
 
 ### 💰 أرصدة مجانية عند التسجيل
 
+<!-- BEGIN_CREDITS -->
 | المزود | الرصيد | انتهاء الصلاحية | بطاقة؟ | احصل على المفتاح |
 |---|---|---|---|---|
-| xAI (Grok) | $25 | شهرياً | 📧 بريد | <a href="https://console.x.ai" target="_blank" rel="noopener">احصل →</a> |
-| Modal | $30 | شهرياً | ✅ لا | <a href="https://modal.com" target="_blank" rel="noopener">احصل →</a> |
-| Hyperbolic | $10 | لا تنتهي | ✅ لا | <a href="https://app.hyperbolic.xyz/settings" target="_blank" rel="noopener">احصل →</a> |
-| Lambda AI | $10 | لا تنتهي | ✅ لا | <a href="https://lambda.ai" target="_blank" rel="noopener">احصل →</a> |
-| DeepSeek | $5 | عند التسجيل | 📧 بريد | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">احصل →</a> |
-| Together AI | $1 | لا تنتهي | ✅ لا | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">احصل →</a> |
+| [xAI (Grok)](https://www.freellm.site/ar/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 بريد | [احصل →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/ar/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 بريد | [احصل →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/ar/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ لا | [احصل →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/ar/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ لا | [احصل →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/ar/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ لا | [احصل →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/ar/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 نعم | [احصل →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/ar/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 بريد | [احصل →](https://platform.deepseek.com/api_keys) |
+| Nscale | $5 | on signup | 📧 بريد | [احصل →](https://console.nscale.com/) |
+| [Sarvam AI](https://www.freellm.site/ar/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 بريد | [احصل →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/ar/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ لا | [احصل →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/ar/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 نعم | [احصل →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/ar/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 بريد | [احصل →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/ar/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ لا | [احصل →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/ar/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ لا | [احصل →](https://huggingface.co/settings/tokens) |
+| Replicate | طبقة مجانية | — | ✅ لا | [احصل →](https://replicate.com) |
+| Fal AI | طبقة مجانية | varies (1 week to 1 year) | ✅ لا | [احصل →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/ar/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | طبقة مجانية | monthly | 📧 بريد | [احصل →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/ar/providers/baseten/?utm_source=github&utm_medium=readme) | طبقة مجانية | never | ✅ لا | [احصل →](https://app.baseten.co/signup) |
+| Krutrim AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | طبقة مجانية | never | 📧 بريد | [احصل →](https://corover.ai) |
+| Gnani.ai | طبقة مجانية | never | 📧 بريد | [احصل →](https://gnani.ai) |
+| Soket AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://soket.ai) |
+| Neysa AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/ar/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | طبقة مجانية | 90 days | ✅ لا | [احصل →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ar/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | طبقة مجانية | 90 days | 📧 بريد | [احصل →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | طبقة مجانية | never | 📧 بريد | [احصل →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/ar/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | طبقة مجانية | 1 year | 📧 بريد | [احصل →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/ar/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | طبقة مجانية | 3 months | 📧 بريد | [احصل →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/ar/providers/stepfun/?utm_source=github&utm_medium=readme) | طبقة مجانية | never | 📧 بريد | [احصل →](https://platform.stepfun.com) |
+| Volcengine Ark | طبقة مجانية | — | 📧 بريد | [احصل →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ar/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | طبقة مجانية | never | 📧 بريد | [احصل →](https://clovastudio.ncloud.com) |
+| LG EXAONE | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.lgresearch.ai) |
+| SK Telecom A.X | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.sktelecom.com) |
+| LightOn | طبقة مجانية | never | 📧 بريد | [احصل →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/ar/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | طبقة مجانية | never | 💳 نعم | [احصل →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://inceptionai.ai) |
+| GMI Cloud | طبقة مجانية | never | 📧 بريد | [احصل →](https://console.gmicloud.ai) |
+| NCS AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.ncs.co) |
+| Sakana AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/ar/providers/preferred_networks/?utm_source=github&utm_medium=readme) | طبقة مجانية | 1 month | 📧 بريد | [احصل →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://www.nec.com) |
+| Rakuten AI | طبقة مجانية | never | 📧 بريد | [احصل →](https://global.rakuten.com/corp/) |
+
+<!-- END_CREDITS -->
 
 ---
 

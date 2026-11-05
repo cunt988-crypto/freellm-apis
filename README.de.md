@@ -75,33 +75,92 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 **Unbegrenzter kostenloser Zugang** (mit Ratenlimit) — kein Ablaufdatum.
 
-| Anbieter | Karte? | Hinweise | Max. Kontext | Schlüssel holen |
+<!-- BEGIN_PERMANENT -->
+| Anbieter | Modelle | Karte? | Max. Kontext | Schlüssel holen |
 |---|---|---|---|---|
-| Groq | ✅ Nein | 30 RPM · 14.400 RPD | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">Holen →</a> |
-| GitHub Models | ✅ Nein | GitHub-Konto erforderlich | 1M | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">Holen →</a> |
-| Google Gemini | ✅ Nein | 2M Token auf Flash | 2M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">Holen →</a> |
-| Mistral AI | ✅ Nein | Kostenlose Stufe mit Limits | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">Holen →</a> |
-| Cerebras | ✅ Nein | Ultraschnelle Inferenz | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">Holen →</a> |
-| Cohere | ✅ Nein | 20 Aufrufe/Min | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">Holen →</a> |
-| Hugging Face | ✅ Nein | Kostenlose Inferenz-API | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">Holen →</a> |
-| Cloudflare Workers AI | ✅ Nein | 10.000 Neuronen/Tag | 10M | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">Holen →</a> |
-| OpenRouter | 📧 E-Mail | 100+ kostenlose Modelle | 1M | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">Holen →</a> |
-| Chutes AI | ✅ Nein | Community-Gratisstufe | 131K | <a href="https://chutes.ai" target="_blank" rel="noopener">Holen →</a> |
-| NVIDIA NIM | 📱 Telefon | 75+ Modelle | 1M | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">Holen →</a> |
-| Zhipu AI | ✅ Nein | GLM-4.7-Flash & GLM-4.5-Flash kostenlos | 128K | <a href="https://open.bigmodel.cn" target="_blank" rel="noopener">Holen →</a> |
+| [OpenRouter](https://www.freellm.site/de/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 E-Mail | 1M | [Holen →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/de/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ Nein | 1M | [Holen →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/de/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 E-Mail | 1M | [Holen →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/de/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ Nein | 131K | [Holen →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/de/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ Nein | 1M | [Holen →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/de/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ Nein | 262K | [Holen →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/de/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ Nein | — | [Holen →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/de/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 E-Mail | — | [Holen →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/de/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ Nein | 256K | [Holen →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/de/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 Telefon | 1M | [Holen →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/de/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 E-Mail | 131K | [Holen →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/de/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ Nein | 200K | [Holen →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/de/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 E-Mail | 1M | [Holen →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/de/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 E-Mail | 524K | [Holen →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/de/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ Nein | 256K | [Holen →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/de/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ Nein | 400K | [Holen →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/de/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 E-Mail | 262K | [Holen →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/de/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ Nein | 200K | [Holen →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/de/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 E-Mail | 262K | [Holen →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/de/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 Telefon | — | [Holen →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/de/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 E-Mail | 8K | [Holen →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/de/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ Nein | 131K | [Holen →](https://enter.pollinations.ai) |
+| AI4Bharat | 0 | ✅ Nein | — | [Holen →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | 0 | ✅ Nein | — | [Holen →](https://bharatgen.com) |
+| Wrtn Technologies | 0 | ✅ Nein | — | [Holen →](https://wrtn.ai) |
+| H Company | 0 | 📧 E-Mail | — | [Holen →](https://portal.hcompany.ai) |
+| DeepL API | 0 | ✅ Nein | — | [Holen →](https://developers.deepl.com) |
+| Falcon (TII) | 0 | ✅ Nein | — | [Holen →](https://falconllm.tii.ae) |
+
+<!-- END_PERMANENT -->
 
 ### 💰 Kostenloses Guthaben bei Registrierung
 
+<!-- BEGIN_CREDITS -->
 | Anbieter | Guthaben | Ablauf | Karte? | Schlüssel holen |
 |---|---|---|---|---|
-| xAI (Grok) | $25 | Monatlich | 📧 E-Mail | <a href="https://console.x.ai" target="_blank" rel="noopener">Holen →</a> |
-| Modal | $30 | Monatlich | ✅ Nein | <a href="https://modal.com" target="_blank" rel="noopener">Holen →</a> |
-| Hyperbolic | $10 | Nie | ✅ Nein | <a href="https://app.hyperbolic.xyz/settings" target="_blank" rel="noopener">Holen →</a> |
-| Lambda AI | $10 | Nie | ✅ Nein | <a href="https://lambda.ai" target="_blank" rel="noopener">Holen →</a> |
-| DeepSeek | $5 | Bei Registrierung | 📧 E-Mail | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">Holen →</a> |
-| Anthropic | $5 | Nie | 💳 Ja | <a href="https://console.anthropic.com" target="_blank" rel="noopener">Holen →</a> |
-| Together AI | $1 | Nie | ✅ Nein | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">Holen →</a> |
-| Fireworks AI | $1 | Nie | ✅ Nein | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">Holen →</a> |
+| [xAI (Grok)](https://www.freellm.site/de/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 E-Mail | [Holen →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/de/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 E-Mail | [Holen →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/de/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ Nein | [Holen →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/de/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ Nein | [Holen →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/de/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ Nein | [Holen →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/de/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 Ja | [Holen →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/de/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 E-Mail | [Holen →](https://platform.deepseek.com/api_keys) |
+| Nscale | $5 | on signup | 📧 E-Mail | [Holen →](https://console.nscale.com/) |
+| [Sarvam AI](https://www.freellm.site/de/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 E-Mail | [Holen →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/de/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ Nein | [Holen →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/de/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 Ja | [Holen →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/de/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 E-Mail | [Holen →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/de/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ Nein | [Holen →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/de/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ Nein | [Holen →](https://huggingface.co/settings/tokens) |
+| Replicate | Gratis-Stufe | — | ✅ Nein | [Holen →](https://replicate.com) |
+| Fal AI | Gratis-Stufe | varies (1 week to 1 year) | ✅ Nein | [Holen →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/de/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | Gratis-Stufe | monthly | 📧 E-Mail | [Holen →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/de/providers/baseten/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | ✅ Nein | [Holen →](https://app.baseten.co/signup) |
+| Krutrim AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://corover.ai) |
+| Gnani.ai | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://gnani.ai) |
+| Soket AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://soket.ai) |
+| Neysa AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/de/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 90 days | ✅ Nein | [Holen →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/de/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 90 days | 📧 E-Mail | [Holen →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/de/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 1 year | 📧 E-Mail | [Holen →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/de/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 3 months | 📧 E-Mail | [Holen →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/de/providers/stepfun/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://platform.stepfun.com) |
+| Volcengine Ark | Gratis-Stufe | — | 📧 E-Mail | [Holen →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/de/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://clovastudio.ncloud.com) |
+| LG EXAONE | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.lgresearch.ai) |
+| SK Telecom A.X | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.sktelecom.com) |
+| LightOn | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/de/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | Gratis-Stufe | never | 💳 Ja | [Holen →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://inceptionai.ai) |
+| GMI Cloud | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://console.gmicloud.ai) |
+| NCS AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.ncs.co) |
+| Sakana AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/de/providers/preferred_networks/?utm_source=github&utm_medium=readme) | Gratis-Stufe | 1 month | 📧 E-Mail | [Holen →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://www.nec.com) |
+| Rakuten AI | Gratis-Stufe | never | 📧 E-Mail | [Holen →](https://global.rakuten.com/corp/) |
+
+<!-- END_CREDITS -->
 
 ---
 

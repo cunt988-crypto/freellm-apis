@@ -21,7 +21,19 @@ def test_stats_injected():
     assert "providers" in readme
     assert "models" in readme
 
+def test_localized_tables_match_data():
+    import json, re
+    providers = json.loads((ROOT / "data" / "providers.json").read_text())
+    for loc in "es zh hi ja ko pt ar fr de ru".split():
+        readme = (ROOT / f"README.{loc}.md").read_text()
+        for marker, kind in (("PERMANENT", "permanent"), ("CREDITS", "credits")):
+            block = readme.split(f"<!-- BEGIN_{marker} -->")[1].split(f"<!-- END_{marker} -->")[0]
+            got = {re.sub(r"^\[|\]\(.*$", "", r.split(" | ")[0][2:]) for r in block.strip().split("\n")[2:]}
+            want = {p["name"] for p in providers if p["free_type"] == kind}
+            assert got == want, (loc, marker, got ^ want)
+
 if __name__ == "__main__":
     test_generates_tables()
     test_stats_injected()
+    test_localized_tables_match_data()
     print("All tests passed.")
