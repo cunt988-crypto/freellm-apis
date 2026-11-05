@@ -861,7 +861,34 @@
     "credit_amount_usd": 0.25,
     "credit_expiry": "never",
     "notes": "Image/audio/3D models; 25 free credits on signup (1 credit = $0.01)",
-    "last_verified": "2026-09-29"
+    "last_verified": "2026-09-29",
+    "seo": {
+      "title": "Stability AI Free Credits — No Credit Card Required",
+      "description": "Stability AI gives 25 free credits ($0.25) on signup, no credit card needed. Credits never expire. Use image, audio and 3D models via its API.",
+      "intro": "Stability AI offers a free way to try its image, audio and 3D generation models. Signing up at platform.stability.ai grants 25 free credits worth $0.25 (1 credit = $0.01), with no credit card required. The credits never expire, so you can test the API at api.stability.ai at your own pace. Stability AI is based in Europe. Details last verified 2026-09-29.",
+      "faq": [
+        {
+          "q": "Is Stability AI free to use?",
+          "a": "Stability AI gives you 25 free credits when you sign up, worth $0.25 in total (1 credit = $0.01). That is a free credit allowance rather than an unlimited free tier, so once the credits are used you would need to check the official docs for paid options."
+        },
+        {
+          "q": "Do I need a credit card to sign up for Stability AI?",
+          "a": "No. Stability AI does not require a credit card to create an account and claim the 25 free signup credits."
+        },
+        {
+          "q": "Do Stability AI free credits expire?",
+          "a": "No. The free signup credits never expire, so you can use them whenever you are ready to build or test."
+        },
+        {
+          "q": "What can I build with Stability AI's free credits?",
+          "a": "Stability AI provides image, audio and 3D models. You can call them through the API at https://api.stability.ai. For the current model list and per-request credit costs, check the official docs."
+        },
+        {
+          "q": "How do I get started with Stability AI?",
+          "a": "Create an account at https://platform.stability.ai to receive your 25 free credits, then generate an API key and send requests to https://api.stability.ai. For endpoint and authentication details, check the official docs."
+        }
+      ]
+    }
   },
   {
     "id": "elevenlabs",
