@@ -69,7 +69,7 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "Hello!"}],
 )
 print(response.choices[0].message.content)
-# Groq free tier: 30 RPM, 14,400 RPD
+# Groq free tier: 30 RPM, 1,000 RPD
 ```
 
 ### Node.js (OpenAI SDK)

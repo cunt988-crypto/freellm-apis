@@ -55,7 +55,7 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "안녕하세요!"}],
 )
 print(response.choices[0].message.content)
-# Groq 무료 티어: 분당 30 요청, 하루 14,400 요청
+# Groq 무료 티어: 분당 30 요청, 하루 1,000 요청
 ```
 
 ### curl
@@ -75,31 +75,92 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 **무제한 무료 액세스** (속도 제한 있음) — 만료 없음.
 
-| 제공업체 | 카드? | 비고 | 최대 컨텍스트 | 키 받기 |
+<!-- BEGIN_PERMANENT -->
+| 제공업체 | 모델 | 카드? | 최대 컨텍스트 | 키 받기 |
 |---|---|---|---|---|
-| Groq | ✅ 불필요 | 30 RPM · 14,400 RPD | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">받기 →</a> |
-| GitHub Models | ✅ 불필요 | GitHub 계정 필요 | 1M | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">받기 →</a> |
-| Google Gemini | ✅ 불필요 | Flash에서 2M 토큰 | 2M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">받기 →</a> |
-| Mistral AI | ✅ 불필요 | 속도 제한 있는 무료 티어 | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">받기 →</a> |
-| Cerebras | ✅ 불필요 | 초고속 추론 | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">받기 →</a> |
-| Cohere | ✅ 불필요 | 분당 20 호출 | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">받기 →</a> |
-| Hugging Face | ✅ 불필요 | 무료 추론 API | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">받기 →</a> |
-| Cloudflare Workers AI | ✅ 불필요 | 하루 10,000 neurons | 10M | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">받기 →</a> |
-| OpenRouter | 📧 이메일 | 100개 이상 무료 모델 | 1M | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">받기 →</a> |
-| NVIDIA NIM | 📱 전화 | 75개 이상 모델 | 1M | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">받기 →</a> |
-| Zhipu AI | ✅ 불필요 | GLM-4.7-Flash 및 GLM-4.5-Flash 무료 | 128K | <a href="https://open.bigmodel.cn" target="_blank" rel="noopener">받기 →</a> |
+| [OpenRouter](https://www.freellm.site/ko/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 이메일 | 1M | [받기 →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/ko/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ 불필요 | 1M | [받기 →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/ko/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 이메일 | 1M | [받기 →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/ko/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ 불필요 | 131K | [받기 →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/ko/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ 불필요 | 1M | [받기 →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/ko/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ 불필요 | 262K | [받기 →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/ko/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ 불필요 | — | [받기 →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/ko/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 이메일 | — | [받기 →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/ko/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ 불필요 | 256K | [받기 →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/ko/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 전화 | 1M | [받기 →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/ko/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 이메일 | 131K | [받기 →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/ko/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ 불필요 | 200K | [받기 →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/ko/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 이메일 | 1M | [받기 →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/ko/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 이메일 | 524K | [받기 →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/ko/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ 불필요 | 256K | [받기 →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/ko/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ 불필요 | 400K | [받기 →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/ko/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 이메일 | 262K | [받기 →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/ko/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ 불필요 | 200K | [받기 →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/ko/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 이메일 | 262K | [받기 →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/ko/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 전화 | — | [받기 →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/ko/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 이메일 | 8K | [받기 →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/ko/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ 불필요 | 131K | [받기 →](https://enter.pollinations.ai) |
+| AI4Bharat | 0 | ✅ 불필요 | — | [받기 →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | 0 | ✅ 불필요 | — | [받기 →](https://bharatgen.com) |
+| Wrtn Technologies | 0 | ✅ 불필요 | — | [받기 →](https://wrtn.ai) |
+| H Company | 0 | 📧 이메일 | — | [받기 →](https://portal.hcompany.ai) |
+| DeepL API | 0 | ✅ 불필요 | — | [받기 →](https://developers.deepl.com) |
+| Falcon (TII) | 0 | ✅ 불필요 | — | [받기 →](https://falconllm.tii.ae) |
+
+<!-- END_PERMANENT -->
 
 ### 💰 가입 시 무료 크레딧
 
-| 제공업체 | 크레딧 | 만료 | 카드 | 키 받기 |
+<!-- BEGIN_CREDITS -->
+| 제공업체 | 크레딧 | 만료 | 카드? | 키 받기 |
 |---|---|---|---|---|
-| xAI (Grok) | $25 | 매월 | 📧 이메일 | <a href="https://console.x.ai" target="_blank" rel="noopener">받기 →</a> |
-| Modal | $30 | 매월 | ✅ 불필요 | <a href="https://modal.com" target="_blank" rel="noopener">받기 →</a> |
-| Hyperbolic | $10 | 없음 | ✅ 불필요 | <a href="https://app.hyperbolic.xyz/settings" target="_blank" rel="noopener">받기 →</a> |
-| Lambda AI | $10 | 없음 | ✅ 불필요 | <a href="https://lambda.ai" target="_blank" rel="noopener">받기 →</a> |
-| DeepSeek | $5 | 가입 시 | 📧 이메일 | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">받기 →</a> |
-| Together AI | $1 | 없음 | ✅ 불필요 | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">받기 →</a> |
-| Fireworks AI | $1 | 없음 | ✅ 불필요 | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">받기 →</a> |
+| [xAI (Grok)](https://www.freellm.site/ko/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 이메일 | [받기 →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/ko/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 이메일 | [받기 →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/ko/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ 불필요 | [받기 →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/ko/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ 불필요 | [받기 →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/ko/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ 불필요 | [받기 →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/ko/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 필요 | [받기 →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/ko/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 이메일 | [받기 →](https://platform.deepseek.com/api_keys) |
+| Nscale | $5 | on signup | 📧 이메일 | [받기 →](https://console.nscale.com/) |
+| [Sarvam AI](https://www.freellm.site/ko/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 이메일 | [받기 →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/ko/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ 불필요 | [받기 →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/ko/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 필요 | [받기 →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/ko/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 이메일 | [받기 →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/ko/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ 불필요 | [받기 →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/ko/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ 불필요 | [받기 →](https://huggingface.co/settings/tokens) |
+| Replicate | 무료 티어 | — | ✅ 불필요 | [받기 →](https://replicate.com) |
+| Fal AI | 무료 티어 | varies (1 week to 1 year) | ✅ 불필요 | [받기 →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/ko/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | 무료 티어 | monthly | 📧 이메일 | [받기 →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/ko/providers/baseten/?utm_source=github&utm_medium=readme) | 무료 티어 | never | ✅ 불필요 | [받기 →](https://app.baseten.co/signup) |
+| Krutrim AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | 무료 티어 | never | 📧 이메일 | [받기 →](https://corover.ai) |
+| Gnani.ai | 무료 티어 | never | 📧 이메일 | [받기 →](https://gnani.ai) |
+| Soket AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://soket.ai) |
+| Neysa AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/ko/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | 무료 티어 | 90 days | ✅ 불필요 | [받기 →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/ko/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 무료 티어 | 90 days | 📧 이메일 | [받기 →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | 무료 티어 | never | 📧 이메일 | [받기 →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/ko/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 무료 티어 | 1 year | 📧 이메일 | [받기 →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/ko/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 무료 티어 | 3 months | 📧 이메일 | [받기 →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/ko/providers/stepfun/?utm_source=github&utm_medium=readme) | 무료 티어 | never | 📧 이메일 | [받기 →](https://platform.stepfun.com) |
+| Volcengine Ark | 무료 티어 | — | 📧 이메일 | [받기 →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/ko/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 무료 티어 | never | 📧 이메일 | [받기 →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.sktelecom.com) |
+| LightOn | 무료 티어 | never | 📧 이메일 | [받기 →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/ko/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 무료 티어 | never | 💳 필요 | [받기 →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://inceptionai.ai) |
+| GMI Cloud | 무료 티어 | never | 📧 이메일 | [받기 →](https://console.gmicloud.ai) |
+| NCS AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.ncs.co) |
+| Sakana AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/ko/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 무료 티어 | 1 month | 📧 이메일 | [받기 →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://www.nec.com) |
+| Rakuten AI | 무료 티어 | never | 📧 이메일 | [받기 →](https://global.rakuten.com/corp/) |
+
+<!-- END_CREDITS -->
 
 ---
 

@@ -58,7 +58,7 @@ response = client.chat.completions.create(
     messages=[{"role": "user", "content": "你好！"}],
 )
 print(response.choices[0].message.content)
-# Groq 免费限额：30 RPM，14,400 RPD
+# Groq 免费限额：30 RPM，1,000 RPD
 ```
 
 ### curl
@@ -80,35 +80,92 @@ curl https://api.groq.com/openai/v1/chat/completions \
 
 **无限次使用**（有速率限制），无时间限制。
 
-| 提供商 | 信用卡要求 | 备注 | 最大上下文 | 获取 Key |
+<!-- BEGIN_PERMANENT -->
+| 提供商 | 模型 | 信用卡要求 | 最大上下文 | 获取 Key |
 |---|---|---|---|---|
-| Groq | ✅ 无需 | 30 RPM · 14,400 RPD | 262K | <a href="https://console.groq.com/keys" target="_blank" rel="noopener">获取 →</a> |
-| GitHub Models | ✅ 无需 | 需要 GitHub 账号 | 1M | <a href="https://github.com/marketplace/models" target="_blank" rel="noopener">获取 →</a> |
-| Google Gemini | ✅ 无需 | Flash 支持 200 万 token | 2M | <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">获取 →</a> |
-| Mistral AI | ✅ 无需 | 有速率限制 | 256K | <a href="https://console.mistral.ai/api-keys" target="_blank" rel="noopener">获取 →</a> |
-| Cerebras | ✅ 无需 | 超快推理 | 131K | <a href="https://cloud.cerebras.ai/" target="_blank" rel="noopener">获取 →</a> |
-| Cohere | ✅ 无需 | 每分钟 20 次 | 256K | <a href="https://dashboard.cohere.com/api-keys" target="_blank" rel="noopener">获取 →</a> |
-| Hugging Face | ✅ 无需 | 免费推理路由 | 131K | <a href="https://huggingface.co/settings/tokens" target="_blank" rel="noopener">获取 →</a> |
-| Cloudflare Workers AI | ✅ 无需 | 每天 10,000 次 | 10M | <a href="https://dash.cloudflare.com/profile/api-tokens" target="_blank" rel="noopener">获取 →</a> |
-| OpenRouter | 📧 注册 | 100+ 永久免费模型 | 1M | <a href="https://openrouter.ai/workspaces/default/keys" target="_blank" rel="noopener">获取 →</a> |
-| Chutes AI | ✅ 无需 | 社区免费套餐 | 131K | <a href="https://chutes.ai" target="_blank" rel="noopener">获取 →</a> |
-| LLM7.io | ✅ 无需 | 基础使用无需注册 | 131K | <a href="https://token.llm7.io" target="_blank" rel="noopener">获取 →</a> |
-| NVIDIA NIM | 📱 手机验证 | 75+ 模型 | 1M | <a href="https://build.nvidia.com/settings/api-keys" target="_blank" rel="noopener">获取 →</a> |
-| SambaNova | 📧 注册 | 快速 Llama 推理 | 128K | <a href="https://cloud.sambanova.ai/apis" target="_blank" rel="noopener">获取 →</a> |
+| [OpenRouter](https://www.freellm.site/zh/providers/openrouter/?utm_source=github&utm_medium=readme) | 16 | 📧 注册 | 1M | [获取 →](https://openrouter.ai/workspaces/default/keys) |
+| [Google Gemini](https://www.freellm.site/zh/providers/google_gemini/?utm_source=github&utm_medium=readme) | 11 | ✅ 无需 | 1M | [获取 →](https://aistudio.google.com/app/apikey) |
+| [OpenCode Zen](https://www.freellm.site/zh/providers/opencode_zen/?utm_source=github&utm_medium=readme) | 10 | 📧 注册 | 1M | [获取 →](https://opencode.ai/auth) |
+| [Groq](https://www.freellm.site/zh/providers/groq/?utm_source=github&utm_medium=readme) | 9 | ✅ 无需 | 131K | [获取 →](https://console.groq.com/keys) |
+| [Cloudflare Workers AI](https://www.freellm.site/zh/providers/cloudflare/?utm_source=github&utm_medium=readme) | 8 | ✅ 无需 | 1M | [获取 →](https://dash.cloudflare.com/profile/api-tokens) |
+| [OVHcloud AI Endpoints](https://www.freellm.site/zh/providers/ovhcloud_ai/?utm_source=github&utm_medium=readme) | 8 | ✅ 无需 | 262K | [获取 →](https://endpoints.ai.cloud.ovh.net) |
+| [ElevenLabs](https://www.freellm.site/zh/providers/elevenlabs/?utm_source=github&utm_medium=readme) | 6 | ✅ 无需 | — | [获取 →](https://elevenlabs.io/app/sign-up) |
+| [OrcaRouter](https://www.freellm.site/zh/providers/orcarouter/?utm_source=github&utm_medium=readme) | 6 | 📧 注册 | — | [获取 →](https://www.orcarouter.ai/models) |
+| [Cohere](https://www.freellm.site/zh/providers/cohere/?utm_source=github&utm_medium=readme) | 5 | ✅ 无需 | 256K | [获取 →](https://dashboard.cohere.com/api-keys) |
+| [NVIDIA NIM](https://www.freellm.site/zh/providers/nvidia_nim/?utm_source=github&utm_medium=readme) | 5 | 📱 手机验证 | 1M | [获取 →](https://build.nvidia.com/settings/api-keys) |
+| [SambaNova Cloud](https://www.freellm.site/zh/providers/sambanova/?utm_source=github&utm_medium=readme) | 5 | 📧 注册 | 131K | [获取 →](https://cloud.sambanova.ai/apis) |
+| [Zhipu AI](https://www.freellm.site/zh/providers/zhipu_ai/?utm_source=github&utm_medium=readme) | 5 | ✅ 无需 | 200K | [获取 →](https://bigmodel.cn) |
+| [ModelScope](https://www.freellm.site/zh/providers/modelscope/?utm_source=github&utm_medium=readme) | 5 | 📧 注册 | 1M | [获取 →](https://modelscope.cn/my/myaccesstoken) |
+| [Zenmux](https://www.freellm.site/zh/providers/zenmux/?utm_source=github&utm_medium=readme) | 5 | 📧 注册 | 524K | [获取 →](https://zenmux.ai) |
+| [Mistral AI](https://www.freellm.site/zh/providers/mistral/?utm_source=github&utm_medium=readme) | 4 | ✅ 无需 | 256K | [获取 →](https://console.mistral.ai/api-keys) |
+| [LLM7.io](https://www.freellm.site/zh/providers/llm7/?utm_source=github&utm_medium=readme) | 4 | ✅ 无需 | 400K | [获取 →](https://dash.llm7.io) |
+| [AI Singapore (SEA-LION)](https://www.freellm.site/zh/providers/ai_singapore/?utm_source=github&utm_medium=readme) | 4 | 📧 注册 | 262K | [获取 →](https://playground.sea-lion.ai) |
+| [Z.ai](https://www.freellm.site/zh/providers/zai/?utm_source=github&utm_medium=readme) | 3 | ✅ 无需 | 200K | [获取 →](https://z.ai/manage-apikey/apikey-list) |
+| [SiliconFlow (CN)](https://www.freellm.site/zh/providers/siliconflow_cn/?utm_source=github&utm_medium=readme) | 1 | 📧 注册 | 262K | [获取 →](https://siliconflow.cn) |
+| [SenseNova](https://www.freellm.site/zh/providers/sensenova/?utm_source=github&utm_medium=readme) | 1 | 📱 手机验证 | — | [获取 →](https://platform.sensenova.cn/login) |
+| [iFlytek Spark](https://www.freellm.site/zh/providers/iflytek_spark/?utm_source=github&utm_medium=readme) | 1 | 📧 注册 | 8K | [获取 →](https://console.xfyun.cn/services/cbm) |
+| [Pollinations](https://www.freellm.site/zh/providers/pollinations/?utm_source=github&utm_medium=readme) | 1 | ✅ 无需 | 131K | [获取 →](https://enter.pollinations.ai) |
+| AI4Bharat | 0 | ✅ 无需 | — | [获取 →](https://ai4bharat.iitm.ac.in) |
+| BharatGen | 0 | ✅ 无需 | — | [获取 →](https://bharatgen.com) |
+| Wrtn Technologies | 0 | ✅ 无需 | — | [获取 →](https://wrtn.ai) |
+| H Company | 0 | 📧 注册 | — | [获取 →](https://portal.hcompany.ai) |
+| DeepL API | 0 | ✅ 无需 | — | [获取 →](https://developers.deepl.com) |
+| Falcon (TII) | 0 | ✅ 无需 | — | [获取 →](https://falconllm.tii.ae) |
+
+<!-- END_PERMANENT -->
 
 ### 💰 注册赠送积分
 
-| 提供商 | 积分 | 有效期 | 信用卡 | 获取 Key |
+<!-- BEGIN_CREDITS -->
+| 提供商 | 积分 | 有效期 | 信用卡要求 | 获取 Key |
 |---|---|---|---|---|
-| xAI (Grok) | $25 | 每月 | 📧 注册 | <a href="https://console.x.ai" target="_blank" rel="noopener">获取 →</a> |
-| Modal | $30 | 每月 | ✅ 无需 | <a href="https://modal.com" target="_blank" rel="noopener">获取 →</a> |
-| Hyperbolic | $10 | 永久 | ✅ 无需 | <a href="https://app.hyperbolic.xyz/settings" target="_blank" rel="noopener">获取 →</a> |
-| Lambda AI | $10 | 永久 | ✅ 无需 | <a href="https://lambda.ai" target="_blank" rel="noopener">获取 →</a> |
-| DeepSeek | $5 | 注册时赠送 | 📧 注册 | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">获取 →</a> |
-| Anthropic | $5 | 永久 | 💳 需要 | <a href="https://console.anthropic.com" target="_blank" rel="noopener">获取 →</a> |
-| SiliconFlow | $2 | 永久 | 📧 注册 | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">获取 →</a> |
-| Together AI | $1 | 永久 | ✅ 无需 | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">获取 →</a> |
-| Fireworks AI | $1 | 永久 | ✅ 无需 | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">获取 →</a> |
+| [xAI (Grok)](https://www.freellm.site/zh/providers/xai/?utm_source=github&utm_medium=readme) | $25 | monthly | 📧 注册 | [获取 →](https://console.x.ai) |
+| [Baichuan AI](https://www.freellm.site/zh/providers/baichuan/?utm_source=github&utm_medium=readme) | $11 | 3 months | 📧 注册 | [获取 →](https://platform.baichuan-ai.com) |
+| [AI21 Labs](https://www.freellm.site/zh/providers/ai21/?utm_source=github&utm_medium=readme) | $10 | 3 months | ✅ 无需 | [获取 →](https://www.ai21.com) |
+| [Novita AI](https://www.freellm.site/zh/providers/novita_ai/?utm_source=github&utm_medium=readme) | $10 | 90 days | ✅ 无需 | [获取 →](https://novita.ai) |
+| [Upstage AI](https://www.freellm.site/zh/providers/upstage_ai/?utm_source=github&utm_medium=readme) | $10 | never | ✅ 无需 | [获取 →](https://console.upstage.ai) |
+| [Cerebras](https://www.freellm.site/zh/providers/cerebras/?utm_source=github&utm_medium=readme) | $5 | 30 days | 💳 需要 | [获取 →](https://cloud.cerebras.ai/) |
+| [DeepSeek](https://www.freellm.site/zh/providers/deepseek/?utm_source=github&utm_medium=readme) | $5 | on signup | 📧 注册 | [获取 →](https://platform.deepseek.com/api_keys) |
+| Nscale | $5 | on signup | 📧 注册 | [获取 →](https://console.nscale.com/) |
+| [Sarvam AI](https://www.freellm.site/zh/providers/sarvam_ai/?utm_source=github&utm_medium=readme) | $1.1 | never | 📧 注册 | [获取 →](https://dashboard.sarvam.ai) |
+| [Fireworks AI](https://www.freellm.site/zh/providers/fireworks/?utm_source=github&utm_medium=readme) | $1 | never | ✅ 无需 | [获取 →](https://app.fireworks.ai/settings/users/api-keys) |
+| [Nebius Token Factory](https://www.freellm.site/zh/providers/nebius/?utm_source=github&utm_medium=readme) | $1 | 30 days | 💳 需要 | [获取 →](https://tokenfactory.nebius.com) |
+| [SiliconFlow](https://www.freellm.site/zh/providers/siliconflow/?utm_source=github&utm_medium=readme) | $1 | never | 📧 注册 | [获取 →](https://cloud.siliconflow.com) |
+| [Stability AI](https://www.freellm.site/zh/providers/stability_ai/?utm_source=github&utm_medium=readme) | $0.25 | never | ✅ 无需 | [获取 →](https://platform.stability.ai) |
+| [Hugging Face](https://www.freellm.site/zh/providers/huggingface/?utm_source=github&utm_medium=readme) | $0.1 | monthly | ✅ 无需 | [获取 →](https://huggingface.co/settings/tokens) |
+| Replicate | 免费套餐 | — | ✅ 无需 | [获取 →](https://replicate.com) |
+| Fal AI | 免费套餐 | varies (1 week to 1 year) | ✅ 无需 | [获取 →](https://fal.ai) |
+| [Vercel AI Gateway](https://www.freellm.site/zh/providers/vercel_ai_gateway/?utm_source=github&utm_medium=readme) | 免费套餐 | monthly | 📧 注册 | [获取 →](https://vercel.com/ai-gateway) |
+| [Baseten](https://www.freellm.site/zh/providers/baseten/?utm_source=github&utm_medium=readme) | 免费套餐 | never | ✅ 无需 | [获取 →](https://app.baseten.co/signup) |
+| Krutrim AI | 免费套餐 | never | 📧 注册 | [获取 →](https://www.olakrutrim.com) |
+| CoRover BharatGPT | 免费套餐 | never | 📧 注册 | [获取 →](https://corover.ai) |
+| Gnani.ai | 免费套餐 | never | 📧 注册 | [获取 →](https://gnani.ai) |
+| Soket AI | 免费套餐 | never | 📧 注册 | [获取 →](https://soket.ai) |
+| Neysa AI | 免费套餐 | never | 📧 注册 | [获取 →](https://neysa.ai) |
+| [Alibaba DashScope](https://www.freellm.site/zh/providers/alibaba_dashscope/?utm_source=github&utm_medium=readme) | 免费套餐 | 90 days | ✅ 无需 | [获取 →](https://bailian.console.aliyun.com) |
+| [Alibaba Model Studio](https://www.freellm.site/zh/providers/alibaba_model_studio/?utm_source=github&utm_medium=readme) | 免费套餐 | 90 days | 📧 注册 | [获取 →](https://modelstudio.console.alibabacloud.com) |
+| MiniMax | 免费套餐 | never | 📧 注册 | [获取 →](https://platform.minimax.io) |
+| [Tencent Hunyuan](https://www.freellm.site/zh/providers/tencent_hunyuan/?utm_source=github&utm_medium=readme) | 免费套餐 | 1 year | 📧 注册 | [获取 →](https://console.cloud.tencent.com/hunyuan) |
+| [Baidu ERNIE](https://www.freellm.site/zh/providers/baidu_ernie/?utm_source=github&utm_medium=readme) | 免费套餐 | 3 months | 📧 注册 | [获取 →](https://console.bce.baidu.com/qianfan) |
+| [StepFun](https://www.freellm.site/zh/providers/stepfun/?utm_source=github&utm_medium=readme) | 免费套餐 | never | 📧 注册 | [获取 →](https://platform.stepfun.com) |
+| Volcengine Ark | 免费套餐 | — | 📧 注册 | [获取 →](https://console.volcengine.com/ark) |
+| Huawei Cloud Pangu | 免费套餐 | never | 📧 注册 | [获取 →](https://www.huaweicloud.com) |
+| [Naver HyperCLOVA X](https://www.freellm.site/zh/providers/naver_hyperclova/?utm_source=github&utm_medium=readme) | 免费套餐 | never | 📧 注册 | [获取 →](https://clovastudio.ncloud.com) |
+| LG EXAONE | 免费套餐 | never | 📧 注册 | [获取 →](https://www.lgresearch.ai) |
+| SK Telecom A.X | 免费套餐 | never | 📧 注册 | [获取 →](https://www.sktelecom.com) |
+| LightOn | 免费套餐 | never | 📧 注册 | [获取 →](https://lighton.ai/pricing) |
+| [Scaleway AI](https://www.freellm.site/zh/providers/scaleway_ai/?utm_source=github&utm_medium=readme) | 免费套餐 | never | 💳 需要 | [获取 →](https://console.scaleway.com/generative-api/models) |
+| Inception AI | 免费套餐 | never | 📧 注册 | [获取 →](https://inceptionai.ai) |
+| GMI Cloud | 免费套餐 | never | 📧 注册 | [获取 →](https://console.gmicloud.ai) |
+| NCS AI | 免费套餐 | never | 📧 注册 | [获取 →](https://www.ncs.co) |
+| Sakana AI | 免费套餐 | never | 📧 注册 | [获取 →](https://console.sakana.ai) |
+| [Preferred Networks](https://www.freellm.site/zh/providers/preferred_networks/?utm_source=github&utm_medium=readme) | 免费套餐 | 1 month | 📧 注册 | [获取 →](https://plamo.preferredai.jp/api) |
+| Fujitsu Kozuchi | 免费套餐 | never | 📧 注册 | [获取 →](https://www.fujitsu.com/global/services/business-services/kozuchi) |
+| NTT DATA AI | 免费套餐 | never | 📧 注册 | [获取 →](https://www.nttdata.com/global/en/) |
+| NEC Generative AI | 免费套餐 | never | 📧 注册 | [获取 →](https://www.nec.com) |
+| Rakuten AI | 免费套餐 | never | 📧 注册 | [获取 →](https://global.rakuten.com/corp/) |
+
+<!-- END_CREDITS -->
 
 ---
 
