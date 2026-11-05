@@ -25,6 +25,7 @@ for (const loc of ['', '/de', '/hi']) {
 // lastmod tracks the data, not the build, and survives the locale prefix.
 assert.equal(lastmodFor('/providers/groq/'), lastmodFor('/ar/providers/groq/'));
 assert.equal(lastmodFor('/models/'), DATA_LAST_VERIFIED);
+assert.equal(lastmodFor('/state-of-free-llm-apis/'), DATA_LAST_VERIFIED);
 assert.match(lastmodFor('/blog/free-llm-api-rate-limits-compared/'), /^\d{4}-\d{2}-\d{2}$/);
 // A two-letter path segment that is not a locale must not be eaten as one.
 assert.equal(lastmodFor('/providers/xa/'), lastmodFor('/providers/unknown-provider/'));

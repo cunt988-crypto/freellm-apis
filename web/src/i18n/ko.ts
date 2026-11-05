@@ -3,6 +3,7 @@ import type { Strings } from './en';
 const ko: Strings = {
   nav: { models: '모델', imageApis: '이미지 API', blog: '블로그', about: '소개', github: 'GitHub', language: '언어' },
   footer: {
+    report: '무료 LLM API 현황',
     privacy: '개인정보처리방침',
     terms: '이용약관',
     about: '소개',

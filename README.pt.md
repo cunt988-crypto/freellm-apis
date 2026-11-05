@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 APIs LLM Gratuitas</h1>
-  <p align="center"><strong>90+ provedores · 8 regiões · Níveis gratuitos permanentes + créditos de avaliação</strong></p>
+  <p align="center"><strong>70+ provedores · 8 regiões · Níveis gratuitos permanentes + créditos de avaliação</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_Site-freellm.site-6366f1?style=for-the-badge" alt="Site"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/Provedores-90%2B-ec4899?style=for-the-badge" alt="90+ Provedores"/>
+  <img src="https://img.shields.io/badge/Provedores-70%2B-ec4899?style=for-the-badge" alt="70+ Provedores"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Este repositório é um **diretório estruturado e legível por máquinas** de c
 
 - ✅ **Opções sem cartão primeiro** — mostra claramente quais provedores não exigem dados de pagamento
 - ✅ **Compatível com OpenAI** — todos os provedores funcionam como substituto de `baseURL`
-- ✅ **90+ provedores** — global, Índia, China, Japão, Coreia, Europa, Oriente Médio, SEA
+- ✅ **70+ provedores** — global, Índia, China, Japão, Coreia, Europa, Oriente Médio, SEA
 - ✅ **Dados legíveis por máquinas** — JSON estruturado em `data/providers.json`
 
 ---

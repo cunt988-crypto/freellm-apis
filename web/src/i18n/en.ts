@@ -10,6 +10,7 @@ const en = {
     language: 'Language',
   },
   footer: {
+    report: 'State of Free LLM APIs',
     privacy: 'Privacy',
     terms: 'Terms',
     about: 'About',

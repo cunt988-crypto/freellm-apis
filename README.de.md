@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 Kostenlose LLM APIs</h1>
-  <p align="center"><strong>90+ Anbieter · 8 Regionen · Dauerhaft kostenlose Stufen + Testguthaben</strong></p>
+  <p align="center"><strong>70+ Anbieter · 8 Regionen · Dauerhaft kostenlose Stufen + Testguthaben</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_Website-freellm.site-6366f1?style=for-the-badge" alt="Website"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/Anbieter-90%2B-ec4899?style=for-the-badge" alt="90+ Anbieter"/>
+  <img src="https://img.shields.io/badge/Anbieter-70%2B-ec4899?style=for-the-badge" alt="70+ Anbieter"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@ Dieses Repository ist ein **strukturiertes, maschinenlesbares Verzeichnis** jede
 
 - ✅ **Optionen ohne Karte zuerst** — zeigt klar, welche Anbieter keine Zahlungsinformationen benötigen
 - ✅ **OpenAI-kompatibel** — alle Anbieter funktionieren als `baseURL`-Ersatz
-- ✅ **90+ Anbieter** — global, Indien, China, Japan, Korea, Europa, Naher Osten, SEA
+- ✅ **70+ Anbieter** — global, Indien, China, Japan, Korea, Europa, Naher Osten, SEA
 - ✅ **Maschinenlesbare Daten** — strukturiertes JSON in `data/providers.json`
 
 ---

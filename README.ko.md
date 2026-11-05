@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 무료 LLM API 디렉토리</h1>
-  <p align="center"><strong>90개 이상의 제공업체 · 8개 지역 · 영구 무료 티어 + 체험 크레딧</strong></p>
+  <p align="center"><strong>70개 이상의 제공업체 · 8개 지역 · 영구 무료 티어 + 체험 크레딧</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_웹사이트-freellm.site-6366f1?style=for-the-badge" alt="웹사이트"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/제공업체-90%2B-ec4899?style=for-the-badge" alt="90+ 제공업체"/>
+  <img src="https://img.shields.io/badge/제공업체-70%2B-ec4899?style=for-the-badge" alt="70+ 제공업체"/>
 </p>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 - ✅ **카드 불필요 옵션 우선** — 어떤 제공업체가 결제 정보 없이 이용 가능한지 명확하게 표시
 - ✅ **OpenAI 호환** — 모든 제공업체가 `baseURL` 교체로 작동
-- ✅ **90개 이상의 제공업체** — 글로벌, 인도, 중국, 일본, 한국, 유럽, 중동, 동남아시아
+- ✅ **70개 이상의 제공업체** — 글로벌, 인도, 중국, 일본, 한국, 유럽, 중동, 동남아시아
 - ✅ **기계 판독 가능 데이터** — `data/providers.json`의 구조화된 JSON
 
 ---

@@ -1,12 +1,12 @@
 <p align="center">
   <h1 align="center">🆓 免费 LLM API 大全</h1>
-  <p align="center"><strong>90+ 家提供商 · 8 个地区 · 永久免费套餐 + 试用积分</strong></p>
+  <p align="center"><strong>70+ 家提供商 · 8 个地区 · 永久免费套餐 + 试用积分</strong></p>
 </p>
 
 <p align="center">
   <a href="https://www.freellm.site" target="_blank" rel="noopener"><img src="https://img.shields.io/badge/🌐_官网-freellm.site-6366f1?style=for-the-badge" alt="官网"/></a>
   <a href="https://github.com/khushaljethava/freellm-apis" target="_blank" rel="noopener"><img src="https://img.shields.io/github/stars/khushaljethava/freellm-apis?style=for-the-badge&color=f59e0b" alt="Stars"/></a>
-  <img src="https://img.shields.io/badge/提供商-90%2B-ec4899?style=for-the-badge" alt="90+ 提供商"/>
+  <img src="https://img.shields.io/badge/提供商-70%2B-ec4899?style=for-the-badge" alt="70+ 提供商"/>
   <img src="https://img.shields.io/badge/更新于-2026--06--28-3b82f6?style=for-the-badge" alt="更新日期"/>
 </p>
 
@@ -24,7 +24,7 @@
 
 - ✅ **无需信用卡的选项优先** — 清晰标注哪些提供商零付款要求
 - ✅ **兼容 OpenAI** — 每个提供商均可作为 `baseURL` 直接替换
-- ✅ **90+ 家提供商** — 覆盖全球、印度、中国、日本、韩国、欧洲、中东、东南亚
+- ✅ **70+ 家提供商** — 覆盖全球、印度、中国、日本、韩国、欧洲、中东、东南亚
 - ✅ **机器可读数据** — 结构化 JSON，方便脚本和工具使用
 
 ---
