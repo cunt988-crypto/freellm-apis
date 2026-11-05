@@ -102,7 +102,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Anthropic | $5 | Никогда | 💳 Да | <a href="https://console.anthropic.com" target="_blank" rel="noopener">Получить →</a> |
 | SiliconFlow | $2 | Никогда | 📧 Email | <a href="https://cloud.siliconflow.cn/account/ak" target="_blank" rel="noopener">Получить →</a> |
 | Together AI | $1 | Никогда | ✅ Нет | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">Получить →</a> |
-| Fireworks AI | $1 | Никогда | ✅ Нет | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">Получить →</a> |
+| Fireworks AI | $1 | Никогда | ✅ Нет | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">Получить →</a> |
 
 ---
 

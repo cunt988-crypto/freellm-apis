@@ -14,7 +14,15 @@ export const COMPARE_PAIRS: [string, string][] = [
   ['openrouter', 'groq'], ['cohere', 'mistral'],
 ];
 
-/** Titles over ~60 chars get truncated in results; the brand suffix is the first thing to go. */
+/**
+ * Keep titles <= 70 chars (audit "too long" threshold). Always keep *some* brand suffix so
+ * <title> never equals the h1 (audits flag that): full suffix, then short, then none.
+ */
 export const SUFFIX = ' | freellm.site';
-export const seoTitle = (title: string) =>
-  title.length > 60 && title.endsWith(SUFFIX) ? title.slice(0, -SUFFIX.length) : title;
+const SHORT_SUFFIX = ' | FreeLLM';
+const MAX_TITLE = 70;
+export const seoTitle = (title: string) => {
+  if (title.length <= MAX_TITLE || !title.endsWith(SUFFIX)) return title;
+  const base = title.slice(0, -SUFFIX.length);
+  return base.length + SHORT_SUFFIX.length <= MAX_TITLE ? base + SHORT_SUFFIX : base;
+};

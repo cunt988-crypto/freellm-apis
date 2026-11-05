@@ -187,7 +187,7 @@
     "rpm": 20,
     "rpd": 50,
     "tpm": null,
-    "deprecated": false
+    "deprecated": true
   },
   {
     "provider_id": "openrouter",
@@ -197,7 +197,7 @@
     "rpm": 20,
     "rpd": 50,
     "tpm": null,
-    "deprecated": false
+    "deprecated": true
   },
   {
     "provider_id": "openrouter",
@@ -217,7 +217,7 @@
     "rpm": 20,
     "rpd": 50,
     "tpm": null,
-    "deprecated": false
+    "deprecated": true
   },
   {
     "provider_id": "openrouter",
@@ -227,7 +227,7 @@
     "rpm": 20,
     "rpd": 50,
     "tpm": null,
-    "deprecated": false
+    "deprecated": true
   },
   {
     "provider_id": "openrouter",
@@ -1486,6 +1486,526 @@
     "modalities": ["text"],
     "rpm": 100,
     "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zai",
+    "model_id": "glm-4.7-flash",
+    "context_window": 200000,
+    "modalities": ["text", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zai",
+    "model_id": "glm-4.5-flash",
+    "context_window": 128000,
+    "modalities": ["text", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zai",
+    "model_id": "glm-4.6v-flash",
+    "context_window": 128000,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zhipu_ai",
+    "model_id": "glm-4.6v-flash",
+    "context_window": 128000,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "pollinations",
+    "model_id": "openai-fast",
+    "context_window": 131072,
+    "modalities": ["text", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zenmux",
+    "model_id": "z-ai/glm-4.7-flash-free",
+    "context_window": 200000,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zenmux",
+    "model_id": "z-ai/glm-4.6v-flash-free",
+    "context_window": 200000,
+    "modalities": ["text", "image", "video"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zenmux",
+    "model_id": "sapiens-ai/agnes-2.5-flash",
+    "context_window": 524288,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zenmux",
+    "model_id": "dots-studio/dots3-note-prev",
+    "context_window": 393100,
+    "modalities": ["text", "image", "video", "audio"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "zenmux",
+    "model_id": "atria-asi/atria-dawn",
+    "context_window": 524288,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "orcarouter/free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "deepseek/deepseek-v4-flash-free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "deepseek/deepseek-v4.1-flash-free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "z-ai/glm-5.3-flash-free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "tencent/hy3-free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "orcarouter",
+    "model_id": "tencent/hy4-preview-free",
+    "context_window": null,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "big-pickle",
+    "context_window": 200000,
+    "modalities": ["text", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "deepseek-v4.1-flash-free",
+    "context_window": 200000,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "glm-5.3-flash-free",
+    "context_window": 200000,
+    "modalities": ["text", "image", "video"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "nemotron-3.5-super-vl-free",
+    "context_window": 1048576,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "nemotron-3.5-lightning-free",
+    "context_window": 262144,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "mimo-v2.6-flash-free",
+    "context_window": 200000,
+    "modalities": ["text", "image", "audio", "video"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "flint-40b-free",
+    "context_window": 262144,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "beam-free",
+    "context_window": 1048576,
+    "modalities": ["text"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "pulse-alpha-free",
+    "context_window": 1048576,
+    "modalities": ["text", "image"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "opencode_zen",
+    "model_id": "crouton-alpha-free",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "video"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "qwen/qwen3.6-27b",
+    "context_window": 131072,
+    "modalities": ["text", "code"],
+    "rpm": 30,
+    "rpd": 1000,
+    "tpm": 8000,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "openai/gpt-oss-safeguard-20b",
+    "context_window": 131072,
+    "modalities": ["text"],
+    "rpm": 30,
+    "rpd": 1000,
+    "tpm": 8000,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "groq/compound",
+    "context_window": 131072,
+    "modalities": ["text"],
+    "rpm": 30,
+    "rpd": 250,
+    "tpm": 70000,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "groq/compound-mini",
+    "context_window": 131072,
+    "modalities": ["text"],
+    "rpm": 30,
+    "rpd": 250,
+    "tpm": 70000,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "whisper-large-v3",
+    "context_window": null,
+    "modalities": ["audio"],
+    "rpm": 20,
+    "rpd": 2000,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "groq",
+    "model_id": "whisper-large-v3-turbo",
+    "context_window": null,
+    "modalities": ["audio"],
+    "rpm": 20,
+    "rpd": 2000,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-3.6-flash",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-3.5-flash",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-3.1-flash-lite",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-3-flash-preview",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-2.5-flash",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemini-2.5-flash-lite",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio", "video", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemma-4-31b-it",
+    "context_window": 262144,
+    "modalities": ["text", "image", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "google_gemini",
+    "model_id": "gemma-4-26b-a4b-it",
+    "context_window": 262144,
+    "modalities": ["text", "image", "code"],
+    "rpm": null,
+    "rpd": null,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "nvidia/nemotron-3.5-lightning:free",
+    "context_window": 1000000,
+    "modalities": ["text"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "nvidia/nemotron-3.5-super-vl:free",
+    "context_window": 1000000,
+    "modalities": ["text", "image", "video"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+    "context_window": 256000,
+    "modalities": ["text", "image", "audio", "video"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "nvidia/nemotron-3.5-content-safety:free",
+    "context_window": 128000,
+    "modalities": ["text", "image"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "google/gemma-4-26b-a4b-it:free",
+    "context_window": 262144,
+    "modalities": ["text", "image", "video"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "google/lyria-3-pro-preview",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "google/lyria-3-clip-preview",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "audio"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "openrouter/free",
+    "context_window": 200000,
+    "modalities": ["text", "image"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "liquid/lfm-2.5-2.6b:free",
+    "context_window": 65536,
+    "modalities": ["text"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "recursive/flint-v1.0:free",
+    "context_window": 262144,
+    "modalities": ["text"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+    "context_window": 262144,
+    "modalities": ["text"],
+    "rpm": 20,
+    "rpd": 50,
+    "tpm": null,
+    "deprecated": false
+  },
+  {
+    "provider_id": "openrouter",
+    "model_id": "stealth/crouton-alpha",
+    "context_window": 1048576,
+    "modalities": ["text", "image", "video", "audio"],
+    "rpm": 20,
+    "rpd": 50,
     "tpm": null,
     "deprecated": false
   }

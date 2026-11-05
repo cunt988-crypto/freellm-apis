@@ -99,7 +99,7 @@ curl https://api.groq.com/openai/v1/chat/completions \
 | Lambda AI | $10 | 없음 | ✅ 불필요 | <a href="https://lambda.ai" target="_blank" rel="noopener">받기 →</a> |
 | DeepSeek | $5 | 가입 시 | 📧 이메일 | <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">받기 →</a> |
 | Together AI | $1 | 없음 | ✅ 불필요 | <a href="https://api.together.ai/settings/api-keys" target="_blank" rel="noopener">받기 →</a> |
-| Fireworks AI | $1 | 없음 | ✅ 불필요 | <a href="https://fireworks.ai/account/api-keys" target="_blank" rel="noopener">받기 →</a> |
+| Fireworks AI | $1 | 없음 | ✅ 불필요 | <a href="https://app.fireworks.ai/settings/users/api-keys" target="_blank" rel="noopener">받기 →</a> |
 
 ---
 

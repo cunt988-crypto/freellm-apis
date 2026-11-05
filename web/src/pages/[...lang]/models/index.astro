@@ -49,10 +49,8 @@ const schema = {
         '@type': 'ListItem',
         position: i + 1,
         item: {
-          '@type': 'SoftwareApplication',
+          '@type': 'WebAPI', // ponytail: not SoftwareApplication — Google requires ratings for that, we have none
           name: m.model_id,
-          applicationCategory: 'DeveloperApplication',
-          operatingSystem: 'Any',
           url: `https://www.freellm.site${L(`/providers/${m.provider_id}/`)}`,
           provider: { '@type': 'Organization', name: providerNameOf(m.provider_id) },
           offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
