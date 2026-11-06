@@ -155,7 +155,34 @@
     "credit_amount_usd": null,
     "credit_expiry": null,
     "notes": "10,000 neurons/day free (Free and Paid plans); OpenAI-compatible /ai/v1 endpoint",
-    "last_verified": "2026-09-29"
+    "last_verified": "2026-09-29",
+    "seo": {
+      "title": "Cloudflare Workers AI API: Free Tier, No Card Needed",
+      "description": "Use the Cloudflare Workers AI API free with 10,000 neurons/day on Free and Paid plans. OpenAI-compatible /ai/v1 endpoint, no credit card required.",
+      "intro": "Cloudflare Workers AI gives you a permanently free way to call AI models over an API, with 10,000 neurons per day included on both the Free and Paid plans. No credit card is required to start. Requests go to an OpenAI-compatible endpoint at https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1, so most existing OpenAI client libraries work by swapping the base URL and key. You create an API token from the Cloudflare dashboard. Details last verified 2026-09-29.",
+      "faq": [
+        {
+          "q": "What is the Cloudflare Workers AI API base URL?",
+          "a": "The OpenAI-compatible base URL is https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/v1 — replace {account_id} with your own Cloudflare account ID."
+        },
+        {
+          "q": "Is the Cloudflare Workers AI API free?",
+          "a": "Yes. It has a permanent free tier of 10,000 neurons per day, available on both the Free and Paid plans. For anything beyond that allowance, check the official docs."
+        },
+        {
+          "q": "Do I need a credit card to use Cloudflare Workers AI?",
+          "a": "No. No credit card is required to sign up and start using the free 10,000 neurons/day allowance."
+        },
+        {
+          "q": "How do I get a Cloudflare Workers AI API key?",
+          "a": "Create an API token in the Cloudflare dashboard at https://dash.cloudflare.com/profile/api-tokens, then use it as the bearer token against the /ai/v1 endpoint."
+        },
+        {
+          "q": "Is Cloudflare Workers AI compatible with the OpenAI SDK?",
+          "a": "Yes. It exposes an OpenAI-compatible /ai/v1 endpoint, so you can point an OpenAI client at the base URL above and supply your Cloudflare API token. For supported routes and models, check the official docs."
+        }
+      ]
+    }
   },
   {
     "id": "sambanova",
