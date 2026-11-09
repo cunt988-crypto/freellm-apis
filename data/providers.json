@@ -1163,5 +1163,18 @@
     "credit_expiry": null,
     "notes": "Rotating free models (Big Pickle, DeepSeek V4.1 Flash, GLM 5.3 Flash, Nemotron); API key required; free-model prompts may be used for training",
     "last_verified": "2026-11-05"
+  },
+  {
+    "id": "merkium",
+    "name": "Merkium",
+    "region": "global",
+    "base_url": "https://chat.merkium.nl/api/v1",
+    "signup_url": "https://chat.merkium.nl",
+    "credit_card_required": "no",
+    "free_type": "permanent",
+    "credit_amount_usd": null,
+    "credit_expiry": null,
+    "notes": "Currently free: 30 requests per minute per key. API keys from the Console at chat.merkium.nl. OpenAI-compatible. Models include ganymede-1.1 (1M context, reasoning, tools, image input), pluto-1.2-pro, pluto-1.2-flash, ceres-1.0-pro and ceres-1.0. Contact: mail@merkium.nl",
+    "last_verified": "2026-11-09"
   }
 ]
